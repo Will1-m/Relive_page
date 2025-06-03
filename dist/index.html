@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
 
-    <!-- Bootstrap CSS (ya compilado en dist/css/styles.css) -->
+    <!-- Bootstrap CSS (ya compilado en css/styles.css) -->
     <link href="css/styles.css" rel="stylesheet" />
 
     <!-- TU CSS personalizado: grid de tarjetas, colores, etc. -->
@@ -95,12 +95,12 @@
     <!-- Section: Catálogo dinámico -->
     <section class="py-5">
       <div class="container px-4 px-lg-5 mt-5">
-        <!-- Grid de tarjetas; se rellenará dinámicamente desde js/main.js -->
+        <!-- Este <div> es donde el JS inyectará cada tarjeta de producto -->
         <div
           id="grid-productos"
           class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
         >
-          <!-- Aquí se inyectarán las tarjetas de productos -->
+          <!-- Aquí se inyectan dinámicamente las tarjetas desde js/main.js -->
         </div>
       </div>
     </section>
