@@ -1,0 +1,59 @@
+/* accesorios.css */
+
+/* --- Colores de la paleta Relive: naranja (#FF6600) y negro (#000) --- */
+:root {
+  --color-naranja: #FF6600;
+  --color-negro: #000000;
+}
+
+/* Título principal */
+header {
+  background-color: var(--color-negro);
+  color: #fff;
+}
+
+/* Ajustar títulos y enlaces dentro de la sección */
+.card-title {
+  font-weight: 600;
+  color: var(--color-negro);
+}
+
+/* Botón “Ver más” con color personalizado */
+.btn-primary {
+  background-color: var(--color-naranja);
+  border-color: var(--color-naranja);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e65500; /* un poco más oscuro */
+  border-color: #e65500;
+}
+
+/* Espaciado interno de las tarjetas */
+.card {
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Texto de descripción */
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Imagen dentro de la tarjeta: que cubra todo el ancho, manteniendo proporción */
+.card-img-top {
+  object-fit: cover;
+  height: 200px; /* fija una altura uniforme para todas */
+}
+
+/* Footer en la sección */
+footer {
+  background-color: var(--color-negro);
+  color: #ccc;
+}
