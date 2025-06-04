@@ -1,2 +1,7 @@
-node_modules
+/node_modules/
+/img/originals/
+*.log
 .DS_Store
+*.map
+# Tras fusionar a main puedes borrar la rama index_html con:
+#   git branch -d index_html
