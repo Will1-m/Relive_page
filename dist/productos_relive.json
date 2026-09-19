@@ -997,7 +997,8 @@
     },
     {
       "id": "relive-0067",
-      "codigo": "ACC021522",      "nombre": "Case 2in1 NSC Xiaomi Redmi Note 15 Pro + Negro",
+      "codigo": "ACC021522",
+      "nombre": "Case 2in1 NSC Xiaomi Redmi Note 15 Pro + Negro",
       "descripcion": "Case 2in1 NSC Xiaomi Redmi Note 15 Pro + Negro",
       "marca": "Xiaomi",
       "precio": 120,
@@ -1996,7 +1997,8 @@
       "imagen": "Accesorios/fundas y estuches/imgi_125_productos31_88567.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88567.jpg",
       "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"      ]
+        "Accesorios/fundas y estuches.xlsx"
+      ]
     },
     {
       "id": "relive-0134",
@@ -2995,7 +2997,8 @@
       "id": "relive-0199",
       "codigo": "ACC016438",
       "nombre": "Smartwatch Mibro GS Active 1.3\" 400mAh Blanco by Xiaomi",
-      "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Blanco by Xiaomi",      "marca": "1789851936-17",
+      "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Blanco by Xiaomi",
+      "marca": "1789851936-17",
       "precio": 2.275,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3994,7 +3997,8 @@
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
       ]
-    },    {
+    },
+    {
       "id": "relive-0266",
       "codigo": "ACC010829",
       "nombre": "Cable de Datos ROCA VITACOR USB a Micro USB TPE/2.1A/100cm Verde",
@@ -4993,7 +4997,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85532.jpg",
       "fuente_excel": "informatica/Xlizzard.xlsx"
     },
-    {      "id": "relive-0333",
+    {
+      "id": "relive-0333",
       "codigo": null,
       "nombre": "Mouse Pad Gamer XZZ-MP-01 XL Microfibra 750x280mm X-Lizzard",
       "descripcion": "Mouse Pad Gamer XZZ-MP-01 XL Microfibra 750x280mm X-Lizzard",
@@ -5499,5 +5504,49 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_87753.jpg",
       "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     }
-  ]
+  ],
+  "categorias": [
+    {
+      "nombre": "Accesorios",
+      "cantidad_productos": 344,
+      "subcategorias": [
+        {
+          "nombre": "fundas y estuches",
+          "cantidad_productos": 164
+        },
+        {
+          "nombre": "Cargadores pared",
+          "cantidad_productos": 18
+        },
+        {
+          "nombre": "smartwatch",
+          "cantidad_productos": 38
+        },
+        {
+          "nombre": "Cables hdmi",
+          "cantidad_productos": 38
+        },
+        {
+          "nombre": "Cables de datos Roca",
+          "cantidad_productos": 35
+        },
+        {
+          "nombre": "soprtes",
+          "cantidad_productos": 51
+        }
+      ]
+    },
+    {
+      "nombre": "informatica",
+      "cantidad_productos": 27,
+      "subcategorias": [
+        {
+          "nombre": "Xlizzard",
+          "cantidad_productos": 27
+        }
+      ]
+    }
+  ],
+  "total_categorias": 2,
+  "total_subcategorias": 7
 }
