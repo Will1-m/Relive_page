@@ -1,2 +1,7 @@
-// Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
+:root{--relive-orange:#ff6600}
+body{background:#fff}
+.card{border:0}
+.card img{background:#fff}
+.btn-dark{background:#111;border-color:#111}
+.btn-dark:hover{background:#ff6600;border-color:#ff6600}
