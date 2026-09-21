@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "total_productos": 371,
+  "total_con_codigo": 329,
+  "total_con_imagen_local": 320,
+  "total_categorias": 2,
+  "total_subcategorias": 7,
+  "categorias": [
+    {
+      "nombre": "Accesorios",
+      "cantidad_productos": 344,
+      "subcategorias": [
+        {
+          "nombre": "fundas y estuches",
+          "cantidad_productos": 164
+        },
+        {
+          "nombre": "Cargadores pared",
+          "cantidad_productos": 18
+        },
+        {
+          "nombre": "smartwatch",
+          "cantidad_productos": 38
+        },
+        {
+          "nombre": "Cables hdmi",
+          "cantidad_productos": 38
+        },
+        {
+          "nombre": "Cables de datos Roca",
+          "cantidad_productos": 35
+        },
+        {
+          "nombre": "soprtes",
+          "cantidad_productos": 51
+        }
+      ]
+    },
+    {
+      "nombre": "informatica",
+      "cantidad_productos": 27,
+      "subcategorias": [
+        {
+          "nombre": "Xlizzard",
+          "cantidad_productos": 27
+        }
+      ]
+    }
+  ],
+  "page_size": 24,
+  "pages": 16
+}

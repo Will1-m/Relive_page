@@ -1,0 +1,353 @@
+{
+  "page": 14,
+  "per_page": 24,
+  "total": 371,
+  "productos": [
+    {
+      "id": "relive-0313",
+      "codigo": "ACC019327",
+      "nombre": "Soporte para Bicicleta Cobertura Total Negro ZJ082 USAMS",
+      "descripcion": "Soporte para Bicicleta Cobertura Total Negro ZJ082 USAMS",
+      "marca": "Cód.",
+      "precio": 385,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_87_productos32_79565.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79565.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0314",
+      "codigo": "ACC018342",
+      "nombre": "Soporte Vehicular Magnético Aluminio Negro",
+      "descripcion": "Soporte Vehicular Magnético Aluminio Negro",
+      "marca": "Cód.",
+      "precio": 395,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_37_productos31_79446.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79446.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0315",
+      "codigo": "ACC019661",
+      "nombre": "Soporte Vehicular SV11 para Portavasos ROCA",
+      "descripcion": "Soporte Vehicular SV11 para Portavasos ROCA",
+      "marca": "Cód.",
+      "precio": 395,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_38_productos31_80337.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_80337.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0316",
+      "codigo": "SACC022426",
+      "nombre": "AS - Soporte Vehicular Magnético Negro ZJ079 USAMS - Caja Dañada",
+      "descripcion": "AS - Soporte Vehicular Magnético Negro ZJ079 USAMS - Caja Dañada",
+      "marca": "Cód.",
+      "precio": 400,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88358.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0317",
+      "codigo": "SACC022076",
+      "nombre": "AS - Soporte Vehicular c/Ventosa de 4.7\" a 7.2\" / Negro KSCB0 Vention - Caja Dañada",
+      "descripcion": "AS - Soporte Vehicular c/Ventosa de 4.7\" a 7.2\" / Negro KSCB0 Vention - Caja Dañada",
+      "marca": "Cód.",
+      "precio": 420,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0318",
+      "codigo": "ACC020471",
+      "nombre": "Soporte Vehicular Magnético c/Ventosa RC-SV-12 ROCA",
+      "descripcion": "Soporte Vehicular Magnético c/Ventosa RC-SV-12 ROCA",
+      "marca": "Cód.",
+      "precio": 425,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_40_productos31_85589.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85589.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0319",
+      "codigo": "ACC017598",
+      "nombre": "Palo de Selfie c/Trípode Ajustable Control Bluetooth Altura Máx. 1.7M Negro",
+      "descripcion": "Palo de Selfie c/Trípode Ajustable Control Bluetooth Altura Máx. 1.7M Negro",
+      "marca": "Cód.",
+      "precio": 450,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_41_productos31_74950.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74950.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0320",
+      "codigo": "ACC020287",
+      "nombre": "Soporte para Bicicleta Cobertura Total Resistente al Agua Negro ZJ083 USAMS",
+      "descripcion": "Soporte para Bicicleta Cobertura Total Resistente al Agua Negro ZJ083 USAMS",
+      "marca": "Cód.",
+      "precio": 450,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_93_productos32_83022.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83022.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0321",
+      "codigo": "ACC017611",
+      "nombre": "Palo Selfie con Trípode Inalámbrico Máx. 1.1M 4 7\" a 7\" Negro ZB324 USAMS",
+      "descripcion": "Palo Selfie con Trípode Inalámbrico Máx. 1.1M 4 7\" a 7\" Negro ZB324 USAMS",
+      "marca": "Cód.",
+      "precio": 485,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_43_productos31_74679.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74679.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0322",
+      "codigo": "ACC010431",
+      "nombre": "Soporte Vehicular 4.2\" a 7.2\" Retráctil 360° Negro ZJ072 USAMS",
+      "descripcion": "Soporte Vehicular 4.2\" a 7.2\" Retráctil 360° Negro ZJ072 USAMS",
+      "marca": "Cód.",
+      "precio": 495,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_44_productos31_52186.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_52186.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0323",
+      "codigo": "ACC019185",
+      "nombre": "Soporte Vehicular c/Ventosa de 4.7\" a 7.2\" / Negro KSCB0 Vention",
+      "descripcion": "Soporte Vehicular c/Ventosa de 4.7\" a 7.2\" / Negro KSCB0 Vention",
+      "marca": "Cód.",
+      "precio": 530,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_45_productos31_78564.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78564.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0324",
+      "codigo": "ACC021563",
+      "nombre": "Soporte de Cuello para Cámara Flexible 360° 66cm Negro JOY01 USAMS",
+      "descripcion": "Soporte de Cuello para Cámara Flexible 360° 66cm Negro JOY01 USAMS",
+      "marca": "Cód.",
+      "precio": 545,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_46_productos31_86977.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86977.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0325",
+      "codigo": "ACC018341",
+      "nombre": "Soporte Vehicular Magnético CL-21 c/Ventosa 360° Negro",
+      "descripcion": "Soporte Vehicular Magnético CL-21 c/Ventosa 360° Negro",
+      "marca": "Cód.",
+      "precio": 580,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_47_productos31_79448.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79448.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0326",
+      "codigo": "ACC020286",
+      "nombre": "Soporte Magnético c/Succión ZJ084 Negro USAMS",
+      "descripcion": "Soporte Magnético c/Succión ZJ084 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 595,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_99_productos32_83017.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83017.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0327",
+      "codigo": "ACC021334",
+      "nombre": "Soporte Magnético c/Succión ZJ087 Negro USAMS",
+      "descripcion": "Soporte Magnético c/Succión ZJ087 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 650,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_100_productos32_85082.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85082.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0328",
+      "codigo": "ACC021564",
+      "nombre": "Soporte de Cuello Magnético para Teléfono Flexible c/Pinza Negro JOY02 USAMS",
+      "descripcion": "Soporte de Cuello Magnético para Teléfono Flexible c/Pinza Negro JOY02 USAMS",
+      "marca": "Cód.",
+      "precio": 825,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_50_productos31_86985.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86985.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0329",
+      "codigo": "ACC017454",
+      "nombre": "Palo Selfie con Trípode y Aro de Luz de 10 \" Inalámbrico Altura Máx. 2.3M Negro ZB323 USAMS",
+      "descripcion": "Palo Selfie con Trípode y Aro de Luz de 10 \" Inalámbrico Altura Máx. 2.3M Negro ZB323 USAMS",
+      "marca": "Cód.",
+      "precio": 1.19,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_51_productos31_74239.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74239.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0330",
+      "codigo": null,
+      "nombre": "Mouse Pad Gamer XZZ-MP-02 M 230x200mm X-Lizzard",
+      "descripcion": "Mouse Pad Gamer XZZ-MP-02 M 230x200mm X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 195,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_3_productos31_64684.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_64684.png",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0331",
+      "codigo": null,
+      "nombre": "Mouse Gamer XZZ-MO-05 Cableado RGB X-Lizzard",
+      "descripcion": "Mouse Gamer XZZ-MO-05 Cableado RGB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 240,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_32_productos32_85535.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85535.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0332",
+      "codigo": null,
+      "nombre": "Mouse Gamer Dual mode XZZ-MO-04 Inalámbrico/Cableado RGB X-Lizzard",
+      "descripcion": "Mouse Gamer Dual mode XZZ-MO-04 Inalámbrico/Cableado RGB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 245,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_33_productos32_85532.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85532.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0333",
+      "codigo": null,
+      "nombre": "Mouse Pad Gamer XZZ-MP-01 XL Microfibra 750x280mm X-Lizzard",
+      "descripcion": "Mouse Pad Gamer XZZ-MP-01 XL Microfibra 750x280mm X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 280,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_34_productos32_44214.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44214.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0334",
+      "codigo": null,
+      "nombre": "Teclado Gamer XZZ-TE-01 Español USB RGB X-Lizzard",
+      "descripcion": "Teclado Gamer XZZ-TE-01 Español USB RGB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 300,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_7_productos31_44207.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44207.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0335",
+      "codigo": null,
+      "nombre": "Parlantes Gamer XZZ-SP-01 2x3W RGB USB+3.5mm X-Lizzard",
+      "descripcion": "Parlantes Gamer XZZ-SP-01 2x3W RGB USB+3.5mm X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 375,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_36_productos32_44210.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44210.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0336",
+      "codigo": null,
+      "nombre": "Teclado Gamer XZZ-TE-02 Español USB Backlit X-Lizzard",
+      "descripcion": "Teclado Gamer XZZ-TE-02 Español USB Backlit X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 420,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_9_productos31_44203.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44203.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    }
+  ]
+}

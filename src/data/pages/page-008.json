@@ -1,0 +1,381 @@
+{
+  "page": 8,
+  "per_page": 24,
+  "total": 371,
+  "productos": [
+    {
+      "id": "relive-0169",
+      "codigo": "SACC015117",
+      "nombre": "AS - Cargador Inteligente ROCA 2.1A 1 USB microUSB (Caja Dañada)",
+      "descripcion": "AS - Cargador Inteligente ROCA 2.1A 1 USB microUSB (Caja Dañada)",
+      "marca": "Roca Mobile",
+      "precio": 110,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_81586.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0170",
+      "codigo": "ACC019869",
+      "nombre": "Cargador ROCA 2.4A 2 x USB A Cable USB A a Micro USB / 100cm Blanco (RC-TC-05)",
+      "descripcion": "Cargador ROCA 2.4A 2 x USB A Cable USB A a Micro USB / 100cm Blanco (RC-TC-05)",
+      "marca": "Roca Mobile",
+      "precio": 130,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": "Accesorios/Cargadores de Pared/84661.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84661.png",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0171",
+      "codigo": "ACC019867",
+      "nombre": "Cargador ROCA 2.4A 2 x USB A Cable USB A a USB C / 100cm Blanco (RC-TC-03)",
+      "descripcion": "Cargador ROCA 2.4A 2 x USB A Cable USB A a USB C / 100cm Blanco (RC-TC-03)",
+      "marca": "Roca Mobile",
+      "precio": 135,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": "Accesorios/Cargadores de Pared/84662.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84662.png",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0172",
+      "codigo": "ACC019868",
+      "nombre": "Cargador ROCA 2.4A 2 x USB A Cable USB A a Lightning / 100cm Blanco (RC-TC-04)",
+      "descripcion": "Cargador ROCA 2.4A 2 x USB A Cable USB A a Lightning / 100cm Blanco (RC-TC-04)",
+      "marca": "Roca Mobile",
+      "precio": 140,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": "Accesorios/Cargadores de Pared/84663.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84663.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0173",
+      "codigo": "ACC010767",
+      "nombre": "Cargador Inteligente Auto ROCA 48W USB A + USB C/PD (sin Cable)",
+      "descripcion": "Cargador Inteligente Auto ROCA 48W USB A + USB C/PD (sin Cable)",
+      "marca": "Roca Mobile",
+      "precio": 145,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": "Accesorios/Cargadores de Pared/86433.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86433.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0174",
+      "codigo": "ACC006433",
+      "nombre": "Cargador Rápido ROCA QC3.0 18W 1 USB Sin Cable (RC-TC-C4)",
+      "descripcion": "Cargador Rápido ROCA QC3.0 18W 1 USB Sin Cable (RC-TC-C4)",
+      "marca": "Roca Mobile",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": "Accesorios/Cargadores de Pared/70083.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70083.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0175",
+      "codigo": "SACC018820",
+      "nombre": "AS - Cargador Inteligente ROCA 2.1A 1 USB Lightning (RC-TC-L21) Caja Dañada",
+      "descripcion": "AS - Cargador Inteligente ROCA 2.1A 1 USB Lightning (RC-TC-L21) Caja Dañada",
+      "marca": "Roca Mobile",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_81686.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0176",
+      "codigo": "ACC014577",
+      "nombre": "Cargador ROCA 20W SuperFast 1 USB C Sin Cable",
+      "descripcion": "Cargador ROCA 20W SuperFast 1 USB C Sin Cable",
+      "marca": "Roca Mobile",
+      "precio": 165,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": "Accesorios/Cargadores de Pared/88486.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88486.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0177",
+      "codigo": "ACC001277",
+      "nombre": "Cargador Inteligente ROCA 2.1A 1 USB Lightning (RC-TC-L21)",
+      "descripcion": "Cargador Inteligente ROCA 2.1A 1 USB Lightning (RC-TC-L21)",
+      "marca": "Roca Mobile",
+      "precio": 180,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": "Accesorios/Cargadores de Pared/58402.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_58402.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0178",
+      "codigo": "ACC006432",
+      "nombre": "Cargador Rápido ROCA USB QC3.0 USB C/PD 20W Sin Cable (RC-TC-C5)",
+      "descripcion": "Cargador Rápido ROCA USB QC3.0 USB C/PD 20W Sin Cable (RC-TC-C5)",
+      "marca": "Roca Mobile",
+      "precio": 185,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": "Accesorios/Cargadores de Pared/70113.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70113.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0179",
+      "codigo": "ACC001281",
+      "nombre": "Cargador Inteligente ROCA 3.1A 2 USB microUSB",
+      "descripcion": "Cargador Inteligente ROCA 3.1A 2 USB microUSB",
+      "marca": "Roca Mobile",
+      "precio": 205,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": "Accesorios/Cargadores de Pared/58398.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_58398.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0180",
+      "codigo": "ACC014578",
+      "nombre": "Cargador ROCA 35W SuperFast 2 USB C Sin Cable",
+      "descripcion": "Cargador ROCA 35W SuperFast 2 USB C Sin Cable",
+      "marca": "Roca Mobile",
+      "precio": 390,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_66105.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0181",
+      "codigo": "ACC020920",
+      "nombre": "Cargador ROCA 45W SuperFast 2 USB C Sin Cable",
+      "descripcion": "Cargador ROCA 45W SuperFast 2 USB C Sin Cable",
+      "marca": "Roca Mobile",
+      "precio": 450,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0182",
+      "codigo": "ACC014579",
+      "nombre": "Cargador ROCA 65W SuperFast 2 USB C + 1 USB A Sin Cable",
+      "descripcion": "Cargador ROCA 65W SuperFast 2 USB C + 1 USB A Sin Cable",
+      "marca": "Roca Mobile",
+      "precio": 565,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69282.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0183",
+      "codigo": "ACC020872",
+      "nombre": "Cargador para Smartwatch 4.0mm 2 pin Negro Genérico",
+      "descripcion": "Cargador para Smartwatch 4.0mm 2 pin Negro Genérico",
+      "marca": "1789851936-1",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_24_productos32_83359.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83359.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0184",
+      "codigo": "ACC020873",
+      "nombre": "Cargador para Smartwatch Mibro 2.54mm 2 pin Blanco Genérico",
+      "descripcion": "Cargador para Smartwatch Mibro 2.54mm 2 pin Blanco Genérico",
+      "marca": "1789851936-2",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_25_productos32_83348.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83348.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0185",
+      "codigo": "ACC020874",
+      "nombre": "Cargador para Smartwatch 2.54mm 4 pin Negro Genérico",
+      "descripcion": "Cargador para Smartwatch 2.54mm 4 pin Negro Genérico",
+      "marca": "1789851936-3",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_4_productos31_83351.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83351.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0186",
+      "codigo": "ACC020875",
+      "nombre": "Cargador para Smartwatch 2.54mm 4 pin Blanco Genérico",
+      "descripcion": "Cargador para Smartwatch 2.54mm 4 pin Blanco Genérico",
+      "marca": "1789851936-4",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_27_productos32_83350.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83350.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0187",
+      "codigo": "ACC020876",
+      "nombre": "Cargador para Smartwatch 7.62mm 2 pin Blanco Genérico",
+      "descripcion": "Cargador para Smartwatch 7.62mm 2 pin Blanco Genérico",
+      "marca": "1789851936-5",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_6_productos31_83352.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83352.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0188",
+      "codigo": "ACC020945",
+      "nombre": "Cargador para Smartwatch 2.54mm 2 pin Negro Genérico",
+      "descripcion": "Cargador para Smartwatch 2.54mm 2 pin Negro Genérico",
+      "marca": "1789851936-6",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_7_productos31_83349.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83349.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0189",
+      "codigo": "ACC019758",
+      "nombre": "Cargador de Smartwatch W26 Genérico",
+      "descripcion": "Cargador de Smartwatch W26 Genérico",
+      "marca": "1789851936-7",
+      "precio": 165,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_8_productos31_80223.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_80223.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0190",
+      "codigo": "ACC016441",
+      "nombre": "Correa Smartwatch Mibro 22mm Verde by Xiaomi",
+      "descripcion": "Correa Smartwatch Mibro 22mm Verde by Xiaomi",
+      "marca": "1789851936-8",
+      "precio": 350,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_31_productos32_83152.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83152.png",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0191",
+      "codigo": "ACC021726",
+      "nombre": "Correa Smartwatch Mibro 22mm Gris by Xiaomi",
+      "descripcion": "Correa Smartwatch Mibro 22mm Gris by Xiaomi",
+      "marca": "1789851936-9",
+      "precio": 350,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_32_productos32_86472.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86472.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0192",
+      "codigo": "SACC021777",
+      "nombre": "AS - Smartwatch XZZ-SW-02 Negro/Negro X-Lizzard - Con Detalle",
+      "descripcion": "AS - Smartwatch XZZ-SW-02 Negro/Negro X-Lizzard - Con Detalle",
+      "marca": "1789851936-10",
+      "precio": 540,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_33_productos32_88339.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88339.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "page": 4,
+  "per_page": 24,
+  "total": 371,
+  "productos": [
+    {
+      "id": "relive-0073",
+      "codigo": "ACC021990",
+      "nombre": "Case 2in1 NSC Samsung S25 FE- Negro",
+      "descripcion": "Case 2in1 NSC Samsung S25 FE- Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0074",
+      "codigo": "ACC021991",
+      "nombre": "Case 2in1 NSC Samsung A57 - Negro",
+      "descripcion": "Case 2in1 NSC Samsung A57 - Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0075",
+      "codigo": "ACC022331",
+      "nombre": "Case 2in1 NSC Huawei Honor 400 - Rojo",
+      "descripcion": "Case 2in1 NSC Huawei Honor 400 - Rojo",
+      "marca": "Huawei",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_227_productos32_88560.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88560.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0076",
+      "codigo": "ACC022332",
+      "nombre": "Case 2in1 NSC Huawei Honor 400 - Azul",
+      "descripcion": "Case 2in1 NSC Huawei Honor 400 - Azul",
+      "marca": "Huawei",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_72_productos31_88562.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88562.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0077",
+      "codigo": "ACC022333",
+      "nombre": "Case 2in1 NSC Huawei Honor 400 - Lila",
+      "descripcion": "Case 2in1 NSC Huawei Honor 400 - Lila",
+      "marca": "Huawei",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_229_productos32_88559.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88559.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0078",
+      "codigo": "ACC022334",
+      "nombre": "Case 2in1 NSC Samsung S22 Plus - Negro",
+      "descripcion": "Case 2in1 NSC Samsung S22 Plus - Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_74_productos31_88578.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88578.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0079",
+      "codigo": "ACC022688",
+      "nombre": "Case 2in1 NSC Huawei Honor X5C - Negro",
+      "descripcion": "Case 2in1 NSC Huawei Honor X5C - Negro",
+      "marca": "Huawei",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0080",
+      "codigo": "ACC022689",
+      "nombre": "Case 2in1 NSC Huawei Honor Magic 8 Lite - Negro",
+      "descripcion": "Case 2in1 NSC Huawei Honor Magic 8 Lite - Negro",
+      "marca": "Huawei",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0081",
+      "codigo": "ACC022690",
+      "nombre": "Case 2in1 NSC Motorola G06 - Negro",
+      "descripcion": "Case 2in1 NSC Motorola G06 - Negro",
+      "marca": "Motorola",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0082",
+      "codigo": "ACC022801",
+      "nombre": "Case 2in1 NSC Samsung A27 - Negro",
+      "descripcion": "Case 2in1 NSC Samsung A27 - Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0083",
+      "codigo": "ACC020745",
+      "nombre": "TPU Case Compatible con Carga Magnética Apple iPhone 17 - Anaranjado",
+      "descripcion": "TPU Case Compatible con Carga Magnética Apple iPhone 17 - Anaranjado",
+      "marca": "Apple",
+      "precio": 135,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_231_productos32_84201.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84201.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0084",
+      "codigo": "ACC020746",
+      "nombre": "TPU Case Compatible con Carga Magnética Apple iPhone 17 - Azul",
+      "descripcion": "TPU Case Compatible con Carga Magnética Apple iPhone 17 - Azul",
+      "marca": "Apple",
+      "precio": 135,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_232_productos32_84200.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84200.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0085",
+      "codigo": "ACC020747",
+      "nombre": "TPU Case Compatible con Carga Magnética Apple iPhone 17 - Blanco",
+      "descripcion": "TPU Case Compatible con Carga Magnética Apple iPhone 17 - Blanco",
+      "marca": "Apple",
+      "precio": 135,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_77_productos31_84199.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84199.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0086",
+      "codigo": "ACC020748",
+      "nombre": "TPU Case Compatible con Carga Magnética Apple iPhone 17 Pro - Anaranjado",
+      "descripcion": "TPU Case Compatible con Carga Magnética Apple iPhone 17 Pro - Anaranjado",
+      "marca": "Apple",
+      "precio": 135,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_234_productos32_84198.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84198.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0087",
+      "codigo": "ACC020749",
+      "nombre": "TPU Case Compatible con Carga Magnética Apple iPhone 17 Pro - Azul",
+      "descripcion": "TPU Case Compatible con Carga Magnética Apple iPhone 17 Pro - Azul",
+      "marca": "Apple",
+      "precio": 135,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_79_productos31_84194.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84194.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0088",
+      "codigo": "ACC020750",
+      "nombre": "TPU Case Compatible con Carga Magnética Apple iPhone 17 Pro - Blanco",
+      "descripcion": "TPU Case Compatible con Carga Magnética Apple iPhone 17 Pro - Blanco",
+      "marca": "Apple",
+      "precio": 135,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_80_productos31_84196.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84196.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0089",
+      "codigo": "ACC020753",
+      "nombre": "TPU Compatible con Carga Magnética Apple iPhone 17 Pro Max - Blanco",
+      "descripcion": "TPU Compatible con Carga Magnética Apple iPhone 17 Pro Max - Blanco",
+      "marca": "Apple",
+      "precio": 135,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_237_productos32_84195.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84195.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0090",
+      "codigo": "ACC017868",
+      "nombre": "TPU Case Compatible con Carga Magnética Apple iPhone 16 - Transparente",
+      "descripcion": "TPU Case Compatible con Carga Magnética Apple iPhone 16 - Transparente",
+      "marca": "Apple",
+      "precio": 140,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_82_productos31_75526.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75526.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0091",
+      "codigo": "ACC017869",
+      "nombre": "TPU Case Compatible con Carga Magnética Apple iPhone 16 Plus - Transparente",
+      "descripcion": "TPU Case Compatible con Carga Magnética Apple iPhone 16 Plus - Transparente",
+      "marca": "Apple",
+      "precio": 140,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_83_productos31_75534.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75534.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0092",
+      "codigo": "ACC017870",
+      "nombre": "TPU Case Compatible con Carga Magnética Apple iPhone 16 Pro - Transparente",
+      "descripcion": "TPU Case Compatible con Carga Magnética Apple iPhone 16 Pro - Transparente",
+      "marca": "Apple",
+      "precio": 140,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_240_productos32_75544.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75544.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0093",
+      "codigo": "ACC017871",
+      "nombre": "TPU Case Compatible con Carga Magnética Apple iPhone 16 Pro Max - Transparente",
+      "descripcion": "TPU Case Compatible con Carga Magnética Apple iPhone 16 Pro Max - Transparente",
+      "marca": "Apple",
+      "precio": 140,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_241_productos32_75547.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75547.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0094",
+      "codigo": "ACC017873",
+      "nombre": "Candy Case Samsung S25 Plus - Transparente",
+      "descripcion": "Candy Case Samsung S25 Plus - Transparente",
+      "marca": "Samsung",
+      "precio": 140,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_86_productos31_75479.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75479.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0095",
+      "codigo": "ACC017876",
+      "nombre": "Candy Case Samsung A26 - Transparente",
+      "descripcion": "Candy Case Samsung A26 - Transparente",
+      "marca": "Samsung",
+      "precio": 140,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_87_productos31_75503.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75503.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0096",
+      "codigo": "ACC017877",
+      "nombre": "Candy Case Samsung A26 - Negro",
+      "descripcion": "Candy Case Samsung A26 - Negro",
+      "marca": "Samsung",
+      "precio": 140,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_244_productos32_75511.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75511.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    }
+  ]
+}
