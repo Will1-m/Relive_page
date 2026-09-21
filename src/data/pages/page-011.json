@@ -1,0 +1,367 @@
+{
+  "page": 11,
+  "per_page": 24,
+  "total": 371,
+  "productos": [
+    {
+      "id": "relive-0241",
+      "codigo": "ACC010370",
+      "nombre": "Cable HDMI a USB C 1.5M / Negro CGUBG Vention",
+      "descripcion": "Cable HDMI a USB C 1.5M / Negro CGUBG Vention",
+      "marca": "Vention",
+      "precio": 606,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/50899.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_50899.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0242",
+      "codigo": "ACC014346",
+      "nombre": "Switch 2 Puertos HDMI Bi-Direccional / Negro AKOB0 Vention",
+      "descripcion": "Switch 2 Puertos HDMI Bi-Direccional / Negro AKOB0 Vention",
+      "marca": "Vention",
+      "precio": 610,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/64787.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_64787.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0243",
+      "codigo": "ACC018273",
+      "nombre": "Cable HDMI Macho/Macho HD Cordón / 8K / 3M / Aluminio Azul ALGLI Vention",
+      "descripcion": "Cable HDMI Macho/Macho HD Cordón / 8K / 3M / Aluminio Azul ALGLI Vention",
+      "marca": "Vention",
+      "precio": 635,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/76305.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76305.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0244",
+      "codigo": "ACC017166",
+      "nombre": "Cable HDMI 4K / 15M / Negro AACBN Vention",
+      "descripcion": "Cable HDMI 4K / 15M / Negro AACBN Vention",
+      "marca": "Vention",
+      "precio": 680,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/75165.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_75165.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0245",
+      "codigo": "ACC017551",
+      "nombre": "Cable HDMI 2.1 8K / 5M / Negro AANBJ Vention",
+      "descripcion": "Cable HDMI 2.1 8K / 5M / Negro AANBJ Vention",
+      "marca": "Vention",
+      "precio": 750,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73844.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73844.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0246",
+      "codigo": "ACC018281",
+      "nombre": "Cable DP 2.1 Macho/Macho / 16K / 1.5M / Negro HGABG Vention",
+      "descripcion": "Cable DP 2.1 Macho/Macho / 16K / 1.5M / Negro HGABG Vention",
+      "marca": "Vention",
+      "precio": 760,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/78933.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_78933.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0247",
+      "codigo": "ACC017550",
+      "nombre": "Cable HDMI Cordón / 8K / 5M / Negro AAUBJ Vention",
+      "descripcion": "Cable HDMI Cordón / 8K / 5M / Negro AAUBJ Vention",
+      "marca": "Vention",
+      "precio": 965,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73827.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73827.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0248",
+      "codigo": "ACC015503",
+      "nombre": "Cable HDMI a DP Macho/ Macho 1.5M / Negro ABJBG Vention",
+      "descripcion": "Cable HDMI a DP Macho/ Macho 1.5M / Negro ABJBG Vention",
+      "marca": "Vention",
+      "precio": 1185,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/68491.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_68491.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0249",
+      "codigo": "ACC017552",
+      "nombre": "Cable HDMI 2.1 8K / 10M / Negro AANBL Vention",
+      "descripcion": "Cable HDMI 2.1 8K / 10M / Negro AANBL Vention",
+      "marca": "Vention",
+      "precio": 1250,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73861.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73861.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0250",
+      "codigo": "ACC018280",
+      "nombre": "Cable DP a HDMI Macho/Hembra / 8K / 0.25M / Negro HFNBC Vention",
+      "descripcion": "Cable DP a HDMI Macho/Hembra / 8K / 0.25M / Negro HFNBC Vention",
+      "marca": "Vention",
+      "precio": 1365,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/76345.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76345.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0251",
+      "codigo": "ACC017167",
+      "nombre": "Cable HDMI 4K / 20M / Negro AACBQ Vention",
+      "descripcion": "Cable HDMI 4K / 20M / Negro AACBQ Vention",
+      "marca": "Vention",
+      "precio": 1415,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/75170.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_75170.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0252",
+      "codigo": "ACC017181",
+      "nombre": "Switch 3 en 1 HDMI / 8K / Gris AKRH0 Vention",
+      "descripcion": "Switch 3 en 1 HDMI / 8K / Gris AKRH0 Vention",
+      "marca": "Vention",
+      "precio": 1640,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/72124.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_72124.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0253",
+      "codigo": "ACC017178",
+      "nombre": "Switch Conmutador 5 en 1 Azul AKCL0 Vention",
+      "descripcion": "Switch Conmutador 5 en 1 Azul AKCL0 Vention",
+      "marca": "Vention",
+      "precio": 1724,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/72134.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_72134.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0254",
+      "codigo": "ACC018271",
+      "nombre": "Cable Optico HDMI 4K 60Hz / Macho/Macho HD / 1.5M / Negro ALABG Vention",
+      "descripcion": "Cable Optico HDMI 4K 60Hz / Macho/Macho HD / 1.5M / Negro ALABG Vention",
+      "marca": "Vention",
+      "precio": 1875,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/76294.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76294.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0255",
+      "codigo": "ACC017180",
+      "nombre": "Divisor HDMI 4K 1 x 8 / Plateado AKQB0-EU Vention",
+      "descripcion": "Divisor HDMI 4K 1 x 8 / Plateado AKQB0-EU Vention",
+      "marca": "Vention",
+      "precio": 1964,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/74876.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_74876.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0256",
+      "codigo": "ACC019150",
+      "nombre": "Cable HDMI 4K / 30M / Negro AACBT Vention",
+      "descripcion": "Cable HDMI 4K / 30M / Negro AACBT Vention",
+      "marca": "Vention",
+      "precio": 2385,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/78374.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_78374.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0257",
+      "codigo": "ACC018272",
+      "nombre": "Cable Optico HDMI 4K 60Hz / Macho/Macho HD / 3M / Negro ALABI Vention",
+      "descripcion": "Cable Optico HDMI 4K 60Hz / Macho/Macho HD / 3M / Negro ALABI Vention",
+      "marca": "Vention",
+      "precio": 2530,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/76300.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76300.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0258",
+      "codigo": "ACC019149",
+      "nombre": "Cable HDMI 4K / 25M / Negro AACBS Vention",
+      "descripcion": "Cable HDMI 4K / 25M / Negro AACBS Vention",
+      "marca": "Vention",
+      "precio": 2715,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/78369.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_78369.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0259",
+      "codigo": "ACC004156",
+      "nombre": "Cable de Datos ROCA VIT USB a microUSB 20cm 2.4A Azul",
+      "descripcion": "Cable de Datos ROCA VIT USB a microUSB 20cm 2.4A Azul",
+      "marca": "Roca Mobile",
+      "precio": 35,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/56597.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56597.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0260",
+      "codigo": "ACC004161",
+      "nombre": "Cable de Datos ROCA VIT USB A a USB C 20cm 2.4A Verde",
+      "descripcion": "Cable de Datos ROCA VIT USB A a USB C 20cm 2.4A Verde",
+      "marca": "Roca Mobile",
+      "precio": 45,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/56601.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56601.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0261",
+      "codigo": "ACC004151",
+      "nombre": "Cable de Datos ROCA VIT USB a Lightning 20cm 2.4A Blanco",
+      "descripcion": "Cable de Datos ROCA VIT USB a Lightning 20cm 2.4A Blanco",
+      "marca": "Roca Mobile",
+      "precio": 50,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/56595.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56595.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0262",
+      "codigo": "ACC004155",
+      "nombre": "Cable de Datos ROCA VIT USB a micro USB 100cm 2.4A Azul 721102",
+      "descripcion": "Cable de Datos ROCA VIT USB a micro USB 100cm 2.4A Azul 721102",
+      "marca": "Roca Mobile",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/70431.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70431.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0263",
+      "codigo": "ACC004160",
+      "nombre": "Cable de Datos ROCA VIT USB A a USB C 100cm 2.4A 721126",
+      "descripcion": "Cable de Datos ROCA VIT USB A a USB C 100cm 2.4A 721126",
+      "marca": "Roca Mobile",
+      "precio": 75,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/85748.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_85748.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0264",
+      "codigo": "ACC010643",
+      "nombre": "Cable de Datos ROCA PD USB C a USB C 20cm 3A 60W Blanco",
+      "descripcion": "Cable de Datos ROCA PD USB C a USB C 20cm 3A 60W Blanco",
+      "marca": "Roca Mobile",
+      "precio": 75,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56588.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    }
+  ]
+}
