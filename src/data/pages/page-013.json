@@ -1,0 +1,367 @@
+{
+  "page": 13,
+  "per_page": 24,
+  "total": 371,
+  "productos": [
+    {
+      "id": "relive-0289",
+      "codigo": "ACC009983",
+      "nombre": "Soporte para Moto y Bicicleta Negro (Z-03)",
+      "descripcion": "Soporte para Moto y Bicicleta Negro (Z-03)",
+      "marca": "Cód.",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_63_productos32_48290.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_48290.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0290",
+      "codigo": "SACC022837",
+      "nombre": "AS - Soporte de Escritorio 360° Plegable Gris Roca - Con Detalle",
+      "descripcion": "AS - Soporte de Escritorio 360° Plegable Gris Roca - Con Detalle",
+      "marca": "Cód.",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0291",
+      "codigo": "ACC010773",
+      "nombre": "Soporte Teléfono/Tablet Plegable Negro ZJ073 USAMS",
+      "descripcion": "Soporte Teléfono/Tablet Plegable Negro ZJ073 USAMS",
+      "marca": "Cód.",
+      "precio": 160,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_14_productos31_53358.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_53358.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0292",
+      "codigo": "ACC010774",
+      "nombre": "Soporte Teléfono/Tablet Plegable Blanco ZJ073 USAMS",
+      "descripcion": "Soporte Teléfono/Tablet Plegable Blanco ZJ073 USAMS",
+      "marca": "Cód.",
+      "precio": 160,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_15_productos31_53360.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_53360.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0293",
+      "codigo": "ACC014574",
+      "nombre": "Soporte Vehicular BLOOX - Tipo Ventosa para Panel/Vidrio Holder_2 Negro",
+      "descripcion": "Soporte Vehicular BLOOX - Tipo Ventosa para Panel/Vidrio Holder_2 Negro",
+      "marca": "Cód.",
+      "precio": 175,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_67_productos32_66104.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_66104.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0294",
+      "codigo": "SACC021542",
+      "nombre": "AS - Soporte de Escritorio Tablet/Notebook Negro ZJ054 USAMS (Caja Dañada)",
+      "descripcion": "AS - Soporte de Escritorio Tablet/Notebook Negro ZJ054 USAMS (Caja Dañada)",
+      "marca": "Cód.",
+      "precio": 180,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_87011.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0295",
+      "codigo": "ACC009882",
+      "nombre": "Soporte para Bicicleta Negro 6.3'' Waterproof",
+      "descripcion": "Soporte para Bicicleta Negro 6.3'' Waterproof",
+      "marca": "Cód.",
+      "precio": 185,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_18_productos31_48289.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_48289.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0296",
+      "codigo": "ACC015702",
+      "nombre": "Soporte de Escritorio 360° Plegable Gris Roca",
+      "descripcion": "Soporte de Escritorio 360° Plegable Gris Roca",
+      "marca": "Cód.",
+      "precio": 190,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_70_productos32_74831.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74831.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0297",
+      "codigo": "ACC015951",
+      "nombre": "Soporte Vehicular SV08 - Clip Triangular para Ventilación ROCA",
+      "descripcion": "Soporte Vehicular SV08 - Clip Triangular para Ventilación ROCA",
+      "marca": "Cód.",
+      "precio": 190,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_71_productos32_69303.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69303.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0298",
+      "codigo": "ACC013358",
+      "nombre": "Soporte Vehicular MG01 p/Ventilación 360° Negro LDNIO",
+      "descripcion": "Soporte Vehicular MG01 p/Ventilación 360° Negro LDNIO",
+      "marca": "Cód.",
+      "precio": 195,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_72_productos32_61308.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_61308.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0299",
+      "codigo": "ACC015952",
+      "nombre": "Soporte Vehicular BLOOX - Tipo Ventosa para Panel/Vidrio Holder_3 Negro",
+      "descripcion": "Soporte Vehicular BLOOX - Tipo Ventosa para Panel/Vidrio Holder_3 Negro",
+      "marca": "Cód.",
+      "precio": 200,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_73_productos32_69300.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69300.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0300",
+      "codigo": "ACC020454",
+      "nombre": "Soporte Vehicular para Ventilación 4.5 a 6.9\" ZJ085 Negro USAMS",
+      "descripcion": "Soporte Vehicular para Ventilación 4.5 a 6.9\" ZJ085 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 200,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_23_productos31_83072.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83072.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0301",
+      "codigo": "ACC005436",
+      "nombre": "Soporte de Escritorio Tablet/Notebook Negro ZJ054 USAMS",
+      "descripcion": "Soporte de Escritorio Tablet/Notebook Negro ZJ054 USAMS",
+      "marca": "Cód.",
+      "precio": 215,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_75_productos32_69010.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69010.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0302",
+      "codigo": "ACC009885",
+      "nombre": "Soporte para Moto Espejo retrovisor Negro 5.5'' Waterproof",
+      "descripcion": "Soporte para Moto Espejo retrovisor Negro 5.5'' Waterproof",
+      "marca": "Cód.",
+      "precio": 240,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_76_productos32_48287.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_48287.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0303",
+      "codigo": "ACC019181",
+      "nombre": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Auto-ajustable /Negro KCSB0 Vention",
+      "descripcion": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Auto-ajustable /Negro KCSB0 Vention",
+      "marca": "Cód.",
+      "precio": 245,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_26_productos31_78538.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78538.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0304",
+      "codigo": "ACC019182",
+      "nombre": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Negro KCTB0 Vention",
+      "descripcion": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Negro KCTB0 Vention",
+      "marca": "Cód.",
+      "precio": 245,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_27_productos31_78546.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78546.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0305",
+      "codigo": "ACC005410",
+      "nombre": "Soporte Vehicular Free gravity / Retáctil / ZJ058 / Negro USAMS",
+      "descripcion": "Soporte Vehicular Free gravity / Retáctil / ZJ058 / Negro USAMS",
+      "marca": "Cód.",
+      "precio": 250,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_79_productos32_71520.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_71520.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0306",
+      "codigo": "ACC020455",
+      "nombre": "Soporte Vehicular c/Ventosa 4.5 a 6.9\" ZJ086 Negro USAMS",
+      "descripcion": "Soporte Vehicular c/Ventosa 4.5 a 6.9\" ZJ086 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 250,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_80_productos32_83078.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83078.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0307",
+      "codigo": "ACC019333",
+      "nombre": "Soporte Vehicular Magnético para Ventilación ZJ081 Negro USAMS",
+      "descripcion": "Soporte Vehicular Magnético para Ventilación ZJ081 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 315,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_81_productos32_79596.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79596.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0308",
+      "codigo": "SACC021628",
+      "nombre": "AS - Soporte Vehicular SV11 para Portavasos ROCA Con Detalle",
+      "descripcion": "AS - Soporte Vehicular SV11 para Portavasos ROCA Con Detalle",
+      "marca": "Cód.",
+      "precio": 320,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_87042.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0309",
+      "codigo": "ACC018267",
+      "nombre": "Soporte de Escritorio Plegable de 4.7\" a 10\" / Plegable / Gris KCYH0 Vention",
+      "descripcion": "Soporte de Escritorio Plegable de 4.7\" a 10\" / Plegable / Gris KCYH0 Vention",
+      "marca": "Cód.",
+      "precio": 330,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_83_productos32_76268.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_76268.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0310",
+      "codigo": "ACC019180",
+      "nombre": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Negro KCEH0 Vention",
+      "descripcion": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Negro KCEH0 Vention",
+      "marca": "Cód.",
+      "precio": 340,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_33_productos31_78530.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78530.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0311",
+      "codigo": "ACC008582",
+      "nombre": "PH42 Soporte extensible con base plana para piso / 80~120cm",
+      "descripcion": "PH42 Soporte extensible con base plana para piso / 80~120cm",
+      "marca": "Cód.",
+      "precio": 341,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_85_productos32_55781.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_55781.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0312",
+      "codigo": "ACC015950",
+      "nombre": "Soporte Vehicular SV07 - Ajustable con Ventosa ROCA",
+      "descripcion": "Soporte Vehicular SV07 - Ajustable con Ventosa ROCA",
+      "marca": "Cód.",
+      "precio": 350,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_86_productos32_69306.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69306.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    }
+  ]
+}
