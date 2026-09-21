@@ -1,0 +1,1506 @@
+{
+  "pagina": 3,
+  "total_paginas": 4,
+  "productos": [
+    {
+      "id": "relive-0201",
+      "codigo": "ACC016440",
+      "nombre": "Smartwatch Mibro GS Active 1.3\" 400mAh Dorado by Xiaomi",
+      "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Dorado by Xiaomi",
+      "marca": "1789851936-19",
+      "precio": 2.275,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_20_productos31_69423.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69423.png",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0202",
+      "codigo": "ACC014580",
+      "nombre": "Smartwatch Mibro T2 1.75\" 300mAh Azul by Xiaomi",
+      "descripcion": "Smartwatch Mibro T2 1.75\" 300mAh Azul by Xiaomi",
+      "marca": "1789851936-20",
+      "precio": 2.35,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": "Accesorios/smartwacht/imgi_43_productos32_64277.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_64277.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0203",
+      "codigo": "SACC021048",
+      "nombre": "AS - Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi Con Detalle",
+      "descripcion": "AS - Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi Con Detalle",
+      "marca": "1789851936-21",
+      "precio": 2.5,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85850.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0204",
+      "codigo": "ACC020722",
+      "nombre": "Smartwatch Mibro Fit 350mAh c/2 Mallas Negro XPAW027 by Xiaomi",
+      "descripcion": "Smartwatch Mibro Fit 350mAh c/2 Mallas Negro XPAW027 by Xiaomi",
+      "marca": "1789851936-22",
+      "precio": 2.62,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84756.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0205",
+      "codigo": "ACC020723",
+      "nombre": "Smartwatch Mibro Fit 350mAh c/2 Mallas Plateado XPAW027 by Xiaomi",
+      "descripcion": "Smartwatch Mibro Fit 350mAh c/2 Mallas Plateado XPAW027 by Xiaomi",
+      "marca": "1789851936-23",
+      "precio": 2.62,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84753.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0206",
+      "codigo": "ACC016824",
+      "nombre": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Dorado by Xiaomi",
+      "descripcion": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Dorado by Xiaomi",
+      "marca": "1789851936-24",
+      "precio": 2.85,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70964.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0207",
+      "codigo": "ACC016825",
+      "nombre": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi",
+      "descripcion": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi",
+      "marca": "1789851936-25",
+      "precio": 2.85,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70966.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0208",
+      "codigo": "ACC016826",
+      "nombre": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Verde by Xiaomi",
+      "descripcion": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Verde by Xiaomi",
+      "marca": "1789851936-26",
+      "precio": 2.85,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70959.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0209",
+      "codigo": "ACC014582",
+      "nombre": "Smartwatch Mibro GS Pro 1.43\" 460mAh Negro by Xiaomi",
+      "descripcion": "Smartwatch Mibro GS Pro 1.43\" 460mAh Negro by Xiaomi",
+      "marca": "1789851936-27",
+      "precio": 2.94,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_67209.png",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0210",
+      "codigo": "ACC020720",
+      "nombre": "Smartwatch Mibro GT 350mAh c/2 Mallas Negro XPAW026 by Xiaomi",
+      "descripcion": "Smartwatch Mibro GT 350mAh c/2 Mallas Negro XPAW026 by Xiaomi",
+      "marca": "1789851936-28",
+      "precio": 3.09,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84760.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0211",
+      "codigo": "ACC020721",
+      "nombre": "Smartwatch Mibro GT 350mAh c/2 Mallas Plateado XPAW026 by Xiaomi",
+      "descripcion": "Smartwatch Mibro GT 350mAh c/2 Mallas Plateado XPAW026 by Xiaomi",
+      "marca": "1789851936-29",
+      "precio": 3.09,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84757.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0212",
+      "codigo": "ACC019135",
+      "nombre": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Lila (XPAW024) by Xiaomi",
+      "descripcion": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Lila (XPAW024) by Xiaomi",
+      "marca": "1789851936-30",
+      "precio": 3.14,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78630.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0213",
+      "codigo": "ACC019136",
+      "nombre": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Gris Oscuro (XPAW024) by Xiaomi",
+      "descripcion": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Gris Oscuro (XPAW024) by Xiaomi",
+      "marca": "1789851936-31",
+      "precio": 3.14,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78627.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0214",
+      "codigo": "SACC018394",
+      "nombre": "AS - Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi Caja Dañada",
+      "descripcion": "AS - Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi Caja Dañada",
+      "marca": "1789851936-32",
+      "precio": 3.32,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_81666.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0215",
+      "codigo": "ACC019137",
+      "nombre": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Gris Oscuro (XPAW025) by Xiaomi",
+      "descripcion": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Gris Oscuro (XPAW025) by Xiaomi",
+      "marca": "1789851936-33",
+      "precio": 3.75,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78618.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0216",
+      "codigo": "ACC019138",
+      "nombre": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Beige (XPAW025) by Xiaomi",
+      "descripcion": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Beige (XPAW025) by Xiaomi",
+      "marca": "1789851936-34",
+      "precio": 3.75,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79599.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0217",
+      "codigo": "ACC017445",
+      "nombre": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Negro by Xiaomi",
+      "descripcion": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Negro by Xiaomi",
+      "marca": "1789851936-35",
+      "precio": 3.85,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74431.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0218",
+      "codigo": "ACC017446",
+      "nombre": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi",
+      "descripcion": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi",
+      "marca": "1789851936-36",
+      "precio": 3.85,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74430.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0219",
+      "codigo": "ACC019954",
+      "nombre": "Smartwatch Mibro GS Explorer S Titanium/Silicona 1.32\" 460mAh Gris by Xiaomi",
+      "descripcion": "Smartwatch Mibro GS Explorer S Titanium/Silicona 1.32\" 460mAh Gris by Xiaomi",
+      "marca": "1789851936-37",
+      "precio": 7.76,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_82703.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0220",
+      "codigo": "ACC019955",
+      "nombre": "Smartwatch Mibro GS Explorer S Titanium 1.32\" 460mAh Gris by Xiaomi",
+      "descripcion": "Smartwatch Mibro GS Explorer S Titanium 1.32\" 460mAh Gris by Xiaomi",
+      "marca": "1789851936-38",
+      "precio": 11.65,
+      "categoria": "Accesorios",
+      "subcategoria": "smartwatch",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_82696.jpg",
+      "fuentes_excel": [
+        "Accesorios/smartwatch.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0221",
+      "codigo": "ACC010362",
+      "nombre": "Cable HDMI 4K / 1.5M / Negro AACBG Vention",
+      "descripcion": "Cable HDMI 4K / 1.5M / Negro AACBG Vention",
+      "marca": "Vention",
+      "precio": 125,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/50941.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_50941.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0222",
+      "codigo": "ACC019908",
+      "nombre": "Cable HDMI 4K / 0.75M / Negro AACBE Vention",
+      "descripcion": "Cable HDMI 4K / 0.75M / Negro AACBE Vention",
+      "marca": "Vention",
+      "precio": 125,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_80365.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0223",
+      "codigo": "ACC010363",
+      "nombre": "Cable HDMI 4K / 2M / Negro AACBH Vention",
+      "descripcion": "Cable HDMI 4K / 2M / Negro AACBH Vention",
+      "marca": "Vention",
+      "precio": 165,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_50948.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0224",
+      "codigo": "ACC010364",
+      "nombre": "Cable HDMI 4K / 3M / Negro AACBI Vention",
+      "descripcion": "Cable HDMI 4K / 3M / Negro AACBI Vention",
+      "marca": "Vention",
+      "precio": 165,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/50953.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_50953.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0225",
+      "codigo": "ACC015501",
+      "nombre": "Cable HDMI Angulo Recto 270° / 1.5M / Negro AAQBG Vention",
+      "descripcion": "Cable HDMI Angulo Recto 270° / 1.5M / Negro AAQBG Vention",
+      "marca": "Vention",
+      "precio": 165,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/68484.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_68484.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0226",
+      "codigo": "ACC017298",
+      "nombre": "Cable HDMI Flat 4K 60Hz / 1.5M / Negro VAA-B02-L150 Vention",
+      "descripcion": "Cable HDMI Flat 4K 60Hz / 1.5M / Negro VAA-B02-L150 Vention",
+      "marca": "Vention",
+      "precio": 175,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/72824.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_72824.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0227",
+      "codigo": "ACC012154",
+      "nombre": "Cable HDMI 2.1 8K / 1M / Negro AANBF Vention",
+      "descripcion": "Cable HDMI 2.1 8K / 1M / Negro AANBF Vention",
+      "marca": "Vention",
+      "precio": 220,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73730.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73730.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0228",
+      "codigo": "ACC017299",
+      "nombre": "Cable HDMI Flat 4K 60Hz / 3M / Negro VAA-B02-L300 Vention",
+      "descripcion": "Cable HDMI Flat 4K 60Hz / 3M / Negro VAA-B02-L300 Vention",
+      "marca": "Vention",
+      "precio": 235,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_72810.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0229",
+      "codigo": "ACC019907",
+      "nombre": "Cable HDMI 2.1 8K / 1.5M / Negro AANBG Vention",
+      "descripcion": "Cable HDMI 2.1 8K / 1.5M / Negro AANBG Vention",
+      "marca": "Vention",
+      "precio": 270,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/80364.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_80364.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0230",
+      "codigo": "ACC019315",
+      "nombre": "Cable HDMI a HDMI Macho/Macho / 5M / Negro ALLBJ Vention",
+      "descripcion": "Cable HDMI a HDMI Macho/Macho / 5M / Negro ALLBJ Vention",
+      "marca": "Vention",
+      "precio": 285,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/79465.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_79465.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0231",
+      "codigo": "ACC012155",
+      "nombre": "Cable HDMI 2.1 8K / 2M / Negro AANBH Vention",
+      "descripcion": "Cable HDMI 2.1 8K / 2M / Negro AANBH Vention",
+      "marca": "Vention",
+      "precio": 290,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73746.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73746.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0232",
+      "codigo": "ACC018701",
+      "nombre": "Cable HDMI Flat 4K 60Hz / 5M / Negro VAA-B02-L500 Vention",
+      "descripcion": "Cable HDMI Flat 4K 60Hz / 5M / Negro VAA-B02-L500 Vention",
+      "marca": "Vention",
+      "precio": 300,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/77356.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_77356.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0233",
+      "codigo": "ACC017547",
+      "nombre": "Cable HDMI Cordón / 8K / 1.5M / Negro AAUBG Vention",
+      "descripcion": "Cable HDMI Cordón / 8K / 1.5M / Negro AAUBG Vention",
+      "marca": "Vention",
+      "precio": 320,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73778.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73778.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0234",
+      "codigo": "ACC017548",
+      "nombre": "Cable HDMI Cordón / 8K / 2M / Negro AAUBH Vention",
+      "descripcion": "Cable HDMI Cordón / 8K / 2M / Negro AAUBH Vention",
+      "marca": "Vention",
+      "precio": 370,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73793.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73793.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0235",
+      "codigo": "ACC018282",
+      "nombre": "Cable MIni DP a HDMI Macho/Macho / 1.5M / Negro HABBG Vention",
+      "descripcion": "Cable MIni DP a HDMI Macho/Macho / 1.5M / Negro HABBG Vention",
+      "marca": "Vention",
+      "precio": 380,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/76367.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76367.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0236",
+      "codigo": "ACC012156",
+      "nombre": "Cable HDMI Cordón Macho/Macho / 8K / 1M /Aluminio Azul ALGLF Vention",
+      "descripcion": "Cable HDMI Cordón Macho/Macho / 8K / 1M /Aluminio Azul ALGLF Vention",
+      "marca": "Vention",
+      "precio": 405,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/56976.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56976.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0237",
+      "codigo": "ACC014341",
+      "nombre": "Cable HDMI 2.1 8K / 3M / Negro AANBI Vention",
+      "descripcion": "Cable HDMI 2.1 8K / 3M / Negro AANBI Vention",
+      "marca": "Vention",
+      "precio": 420,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73762.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73762.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0238",
+      "codigo": "ACC017549",
+      "nombre": "Cable HDMI Cordón / 8K / 3M / Negro AAUBI Vention",
+      "descripcion": "Cable HDMI Cordón / 8K / 3M / Negro AAUBI Vention",
+      "marca": "Vention",
+      "precio": 465,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73808.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73808.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0239",
+      "codigo": "ACC012157",
+      "nombre": "Cable HDMI Macho/Macho HD Cordón / 8K / 2M / Aluminio Azul ALGLH Vention",
+      "descripcion": "Cable HDMI Macho/Macho HD Cordón / 8K / 2M / Aluminio Azul ALGLH Vention",
+      "marca": "Vention",
+      "precio": 500,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/56983.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56983.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0240",
+      "codigo": "ACC020417",
+      "nombre": "Cable HDMI a USB C 2M / Negro CGUBH Vention",
+      "descripcion": "Cable HDMI a USB C 2M / Negro CGUBH Vention",
+      "marca": "Vention",
+      "precio": 585,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/82936.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_82936.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0241",
+      "codigo": "ACC010370",
+      "nombre": "Cable HDMI a USB C 1.5M / Negro CGUBG Vention",
+      "descripcion": "Cable HDMI a USB C 1.5M / Negro CGUBG Vention",
+      "marca": "Vention",
+      "precio": 606,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/50899.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_50899.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0242",
+      "codigo": "ACC014346",
+      "nombre": "Switch 2 Puertos HDMI Bi-Direccional / Negro AKOB0 Vention",
+      "descripcion": "Switch 2 Puertos HDMI Bi-Direccional / Negro AKOB0 Vention",
+      "marca": "Vention",
+      "precio": 610,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/64787.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_64787.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0243",
+      "codigo": "ACC018273",
+      "nombre": "Cable HDMI Macho/Macho HD Cordón / 8K / 3M / Aluminio Azul ALGLI Vention",
+      "descripcion": "Cable HDMI Macho/Macho HD Cordón / 8K / 3M / Aluminio Azul ALGLI Vention",
+      "marca": "Vention",
+      "precio": 635,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/76305.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76305.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0244",
+      "codigo": "ACC017166",
+      "nombre": "Cable HDMI 4K / 15M / Negro AACBN Vention",
+      "descripcion": "Cable HDMI 4K / 15M / Negro AACBN Vention",
+      "marca": "Vention",
+      "precio": 680,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/75165.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_75165.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0245",
+      "codigo": "ACC017551",
+      "nombre": "Cable HDMI 2.1 8K / 5M / Negro AANBJ Vention",
+      "descripcion": "Cable HDMI 2.1 8K / 5M / Negro AANBJ Vention",
+      "marca": "Vention",
+      "precio": 750,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73844.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73844.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0246",
+      "codigo": "ACC018281",
+      "nombre": "Cable DP 2.1 Macho/Macho / 16K / 1.5M / Negro HGABG Vention",
+      "descripcion": "Cable DP 2.1 Macho/Macho / 16K / 1.5M / Negro HGABG Vention",
+      "marca": "Vention",
+      "precio": 760,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/78933.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_78933.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0247",
+      "codigo": "ACC017550",
+      "nombre": "Cable HDMI Cordón / 8K / 5M / Negro AAUBJ Vention",
+      "descripcion": "Cable HDMI Cordón / 8K / 5M / Negro AAUBJ Vention",
+      "marca": "Vention",
+      "precio": 965,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73827.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73827.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0248",
+      "codigo": "ACC015503",
+      "nombre": "Cable HDMI a DP Macho/ Macho 1.5M / Negro ABJBG Vention",
+      "descripcion": "Cable HDMI a DP Macho/ Macho 1.5M / Negro ABJBG Vention",
+      "marca": "Vention",
+      "precio": 1185,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/68491.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_68491.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0249",
+      "codigo": "ACC017552",
+      "nombre": "Cable HDMI 2.1 8K / 10M / Negro AANBL Vention",
+      "descripcion": "Cable HDMI 2.1 8K / 10M / Negro AANBL Vention",
+      "marca": "Vention",
+      "precio": 1250,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/73861.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73861.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0250",
+      "codigo": "ACC018280",
+      "nombre": "Cable DP a HDMI Macho/Hembra / 8K / 0.25M / Negro HFNBC Vention",
+      "descripcion": "Cable DP a HDMI Macho/Hembra / 8K / 0.25M / Negro HFNBC Vention",
+      "marca": "Vention",
+      "precio": 1365,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/76345.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76345.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0251",
+      "codigo": "ACC017167",
+      "nombre": "Cable HDMI 4K / 20M / Negro AACBQ Vention",
+      "descripcion": "Cable HDMI 4K / 20M / Negro AACBQ Vention",
+      "marca": "Vention",
+      "precio": 1415,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/75170.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_75170.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0252",
+      "codigo": "ACC017181",
+      "nombre": "Switch 3 en 1 HDMI / 8K / Gris AKRH0 Vention",
+      "descripcion": "Switch 3 en 1 HDMI / 8K / Gris AKRH0 Vention",
+      "marca": "Vention",
+      "precio": 1640,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/72124.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_72124.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0253",
+      "codigo": "ACC017178",
+      "nombre": "Switch Conmutador 5 en 1 Azul AKCL0 Vention",
+      "descripcion": "Switch Conmutador 5 en 1 Azul AKCL0 Vention",
+      "marca": "Vention",
+      "precio": 1724,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/72134.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_72134.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0254",
+      "codigo": "ACC018271",
+      "nombre": "Cable Optico HDMI 4K 60Hz / Macho/Macho HD / 1.5M / Negro ALABG Vention",
+      "descripcion": "Cable Optico HDMI 4K 60Hz / Macho/Macho HD / 1.5M / Negro ALABG Vention",
+      "marca": "Vention",
+      "precio": 1875,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/76294.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76294.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0255",
+      "codigo": "ACC017180",
+      "nombre": "Divisor HDMI 4K 1 x 8 / Plateado AKQB0-EU Vention",
+      "descripcion": "Divisor HDMI 4K 1 x 8 / Plateado AKQB0-EU Vention",
+      "marca": "Vention",
+      "precio": 1964,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/74876.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_74876.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0256",
+      "codigo": "ACC019150",
+      "nombre": "Cable HDMI 4K / 30M / Negro AACBT Vention",
+      "descripcion": "Cable HDMI 4K / 30M / Negro AACBT Vention",
+      "marca": "Vention",
+      "precio": 2385,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/78374.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_78374.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0257",
+      "codigo": "ACC018272",
+      "nombre": "Cable Optico HDMI 4K 60Hz / Macho/Macho HD / 3M / Negro ALABI Vention",
+      "descripcion": "Cable Optico HDMI 4K 60Hz / Macho/Macho HD / 3M / Negro ALABI Vention",
+      "marca": "Vention",
+      "precio": 2530,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/76300.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76300.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0258",
+      "codigo": "ACC019149",
+      "nombre": "Cable HDMI 4K / 25M / Negro AACBS Vention",
+      "descripcion": "Cable HDMI 4K / 25M / Negro AACBS Vention",
+      "marca": "Vention",
+      "precio": 2715,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables hdmi",
+      "imagen": "Accesorios/Cables Hdmi/78369.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_78369.png",
+      "fuentes_excel": [
+        "Accesorios/Cables hdmi.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0259",
+      "codigo": "ACC004156",
+      "nombre": "Cable de Datos ROCA VIT USB a microUSB 20cm 2.4A Azul",
+      "descripcion": "Cable de Datos ROCA VIT USB a microUSB 20cm 2.4A Azul",
+      "marca": "Roca Mobile",
+      "precio": 35,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/56597.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56597.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0260",
+      "codigo": "ACC004161",
+      "nombre": "Cable de Datos ROCA VIT USB A a USB C 20cm 2.4A Verde",
+      "descripcion": "Cable de Datos ROCA VIT USB A a USB C 20cm 2.4A Verde",
+      "marca": "Roca Mobile",
+      "precio": 45,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/56601.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56601.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0261",
+      "codigo": "ACC004151",
+      "nombre": "Cable de Datos ROCA VIT USB a Lightning 20cm 2.4A Blanco",
+      "descripcion": "Cable de Datos ROCA VIT USB a Lightning 20cm 2.4A Blanco",
+      "marca": "Roca Mobile",
+      "precio": 50,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/56595.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56595.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0262",
+      "codigo": "ACC004155",
+      "nombre": "Cable de Datos ROCA VIT USB a micro USB 100cm 2.4A Azul 721102",
+      "descripcion": "Cable de Datos ROCA VIT USB a micro USB 100cm 2.4A Azul 721102",
+      "marca": "Roca Mobile",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/70431.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70431.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0263",
+      "codigo": "ACC004160",
+      "nombre": "Cable de Datos ROCA VIT USB A a USB C 100cm 2.4A 721126",
+      "descripcion": "Cable de Datos ROCA VIT USB A a USB C 100cm 2.4A 721126",
+      "marca": "Roca Mobile",
+      "precio": 75,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/85748.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_85748.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0264",
+      "codigo": "ACC010643",
+      "nombre": "Cable de Datos ROCA PD USB C a USB C 20cm 3A 60W Blanco",
+      "descripcion": "Cable de Datos ROCA PD USB C a USB C 20cm 3A 60W Blanco",
+      "marca": "Roca Mobile",
+      "precio": 75,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56588.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0265",
+      "codigo": "ACC010827",
+      "nombre": "Cable de Datos ROCA VITACOR USB a Micro USB TPE/2.1A/100cm Amarillo",
+      "descripcion": "Cable de Datos ROCA VITACOR USB a Micro USB TPE/2.1A/100cm Amarillo",
+      "marca": "Roca Mobile",
+      "precio": 81,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/53260.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_53260.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0266",
+      "codigo": "ACC010829",
+      "nombre": "Cable de Datos ROCA VITACOR USB a Micro USB TPE/2.1A/100cm Verde",
+      "descripcion": "Cable de Datos ROCA VITACOR USB a Micro USB TPE/2.1A/100cm Verde",
+      "marca": "Roca Mobile",
+      "precio": 81,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/53253.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_53253.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0267",
+      "codigo": "ACC012937",
+      "nombre": "Cable de Datos ROCA VITACOR USB a Micro USB TPE/2.1A/100cm Verde Claro",
+      "descripcion": "Cable de Datos ROCA VITACOR USB a Micro USB TPE/2.1A/100cm Verde Claro",
+      "marca": "Roca Mobile",
+      "precio": 81,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/70299.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70299.png",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0268",
+      "codigo": "ACC012938",
+      "nombre": "Cable de Datos ROCA VITACOR USB a Micro USB TPE/2.1A/100cm Celeste",
+      "descripcion": "Cable de Datos ROCA VITACOR USB a Micro USB TPE/2.1A/100cm Celeste",
+      "marca": "Roca Mobile",
+      "precio": 81,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/70297.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70297.png",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0269",
+      "codigo": "ACC004152",
+      "nombre": "Cable de Datos ROCA RUDE USB a micro USB 100cm 2.1A Blanco 721164",
+      "descripcion": "Cable de Datos ROCA RUDE USB a micro USB 100cm 2.1A Blanco 721164",
+      "marca": "Roca Mobile",
+      "precio": 90,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_85758.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0270",
+      "codigo": "SACC021550",
+      "nombre": "AS - Cable de Datos ROCA TWIST USB A a microUSB 200cm 2A Azul (Caja Dañada)",
+      "descripcion": "AS - Cable de Datos ROCA TWIST USB A a microUSB 200cm 2A Azul (Caja Dañada)",
+      "marca": "Roca Mobile",
+      "precio": 90,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_87018.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0271",
+      "codigo": "ACC004146",
+      "nombre": "Cable de Datos ROCA RUDE USB a Lightning 100cm 3A Blanco 721171",
+      "descripcion": "Cable de Datos ROCA RUDE USB a Lightning 100cm 3A Blanco 721171",
+      "marca": "Roca Mobile",
+      "precio": 95,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/85835.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_85835.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0272",
+      "codigo": "ACC010637",
+      "nombre": "Cable de Datos ROCA VIT USB a microUSB 200cm 2.4A Azul",
+      "descripcion": "Cable de Datos ROCA VIT USB a microUSB 200cm 2.4A Azul",
+      "marca": "Roca Mobile",
+      "precio": 100,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/58531.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_58531.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0273",
+      "codigo": "SACC020180",
+      "nombre": "AS - Cable de Datos ROCA TWIST USB A a Lightning 200cm 2A Blanco (Caja Dañada)",
+      "descripcion": "AS - Cable de Datos ROCA TWIST USB A a Lightning 200cm 2A Blanco (Caja Dañada)",
+      "marca": "Roca Mobile",
+      "precio": 100,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_81774.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0274",
+      "codigo": "SACC022833",
+      "nombre": "AS- Cable de Datos ROCA Power Delivery USB C a Lightning 100cm 3A 27W Blanco 721317 - Caja Dañada",
+      "descripcion": "AS- Cable de Datos ROCA Power Delivery USB C a Lightning 100cm 3A 27W Blanco 721317 - Caja Dañada",
+      "marca": "Roca Mobile",
+      "precio": 100,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/256x256.png",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0275",
+      "codigo": "ACC001266",
+      "nombre": "Cable de Datos ROCA VIT USB C a USB C 100cm 3A 60W Blanco 721324",
+      "descripcion": "Cable de Datos ROCA VIT USB C a USB C 100cm 3A 60W Blanco 721324",
+      "marca": "Roca Mobile",
+      "precio": 105,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/86437.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_86437.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0276",
+      "codigo": "ACC009594",
+      "nombre": "Cable de Datos ROCA RUDE USB a Lightning 200cm 3A Blanco 721379",
+      "descripcion": "Cable de Datos ROCA RUDE USB a Lightning 200cm 3A Blanco 721379",
+      "marca": "Roca Mobile",
+      "precio": 105,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/53161.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_53161.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0277",
+      "codigo": "ACC010636",
+      "nombre": "Cable de Datos ROCA VIT USB a Lightning 200cm 2.4A Blanco",
+      "descripcion": "Cable de Datos ROCA VIT USB a Lightning 200cm 2.4A Blanco",
+      "marca": "Roca Mobile",
+      "precio": 111,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/56611.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56611.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0278",
+      "codigo": "ACC010638",
+      "nombre": "Cable de Datos ROCA VIT USB A a USB C 200cm 2.4A Verde",
+      "descripcion": "Cable de Datos ROCA VIT USB A a USB C 200cm 2.4A Verde",
+      "marca": "Roca Mobile",
+      "precio": 111,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/58532.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_58532.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cables de datos Roca.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0279",
+      "codigo": "ACC010978",
+      "nombre": "Soporte Vehicular BLOOX - Tipo Pinza para Ventilación Holder_1 Negro",
+      "descripcion": "Soporte Vehicular BLOOX - Tipo Pinza para Ventilación Holder_1 Negro",
+      "marca": "Cód.",
+      "precio": 50,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_2_productos31_57185.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57185.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0280",
+      "codigo": "ACC017599",
+      "nombre": "Anillo 360º Negro Roca",
+      "descripcion": "Anillo 360º Negro Roca",
+      "marca": "Cód.",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_3_productos31_74833.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74833.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0281",
+      "codigo": "ACC012426",
+      "nombre": "Soporte Vehicular ROCA TO GO Tipo Pinza para Ventilación",
+      "descripcion": "Soporte Vehicular ROCA TO GO Tipo Pinza para Ventilación",
+      "marca": "Cód.",
+      "precio": 75,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_4_productos31_59308.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_59308.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0282",
+      "codigo": "SACC019106",
+      "nombre": "AS - Soporte Vehicular BLOOX - Tipo Ventosa para Panel/Vidrio Holder_2 Negro (Caja Dañada)",
+      "descripcion": "AS - Soporte Vehicular BLOOX - Tipo Ventosa para Panel/Vidrio Holder_2 Negro (Caja Dañada)",
+      "marca": "Cód.",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_81725.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0283",
+      "codigo": "ACC020766",
+      "nombre": "Ventosa de Silicona Soporte Negro",
+      "descripcion": "Ventosa de Silicona Soporte Negro",
+      "marca": "Cód.",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_6_productos31_84173.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84173.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0284",
+      "codigo": "ACC009336",
+      "nombre": "Soporte Teléfono/Tablet Plegable con Resorte Negro ZJ070 USAMS",
+      "descripcion": "Soporte Teléfono/Tablet Plegable con Resorte Negro ZJ070 USAMS",
+      "marca": "Cód.",
+      "precio": 125,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_7_productos31_46959.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_46959.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0285",
+      "codigo": "ACC009337",
+      "nombre": "Soporte Teléfono/Tablet Plegable con Resorte Blanco ZJ070 USAMS",
+      "descripcion": "Soporte Teléfono/Tablet Plegable con Resorte Blanco ZJ070 USAMS",
+      "marca": "Cód.",
+      "precio": 125,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_8_productos31_46957.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_46957.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0286",
+      "codigo": "ACC004291",
+      "nombre": "Soporte Vehicular SV02 - Tipo Magnetico para Ventilación ROCA",
+      "descripcion": "Soporte Vehicular SV02 - Tipo Magnetico para Ventilación ROCA",
+      "marca": "Cód.",
+      "precio": 130,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_60_productos32_79454.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79454.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0287",
+      "codigo": "ACC017600",
+      "nombre": "Soporte Vehicular para Espejo Retrovisor K531",
+      "descripcion": "Soporte Vehicular para Espejo Retrovisor K531",
+      "marca": "Cód.",
+      "precio": 135,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_61_productos32_74944.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74944.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0288",
+      "codigo": "ACC022483",
+      "nombre": "Soporte Vehicular para Ventilacion ZJ004 Negro USAMS",
+      "descripcion": "Soporte Vehicular para Ventilacion ZJ004 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 140,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_11_productos31_89313.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_89313.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0289",
+      "codigo": "ACC009983",
+      "nombre": "Soporte para Moto y Bicicleta Negro (Z-03)",
+      "descripcion": "Soporte para Moto y Bicicleta Negro (Z-03)",
+      "marca": "Cód.",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_63_productos32_48290.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_48290.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0290",
+      "codigo": "SACC022837",
+      "nombre": "AS - Soporte de Escritorio 360° Plegable Gris Roca - Con Detalle",
+      "descripcion": "AS - Soporte de Escritorio 360° Plegable Gris Roca - Con Detalle",
+      "marca": "Cód.",
+      "precio": 150,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0291",
+      "codigo": "ACC010773",
+      "nombre": "Soporte Teléfono/Tablet Plegable Negro ZJ073 USAMS",
+      "descripcion": "Soporte Teléfono/Tablet Plegable Negro ZJ073 USAMS",
+      "marca": "Cód.",
+      "precio": 160,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_14_productos31_53358.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_53358.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0292",
+      "codigo": "ACC010774",
+      "nombre": "Soporte Teléfono/Tablet Plegable Blanco ZJ073 USAMS",
+      "descripcion": "Soporte Teléfono/Tablet Plegable Blanco ZJ073 USAMS",
+      "marca": "Cód.",
+      "precio": 160,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_15_productos31_53360.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_53360.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0293",
+      "codigo": "ACC014574",
+      "nombre": "Soporte Vehicular BLOOX - Tipo Ventosa para Panel/Vidrio Holder_2 Negro",
+      "descripcion": "Soporte Vehicular BLOOX - Tipo Ventosa para Panel/Vidrio Holder_2 Negro",
+      "marca": "Cód.",
+      "precio": 175,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_67_productos32_66104.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_66104.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0294",
+      "codigo": "SACC021542",
+      "nombre": "AS - Soporte de Escritorio Tablet/Notebook Negro ZJ054 USAMS (Caja Dañada)",
+      "descripcion": "AS - Soporte de Escritorio Tablet/Notebook Negro ZJ054 USAMS (Caja Dañada)",
+      "marca": "Cód.",
+      "precio": 180,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_87011.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0295",
+      "codigo": "ACC009882",
+      "nombre": "Soporte para Bicicleta Negro 6.3'' Waterproof",
+      "descripcion": "Soporte para Bicicleta Negro 6.3'' Waterproof",
+      "marca": "Cód.",
+      "precio": 185,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_18_productos31_48289.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_48289.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0296",
+      "codigo": "ACC015702",
+      "nombre": "Soporte de Escritorio 360° Plegable Gris Roca",
+      "descripcion": "Soporte de Escritorio 360° Plegable Gris Roca",
+      "marca": "Cód.",
+      "precio": 190,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_70_productos32_74831.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74831.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0297",
+      "codigo": "ACC015951",
+      "nombre": "Soporte Vehicular SV08 - Clip Triangular para Ventilación ROCA",
+      "descripcion": "Soporte Vehicular SV08 - Clip Triangular para Ventilación ROCA",
+      "marca": "Cód.",
+      "precio": 190,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_71_productos32_69303.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69303.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0298",
+      "codigo": "ACC013358",
+      "nombre": "Soporte Vehicular MG01 p/Ventilación 360° Negro LDNIO",
+      "descripcion": "Soporte Vehicular MG01 p/Ventilación 360° Negro LDNIO",
+      "marca": "Cód.",
+      "precio": 195,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_72_productos32_61308.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_61308.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0299",
+      "codigo": "ACC015952",
+      "nombre": "Soporte Vehicular BLOOX - Tipo Ventosa para Panel/Vidrio Holder_3 Negro",
+      "descripcion": "Soporte Vehicular BLOOX - Tipo Ventosa para Panel/Vidrio Holder_3 Negro",
+      "marca": "Cód.",
+      "precio": 200,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_73_productos32_69300.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69300.png",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0300",
+      "codigo": "ACC020454",
+      "nombre": "Soporte Vehicular para Ventilación 4.5 a 6.9\" ZJ085 Negro USAMS",
+      "descripcion": "Soporte Vehicular para Ventilación 4.5 a 6.9\" ZJ085 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 200,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_23_productos31_83072.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83072.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    }
+  ]
+}
