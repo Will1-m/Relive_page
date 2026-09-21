@@ -1,774 +1,987 @@
 {
   "pagina": 4,
-  "total_paginas": 8,
+  "total_paginas": 4,
   "productos": [
     {
-      "id": "relive-0151",
-      "codigo": "ACC020754",
-      "nombre": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 - Anaranjado",
-      "descripcion": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 - Anaranjado",
-      "marca": "Apple",
-      "precio": 400,
+      "id": "relive-0301",
+      "codigo": "ACC005436",
+      "nombre": "Soporte de Escritorio Tablet/Notebook Negro ZJ054 USAMS",
+      "descripcion": "Soporte de Escritorio Tablet/Notebook Negro ZJ054 USAMS",
+      "marca": "Cód.",
+      "precio": 215,
       "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_143_productos31_84217.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84217.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_75_productos32_69010.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69010.png",
       "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0152",
-      "codigo": "ACC020755",
-      "nombre": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 - Negro",
-      "descripcion": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 - Negro",
-      "marca": "Apple",
-      "precio": 400,
+      "id": "relive-0302",
+      "codigo": "ACC009885",
+      "nombre": "Soporte para Moto Espejo retrovisor Negro 5.5'' Waterproof",
+      "descripcion": "Soporte para Moto Espejo retrovisor Negro 5.5'' Waterproof",
+      "marca": "Cód.",
+      "precio": 240,
       "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_144_productos31_84218.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84218.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_76_productos32_48287.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_48287.png",
       "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0153",
-      "codigo": "ACC020759",
-      "nombre": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 Pro Max - Negro",
-      "descripcion": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 Pro Max - Negro",
-      "marca": "Apple",
-      "precio": 400,
+      "id": "relive-0303",
+      "codigo": "ACC019181",
+      "nombre": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Auto-ajustable /Negro KCSB0 Vention",
+      "descripcion": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Auto-ajustable /Negro KCSB0 Vention",
+      "marca": "Cód.",
+      "precio": 245,
       "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_145_productos31_84215.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84215.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_26_productos31_78538.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78538.jpg",
       "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0154",
-      "codigo": "SACC021691",
-      "nombre": "AS - Case Apple iPad 10 Negro 10.9'' TPU Winya Series Azul BH838 USAMS - Con Detalle",
-      "descripcion": "AS - Case Apple iPad 10 Negro 10.9'' TPU Winya Series Azul BH838 USAMS - Con Detalle",
-      "marca": "USAMS",
-      "precio": 430,
+      "id": "relive-0304",
+      "codigo": "ACC019182",
+      "nombre": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Negro KCTB0 Vention",
+      "descripcion": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Negro KCTB0 Vention",
+      "marca": "Cód.",
+      "precio": 245,
       "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_146_productos31_88332.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88332.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_27_productos31_78546.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78546.jpg",
       "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0155",
-      "codigo": "ACC018924",
-      "nombre": "Case Apple iPad Air 10 9'' Negro Winto Series Rosado BH654 USAMS",
-      "descripcion": "Case Apple iPad Air 10 9'' Negro Winto Series Rosado BH654 USAMS",
-      "marca": "Apple",
-      "precio": 470,
+      "id": "relive-0305",
+      "codigo": "ACC005410",
+      "nombre": "Soporte Vehicular Free gravity / Retáctil / ZJ058 / Negro USAMS",
+      "descripcion": "Soporte Vehicular Free gravity / Retáctil / ZJ058 / Negro USAMS",
+      "marca": "Cód.",
+      "precio": 250,
       "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_147_productos31_78093.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78093.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_79_productos32_71520.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_71520.png",
       "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0156",
-      "codigo": "ACC018925",
-      "nombre": "Case Apple iPad Air 10 9'' Negro Winto Series Lila BH654 USAMS",
-      "descripcion": "Case Apple iPad Air 10 9'' Negro Winto Series Lila BH654 USAMS",
-      "marca": "Apple",
-      "precio": 470,
+      "id": "relive-0306",
+      "codigo": "ACC020455",
+      "nombre": "Soporte Vehicular c/Ventosa 4.5 a 6.9\" ZJ086 Negro USAMS",
+      "descripcion": "Soporte Vehicular c/Ventosa 4.5 a 6.9\" ZJ086 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 250,
       "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_304_productos32_78091.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78091.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_80_productos32_83078.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83078.jpg",
       "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0157",
-      "codigo": "ACC019289",
-      "nombre": "Case Apple iPad Pro Negro 11'' TPU Winya Series Negro BH839 USAMS",
-      "descripcion": "Case Apple iPad Pro Negro 11'' TPU Winya Series Negro BH839 USAMS",
-      "marca": "USAMS",
-      "precio": 490,
+      "id": "relive-0307",
+      "codigo": "ACC019333",
+      "nombre": "Soporte Vehicular Magnético para Ventilación ZJ081 Negro USAMS",
+      "descripcion": "Soporte Vehicular Magnético para Ventilación ZJ081 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 315,
       "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_149_productos31_79170.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79170.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_81_productos32_79596.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79596.jpg",
       "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0158",
-      "codigo": "ACC018919",
-      "nombre": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Negro BH838 USAMS",
-      "descripcion": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Negro BH838 USAMS",
-      "marca": "USAMS",
-      "precio": 540,
+      "id": "relive-0308",
+      "codigo": "SACC021628",
+      "nombre": "AS - Soporte Vehicular SV11 para Portavasos ROCA Con Detalle",
+      "descripcion": "AS - Soporte Vehicular SV11 para Portavasos ROCA Con Detalle",
+      "marca": "Cód.",
+      "precio": 320,
       "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_306_productos32_77638.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77638.jpg",
-      "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0159",
-      "codigo": "ACC018920",
-      "nombre": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Gris BH838 USAMS",
-      "descripcion": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Gris BH838 USAMS",
-      "marca": "USAMS",
-      "precio": 540,
-      "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_307_productos32_77644.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77644.jpg",
-      "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0160",
-      "codigo": "ACC018921",
-      "nombre": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Lila BH838 USAMS",
-      "descripcion": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Lila BH838 USAMS",
-      "marca": "USAMS",
-      "precio": 540,
-      "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_308_productos32_78085.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78085.jpg",
-      "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0161",
-      "codigo": "ACC018923",
-      "nombre": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Azul BH838 USAMS",
-      "descripcion": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Azul BH838 USAMS",
-      "marca": "USAMS",
-      "precio": 540,
-      "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_153_productos31_78089.png",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78089.png",
-      "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0162",
-      "codigo": "ACC019292",
-      "nombre": "Case Apple iPad Pro Negro 11'' Winron Series Negro BH842 USAMS",
-      "descripcion": "Case Apple iPad Pro Negro 11'' Winron Series Negro BH842 USAMS",
-      "marca": "USAMS",
-      "precio": 590,
-      "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_310_productos32_79183.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79183.jpg",
-      "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0163",
-      "codigo": "ACC005211",
-      "nombre": "Case Apple iPad Air 10 9'' Negro Winto Series Negro BH654 USAMS",
-      "descripcion": "Case Apple iPad Air 10 9'' Negro Winto Series Negro BH654 USAMS",
-      "marca": "Apple",
-      "precio": 680,
-      "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
-      "imagen": "Accesorios/fundas y estuches/imgi_311_productos32_80335.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_80335.jpg",
-      "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0164",
-      "codigo": "ACC019290",
-      "nombre": "Case Apple iPad Pro Negro 12.9'' Winron Series Negro BH840 USAMS",
-      "descripcion": "Case Apple iPad Pro Negro 12.9'' Winron Series Negro BH840 USAMS",
-      "marca": "USAMS",
-      "precio": 790,
-      "categoria": "Accesorios",
-      "subcategoria": "fundas y estuches",
+      "subcategoria": "soprtes",
       "imagen": null,
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79173.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_87042.jpg",
       "fuentes_excel": [
-        "Accesorios/fundas y estuches.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0165",
-      "codigo": "ACC011870",
-      "nombre": "Cargador Auto ROCA para Apple iPhone 2/3G/3Gs/4G/4Gs",
-      "descripcion": "Cargador Auto ROCA para Apple iPhone 2/3G/3Gs/4G/4Gs",
-      "marca": "Roca Mobile",
-      "precio": 40,
+      "id": "relive-0309",
+      "codigo": "ACC018267",
+      "nombre": "Soporte de Escritorio Plegable de 4.7\" a 10\" / Plegable / Gris KCYH0 Vention",
+      "descripcion": "Soporte de Escritorio Plegable de 4.7\" a 10\" / Plegable / Gris KCYH0 Vention",
+      "marca": "Cód.",
+      "precio": 330,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_83_productos32_76268.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_76268.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0310",
+      "codigo": "ACC019180",
+      "nombre": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Negro KCEH0 Vention",
+      "descripcion": "Soporte Vehicular para Ventilación de 4.7\" a 7.2\" / Negro KCEH0 Vention",
+      "marca": "Cód.",
+      "precio": 340,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_33_productos31_78530.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78530.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0311",
+      "codigo": "ACC008582",
+      "nombre": "PH42 Soporte extensible con base plana para piso / 80~120cm",
+      "descripcion": "PH42 Soporte extensible con base plana para piso / 80~120cm",
+      "marca": "Cód.",
+      "precio": 341,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_85_productos32_55781.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_55781.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0312",
+      "codigo": "ACC015950",
+      "nombre": "Soporte Vehicular SV07 - Ajustable con Ventosa ROCA",
+      "descripcion": "Soporte Vehicular SV07 - Ajustable con Ventosa ROCA",
+      "marca": "Cód.",
+      "precio": 350,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_86_productos32_69306.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69306.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0313",
+      "codigo": "ACC019327",
+      "nombre": "Soporte para Bicicleta Cobertura Total Negro ZJ082 USAMS",
+      "descripcion": "Soporte para Bicicleta Cobertura Total Negro ZJ082 USAMS",
+      "marca": "Cód.",
+      "precio": 385,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_87_productos32_79565.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79565.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0314",
+      "codigo": "ACC018342",
+      "nombre": "Soporte Vehicular Magnético Aluminio Negro",
+      "descripcion": "Soporte Vehicular Magnético Aluminio Negro",
+      "marca": "Cód.",
+      "precio": 395,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_37_productos31_79446.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79446.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0315",
+      "codigo": "ACC019661",
+      "nombre": "Soporte Vehicular SV11 para Portavasos ROCA",
+      "descripcion": "Soporte Vehicular SV11 para Portavasos ROCA",
+      "marca": "Cód.",
+      "precio": 395,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_38_productos31_80337.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_80337.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0316",
+      "codigo": "SACC022426",
+      "nombre": "AS - Soporte Vehicular Magnético Negro ZJ079 USAMS - Caja Dañada",
+      "descripcion": "AS - Soporte Vehicular Magnético Negro ZJ079 USAMS - Caja Dañada",
+      "marca": "Cód.",
+      "precio": 400,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88358.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0317",
+      "codigo": "SACC022076",
+      "nombre": "AS - Soporte Vehicular c/Ventosa de 4.7\" a 7.2\" / Negro KSCB0 Vention - Caja Dañada",
+      "descripcion": "AS - Soporte Vehicular c/Ventosa de 4.7\" a 7.2\" / Negro KSCB0 Vention - Caja Dañada",
+      "marca": "Cód.",
+      "precio": 420,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
       "imagen": null,
       "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
       "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0166",
-      "codigo": "ACC011228",
-      "nombre": "Cargador ROCA 2.0A 1 USB Sin Cable (RC-TC-20)",
-      "descripcion": "Cargador ROCA 2.0A 1 USB Sin Cable (RC-TC-20)",
-      "marca": "Roca Mobile",
-      "precio": 85,
+      "id": "relive-0318",
+      "codigo": "ACC020471",
+      "nombre": "Soporte Vehicular Magnético c/Ventosa RC-SV-12 ROCA",
+      "descripcion": "Soporte Vehicular Magnético c/Ventosa RC-SV-12 ROCA",
+      "marca": "Cód.",
+      "precio": 425,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": null,
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57516.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_40_productos31_85589.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85589.jpg",
       "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0167",
-      "codigo": "ACC010766",
-      "nombre": "Cargador Inteligente Auto ROCA 20W USB C/PD (sin Cable)",
-      "descripcion": "Cargador Inteligente Auto ROCA 20W USB C/PD (sin Cable)",
-      "marca": "Roca Mobile",
-      "precio": 90,
+      "id": "relive-0319",
+      "codigo": "ACC017598",
+      "nombre": "Palo de Selfie c/Trípode Ajustable Control Bluetooth Altura Máx. 1.7M Negro",
+      "descripcion": "Palo de Selfie c/Trípode Ajustable Control Bluetooth Altura Máx. 1.7M Negro",
+      "marca": "Cód.",
+      "precio": 450,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": "Accesorios/Cargadores de Pared/58388.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_58388.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_41_productos31_74950.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74950.jpg",
       "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0168",
-      "codigo": "ACC001272",
-      "nombre": "Cargador Inteligente Auto ROCA 3.1A 2 USB Sin Cable",
-      "descripcion": "Cargador Inteligente Auto ROCA 3.1A 2 USB Sin Cable",
-      "marca": "Roca Mobile",
-      "precio": 100,
+      "id": "relive-0320",
+      "codigo": "ACC020287",
+      "nombre": "Soporte para Bicicleta Cobertura Total Resistente al Agua Negro ZJ083 USAMS",
+      "descripcion": "Soporte para Bicicleta Cobertura Total Resistente al Agua Negro ZJ083 USAMS",
+      "marca": "Cód.",
+      "precio": 450,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": null,
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_53058.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_93_productos32_83022.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83022.jpg",
       "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0169",
-      "codigo": "SACC015117",
-      "nombre": "AS - Cargador Inteligente ROCA 2.1A 1 USB microUSB (Caja Dañada)",
-      "descripcion": "AS - Cargador Inteligente ROCA 2.1A 1 USB microUSB (Caja Dañada)",
-      "marca": "Roca Mobile",
-      "precio": 110,
+      "id": "relive-0321",
+      "codigo": "ACC017611",
+      "nombre": "Palo Selfie con Trípode Inalámbrico Máx. 1.1M 4 7\" a 7\" Negro ZB324 USAMS",
+      "descripcion": "Palo Selfie con Trípode Inalámbrico Máx. 1.1M 4 7\" a 7\" Negro ZB324 USAMS",
+      "marca": "Cód.",
+      "precio": 485,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": null,
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_81586.jpg",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_43_productos31_74679.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74679.jpg",
       "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
+        "Accesorios/soprtes.xlsx"
       ]
     },
     {
-      "id": "relive-0170",
-      "codigo": "ACC019869",
-      "nombre": "Cargador ROCA 2.4A 2 x USB A Cable USB A a Micro USB / 100cm Blanco (RC-TC-05)",
-      "descripcion": "Cargador ROCA 2.4A 2 x USB A Cable USB A a Micro USB / 100cm Blanco (RC-TC-05)",
+      "id": "relive-0322",
+      "codigo": "ACC010431",
+      "nombre": "Soporte Vehicular 4.2\" a 7.2\" Retráctil 360° Negro ZJ072 USAMS",
+      "descripcion": "Soporte Vehicular 4.2\" a 7.2\" Retráctil 360° Negro ZJ072 USAMS",
+      "marca": "Cód.",
+      "precio": 495,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_44_productos31_52186.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_52186.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0323",
+      "codigo": "ACC019185",
+      "nombre": "Soporte Vehicular c/Ventosa de 4.7\" a 7.2\" / Negro KSCB0 Vention",
+      "descripcion": "Soporte Vehicular c/Ventosa de 4.7\" a 7.2\" / Negro KSCB0 Vention",
+      "marca": "Cód.",
+      "precio": 530,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_45_productos31_78564.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78564.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0324",
+      "codigo": "ACC021563",
+      "nombre": "Soporte de Cuello para Cámara Flexible 360° 66cm Negro JOY01 USAMS",
+      "descripcion": "Soporte de Cuello para Cámara Flexible 360° 66cm Negro JOY01 USAMS",
+      "marca": "Cód.",
+      "precio": 545,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_46_productos31_86977.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86977.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0325",
+      "codigo": "ACC018341",
+      "nombre": "Soporte Vehicular Magnético CL-21 c/Ventosa 360° Negro",
+      "descripcion": "Soporte Vehicular Magnético CL-21 c/Ventosa 360° Negro",
+      "marca": "Cód.",
+      "precio": 580,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_47_productos31_79448.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79448.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0326",
+      "codigo": "ACC020286",
+      "nombre": "Soporte Magnético c/Succión ZJ084 Negro USAMS",
+      "descripcion": "Soporte Magnético c/Succión ZJ084 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 595,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_99_productos32_83017.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83017.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0327",
+      "codigo": "ACC021334",
+      "nombre": "Soporte Magnético c/Succión ZJ087 Negro USAMS",
+      "descripcion": "Soporte Magnético c/Succión ZJ087 Negro USAMS",
+      "marca": "Cód.",
+      "precio": 650,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_100_productos32_85082.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85082.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0328",
+      "codigo": "ACC021564",
+      "nombre": "Soporte de Cuello Magnético para Teléfono Flexible c/Pinza Negro JOY02 USAMS",
+      "descripcion": "Soporte de Cuello Magnético para Teléfono Flexible c/Pinza Negro JOY02 USAMS",
+      "marca": "Cód.",
+      "precio": 825,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_50_productos31_86985.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86985.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0329",
+      "codigo": "ACC017454",
+      "nombre": "Palo Selfie con Trípode y Aro de Luz de 10 \" Inalámbrico Altura Máx. 2.3M Negro ZB323 USAMS",
+      "descripcion": "Palo Selfie con Trípode y Aro de Luz de 10 \" Inalámbrico Altura Máx. 2.3M Negro ZB323 USAMS",
+      "marca": "Cód.",
+      "precio": 1.19,
+      "categoria": "Accesorios",
+      "subcategoria": "soprtes",
+      "imagen": "Accesorios/Soportes/imgi_51_productos31_74239.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74239.jpg",
+      "fuentes_excel": [
+        "Accesorios/soprtes.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0330",
+      "codigo": null,
+      "nombre": "Mouse Pad Gamer XZZ-MP-02 M 230x200mm X-Lizzard",
+      "descripcion": "Mouse Pad Gamer XZZ-MP-02 M 230x200mm X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 195,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_3_productos31_64684.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_64684.png",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0331",
+      "codigo": null,
+      "nombre": "Mouse Gamer XZZ-MO-05 Cableado RGB X-Lizzard",
+      "descripcion": "Mouse Gamer XZZ-MO-05 Cableado RGB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 240,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_32_productos32_85535.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85535.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0332",
+      "codigo": null,
+      "nombre": "Mouse Gamer Dual mode XZZ-MO-04 Inalámbrico/Cableado RGB X-Lizzard",
+      "descripcion": "Mouse Gamer Dual mode XZZ-MO-04 Inalámbrico/Cableado RGB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 245,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_33_productos32_85532.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85532.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0333",
+      "codigo": null,
+      "nombre": "Mouse Pad Gamer XZZ-MP-01 XL Microfibra 750x280mm X-Lizzard",
+      "descripcion": "Mouse Pad Gamer XZZ-MP-01 XL Microfibra 750x280mm X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 280,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_34_productos32_44214.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44214.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0334",
+      "codigo": null,
+      "nombre": "Teclado Gamer XZZ-TE-01 Español USB RGB X-Lizzard",
+      "descripcion": "Teclado Gamer XZZ-TE-01 Español USB RGB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 300,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_7_productos31_44207.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44207.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0335",
+      "codigo": null,
+      "nombre": "Parlantes Gamer XZZ-SP-01 2x3W RGB USB+3.5mm X-Lizzard",
+      "descripcion": "Parlantes Gamer XZZ-SP-01 2x3W RGB USB+3.5mm X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 375,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_36_productos32_44210.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44210.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0336",
+      "codigo": null,
+      "nombre": "Teclado Gamer XZZ-TE-02 Español USB Backlit X-Lizzard",
+      "descripcion": "Teclado Gamer XZZ-TE-02 Español USB Backlit X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 420,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_9_productos31_44203.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44203.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0337",
+      "codigo": null,
+      "nombre": "Combo Gamer XZZ-CO-01 Teclado y Mouse RGB USB X-Lizzard",
+      "descripcion": "Combo Gamer XZZ-CO-01 Teclado y Mouse RGB USB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 436,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_10_productos31_85605.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85605.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0338",
+      "codigo": null,
+      "nombre": "Joystick Inalámbrico para Consola Game Stick XZZ-VG-03 X-Lizzard",
+      "descripcion": "Joystick Inalámbrico para Consola Game Stick XZZ-VG-03 X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 600,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_11_productos31_81171.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_81171.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0339",
+      "codigo": null,
+      "nombre": "Microfono Gamer XZZ-MC-01 Cableado USB RGB X-Lizzard",
+      "descripcion": "Microfono Gamer XZZ-MC-01 Cableado USB RGB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 600,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_40_productos32_87911.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_87911.png",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0340",
+      "codigo": null,
+      "nombre": "Auricular Gamer XZZ-HP-02 Mic PC/PS4/xBox X-Lizzard",
+      "descripcion": "Auricular Gamer XZZ-HP-02 Mic PC/PS4/xBox X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 765,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_13_productos31_44229.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44229.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0341",
+      "codigo": null,
+      "nombre": "Combo Gamer XZZ-CO-02 Teclado/Mouse/Auricular/Mouse pad RGB USB X-Lizzard",
+      "descripcion": "Combo Gamer XZZ-CO-02 Teclado/Mouse/Auricular/Mouse pad RGB USB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 780,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_14_productos31_44234.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44234.png",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0342",
+      "codigo": null,
+      "nombre": "Teclado Gamer XZZ-TE-03 Mecánico Español USB RGB X-Lizzard",
+      "descripcion": "Teclado Gamer XZZ-TE-03 Mecánico Español USB RGB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 825,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_15_productos31_44200.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44200.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0343",
+      "codigo": null,
+      "nombre": "Auricular Gamer XZZ-HP-03 Mic USB X-Lizzard",
+      "descripcion": "Auricular Gamer XZZ-HP-03 Mic USB X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 940,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_16_productos31_44225.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44225.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0344",
+      "codigo": null,
+      "nombre": "Joystick XXZ-JS-01 compatible PS4/ PC X-Lizzard",
+      "descripcion": "Joystick XXZ-JS-01 compatible PS4/ PC X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 940,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_45_productos32_66778.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_66778.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0345",
+      "codigo": null,
+      "nombre": "Consola Game Stick para TV XZZ-VG-03 Apto para +20000 Juegos 4K X-Lizzard",
+      "descripcion": "Consola Game Stick para TV XZZ-VG-03 Apto para +20000 Juegos 4K X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 1.395,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_18_productos31_70229.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70229.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0346",
+      "codigo": null,
+      "nombre": "Consola Game Stick para TV XZZ-VG-04 Apto para +30000 Juegos 8K X-Lizzard",
+      "descripcion": "Consola Game Stick para TV XZZ-VG-04 Apto para +30000 Juegos 8K X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 1.85,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_47_productos32_70234.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70234.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0347",
+      "codigo": null,
+      "nombre": "Consola Portátil VG-06 Apto para 30.000 Juegos Pantalla 5.5\"",
+      "descripcion": "Consola Portátil VG-06 Apto para 30.000 Juegos Pantalla 5.5\"",
+      "marca": "X-Lizzard",
+      "precio": 1.95,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_20_productos31_89617.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_89617.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0348",
+      "codigo": null,
+      "nombre": "Volante y Pedalera Gamer XZZ-VO-01 X-Lizzard",
+      "descripcion": "Volante y Pedalera Gamer XZZ-VO-01 X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 2.85,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_21_productos31_85536.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85536.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0349",
+      "codigo": null,
+      "nombre": "Silla Gamer XZZ-SG-01/V Verde X-Lizzard",
+      "descripcion": "Silla Gamer XZZ-SG-01/V Verde X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 3.4,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_50_productos32_57262.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57262.png",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0350",
+      "codigo": null,
+      "nombre": "Silla Gamer XZZ-SG-01/R Rosado X-Lizzard",
+      "descripcion": "Silla Gamer XZZ-SG-01/R Rosado X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 3.4,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_23_productos31_57265.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57265.png",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0351",
+      "codigo": null,
+      "nombre": "Consola Game Stick para TV XZZ-VG-05 4K 64GB Apto para +30000 Juegos X-Lizzard",
+      "descripcion": "Consola Game Stick para TV XZZ-VG-05 4K 64GB Apto para +30000 Juegos X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 3.43,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_52_productos32_70235.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70235.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0352",
+      "codigo": null,
+      "nombre": "Consola Portátil XZZ-VG-01 Pantalla 3.5\" Apto para 15000 Juegos X-Lizzard",
+      "descripcion": "Consola Portátil XZZ-VG-01 Pantalla 3.5\" Apto para 15000 Juegos X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 3.55,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_53_productos32_71528.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_71528.png",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0353",
+      "codigo": null,
+      "nombre": "Silla Gamer XZZ-SG-05 Negro/Rojo X-Lizzard",
+      "descripcion": "Silla Gamer XZZ-SG-05 Negro/Rojo X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 5.085,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_26_productos31_70821.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70821.jpg",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0354",
+      "codigo": null,
+      "nombre": "Silla Gamer XZZ-SG-02/R Rojo X-Lizzard",
+      "descripcion": "Silla Gamer XZZ-SG-02/R Rojo X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 5.3,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_55_productos32_57272.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57272.png",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0355",
+      "codigo": null,
+      "nombre": "Silla Gamer XZZ-SG-02/A Azul X-Lizzard",
+      "descripcion": "Silla Gamer XZZ-SG-02/A Azul X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 5.305,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_56_productos32_70465.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70465.png",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0356",
+      "codigo": null,
+      "nombre": "Silla Gamer XZZ-SG-06 Negro - Amarillo X-Lizzard",
+      "descripcion": "Silla Gamer XZZ-SG-06 Negro - Amarillo X-Lizzard",
+      "marca": "X-Lizzard",
+      "precio": 5.745,
+      "categoria": "informatica",
+      "subcategoria": "Xlizzard",
+      "imagen": "informatica/Xlizzard/imgi_57_productos32_70458.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70458.png",
+      "fuente_excel": "informatica/Xlizzard.xlsx"
+    },
+    {
+      "id": "relive-0357",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA PD USB C a Lightning 20cm 3A 27W Blanco",
+      "descripcion": "Cable de Datos ROCA PD USB C a Lightning 20cm 3A 27W Blanco",
+      "marca": "Roca Mobile",
+      "precio": 111,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/56591.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56591.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+    },
+    {
+      "id": "relive-0358",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA TWIST USB A a microUSB 200cm 2A Azul",
+      "descripcion": "Cable de Datos ROCA TWIST USB A a microUSB 200cm 2A Azul",
+      "marca": "Roca Mobile",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/75785.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_75785.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+    },
+    {
+      "id": "relive-0359",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA Power Delivery USB C a Lightning 100cm 3A 27W Blanco 721317",
+      "descripcion": "Cable de Datos ROCA Power Delivery USB C a Lightning 100cm 3A 27W Blanco 721317",
       "marca": "Roca Mobile",
       "precio": 130,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": "Accesorios/Cargadores de Pared/84661.png",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84661.png",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/88467.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_88467.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     },
     {
-      "id": "relive-0171",
-      "codigo": "ACC019867",
-      "nombre": "Cargador ROCA 2.4A 2 x USB A Cable USB A a USB C / 100cm Blanco (RC-TC-03)",
-      "descripcion": "Cargador ROCA 2.4A 2 x USB A Cable USB A a USB C / 100cm Blanco (RC-TC-03)",
+      "id": "relive-0360",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA RUDE USB a microUSB 300cm 2A Azul",
+      "descripcion": "Cable de Datos ROCA RUDE USB a microUSB 300cm 2A Azul",
       "marca": "Roca Mobile",
-      "precio": 135,
+      "precio": 130,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": "Accesorios/Cargadores de Pared/84662.png",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84662.png",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/58552.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_58552.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     },
     {
-      "id": "relive-0172",
-      "codigo": "ACC019868",
-      "nombre": "Cargador ROCA 2.4A 2 x USB A Cable USB A a Lightning / 100cm Blanco (RC-TC-04)",
-      "descripcion": "Cargador ROCA 2.4A 2 x USB A Cable USB A a Lightning / 100cm Blanco (RC-TC-04)",
+      "id": "relive-0361",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA VIT USB C a Lightning 100cm 27W Blanco 721317",
+      "descripcion": "Cable de Datos ROCA VIT USB C a Lightning 100cm 27W Blanco 721317",
+      "marca": "Roca Mobile",
+      "precio": 130,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/86439.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_86439.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+    },
+    {
+      "id": "relive-0362",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA TWIST USB A a Lightning 200cm 2A Blanco",
+      "descripcion": "Cable de Datos ROCA TWIST USB A a Lightning 200cm 2A Blanco",
       "marca": "Roca Mobile",
       "precio": 140,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": "Accesorios/Cargadores de Pared/84663.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84663.jpg",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/75781.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_75781.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     },
     {
-      "id": "relive-0173",
-      "codigo": "ACC010767",
-      "nombre": "Cargador Inteligente Auto ROCA 48W USB A + USB C/PD (sin Cable)",
-      "descripcion": "Cargador Inteligente Auto ROCA 48W USB A + USB C/PD (sin Cable)",
+      "id": "relive-0363",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA mulTIPy 3en1 120cm 2.4A microUSB/USB C/Lightning (sólo carga) Blanco",
+      "descripcion": "Cable de Datos ROCA mulTIPy 3en1 120cm 2.4A microUSB/USB C/Lightning (sólo carga) Blanco",
       "marca": "Roca Mobile",
-      "precio": 145,
+      "precio": 140,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": "Accesorios/Cargadores de Pared/86433.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86433.jpg",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/56579.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56579.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     },
     {
-      "id": "relive-0174",
-      "codigo": "ACC006433",
-      "nombre": "Cargador Rápido ROCA QC3.0 18W 1 USB Sin Cable (RC-TC-C4)",
-      "descripcion": "Cargador Rápido ROCA QC3.0 18W 1 USB Sin Cable (RC-TC-C4)",
+      "id": "relive-0364",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA RUDE USB A a USB C 300cm 2A Verde",
+      "descripcion": "Cable de Datos ROCA RUDE USB A a USB C 300cm 2A Verde",
       "marca": "Roca Mobile",
       "precio": 150,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": "Accesorios/Cargadores de Pared/70083.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70083.jpg",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/58530.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_58530.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     },
     {
-      "id": "relive-0175",
-      "codigo": "SACC018820",
-      "nombre": "AS - Cargador Inteligente ROCA 2.1A 1 USB Lightning (RC-TC-L21) Caja Dañada",
-      "descripcion": "AS - Cargador Inteligente ROCA 2.1A 1 USB Lightning (RC-TC-L21) Caja Dañada",
+      "id": "relive-0365",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA Power Delivery USB C a USB C 100cm 100W Blanco",
+      "descripcion": "Cable de Datos ROCA Power Delivery USB C a USB C 100cm 100W Blanco",
       "marca": "Roca Mobile",
       "precio": 150,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": null,
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_81686.jpg",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/65852.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_65852.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     },
     {
-      "id": "relive-0176",
-      "codigo": "ACC014577",
-      "nombre": "Cargador ROCA 20W SuperFast 1 USB C Sin Cable",
-      "descripcion": "Cargador ROCA 20W SuperFast 1 USB C Sin Cable",
+      "id": "relive-0366",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA RUDE USB A a Lightning 300cm 2A Blanco",
+      "descripcion": "Cable de Datos ROCA RUDE USB A a Lightning 300cm 2A Blanco",
+      "marca": "Roca Mobile",
+      "precio": 160,
+      "categoria": "Accesorios",
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/58529.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_58529.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+    },
+    {
+      "id": "relive-0367",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA PD USB C a USB C 200cm 3A 60W Blanco",
+      "descripcion": "Cable de Datos ROCA PD USB C a USB C 200cm 3A 60W Blanco",
       "marca": "Roca Mobile",
       "precio": 165,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": "Accesorios/Cargadores de Pared/88486.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88486.jpg",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/70148.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70148.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     },
     {
-      "id": "relive-0177",
-      "codigo": "ACC001277",
-      "nombre": "Cargador Inteligente ROCA 2.1A 1 USB Lightning (RC-TC-L21)",
-      "descripcion": "Cargador Inteligente ROCA 2.1A 1 USB Lightning (RC-TC-L21)",
+      "id": "relive-0368",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA PD USB C a Lightning 200cm 3A 27W Blanco",
+      "descripcion": "Cable de Datos ROCA PD USB C a Lightning 200cm 3A 27W Blanco",
       "marca": "Roca Mobile",
-      "precio": 180,
+      "precio": 186,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": "Accesorios/Cargadores de Pared/58402.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_58402.jpg",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/56593.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56593.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     },
     {
-      "id": "relive-0178",
-      "codigo": "ACC006432",
-      "nombre": "Cargador Rápido ROCA USB QC3.0 USB C/PD 20W Sin Cable (RC-TC-C5)",
-      "descripcion": "Cargador Rápido ROCA USB QC3.0 USB C/PD 20W Sin Cable (RC-TC-C5)",
+      "id": "relive-0369",
+      "codigo": null,
+      "nombre": "Cargador Magnético W1 para iWatch ROCA USB C 2.5W",
+      "descripcion": "Cargador Magnético W1 para iWatch ROCA USB C 2.5W",
       "marca": "Roca Mobile",
-      "precio": 185,
+      "precio": 200,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": "Accesorios/Cargadores de Pared/70113.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70113.jpg",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/70015.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70015.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     },
     {
-      "id": "relive-0179",
-      "codigo": "ACC001281",
-      "nombre": "Cargador Inteligente ROCA 3.1A 2 USB microUSB",
-      "descripcion": "Cargador Inteligente ROCA 3.1A 2 USB microUSB",
+      "id": "relive-0370",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA Power Delivery USB C a USB C 200cm 100W Blanco",
+      "descripcion": "Cable de Datos ROCA Power Delivery USB C a USB C 200cm 100W Blanco",
       "marca": "Roca Mobile",
-      "precio": 205,
+      "precio": 200,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": "Accesorios/Cargadores de Pared/58398.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_58398.jpg",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/64310.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_64310.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     },
     {
-      "id": "relive-0180",
-      "codigo": "ACC014578",
-      "nombre": "Cargador ROCA 35W SuperFast 2 USB C Sin Cable",
-      "descripcion": "Cargador ROCA 35W SuperFast 2 USB C Sin Cable",
+      "id": "relive-0371",
+      "codigo": null,
+      "nombre": "Cable de Datos ROCA Power Delivery USB C a USB C 300cm 100W Blanco",
+      "descripcion": "Cable de Datos ROCA Power Delivery USB C a USB C 300cm 100W Blanco",
       "marca": "Roca Mobile",
-      "precio": 390,
+      "precio": 251,
       "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": null,
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_66105.jpg",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0181",
-      "codigo": "ACC020920",
-      "nombre": "Cargador ROCA 45W SuperFast 2 USB C Sin Cable",
-      "descripcion": "Cargador ROCA 45W SuperFast 2 USB C Sin Cable",
-      "marca": "Roca Mobile",
-      "precio": 450,
-      "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": null,
-      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0182",
-      "codigo": "ACC014579",
-      "nombre": "Cargador ROCA 65W SuperFast 2 USB C + 1 USB A Sin Cable",
-      "descripcion": "Cargador ROCA 65W SuperFast 2 USB C + 1 USB A Sin Cable",
-      "marca": "Roca Mobile",
-      "precio": 565,
-      "categoria": "Accesorios",
-      "subcategoria": "Cargadores pared",
-      "imagen": null,
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69282.jpg",
-      "fuentes_excel": [
-        "Accesorios/Cargadores pared.xlsx",
-        "Accesorios/Cargador de autos.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0183",
-      "codigo": "ACC020872",
-      "nombre": "Cargador para Smartwatch 4.0mm 2 pin Negro Genérico",
-      "descripcion": "Cargador para Smartwatch 4.0mm 2 pin Negro Genérico",
-      "marca": "1789851936-1",
-      "precio": 150,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_24_productos32_83359.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83359.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0184",
-      "codigo": "ACC020873",
-      "nombre": "Cargador para Smartwatch Mibro 2.54mm 2 pin Blanco Genérico",
-      "descripcion": "Cargador para Smartwatch Mibro 2.54mm 2 pin Blanco Genérico",
-      "marca": "1789851936-2",
-      "precio": 150,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_25_productos32_83348.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83348.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0185",
-      "codigo": "ACC020874",
-      "nombre": "Cargador para Smartwatch 2.54mm 4 pin Negro Genérico",
-      "descripcion": "Cargador para Smartwatch 2.54mm 4 pin Negro Genérico",
-      "marca": "1789851936-3",
-      "precio": 150,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_4_productos31_83351.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83351.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0186",
-      "codigo": "ACC020875",
-      "nombre": "Cargador para Smartwatch 2.54mm 4 pin Blanco Genérico",
-      "descripcion": "Cargador para Smartwatch 2.54mm 4 pin Blanco Genérico",
-      "marca": "1789851936-4",
-      "precio": 150,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_27_productos32_83350.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83350.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0187",
-      "codigo": "ACC020876",
-      "nombre": "Cargador para Smartwatch 7.62mm 2 pin Blanco Genérico",
-      "descripcion": "Cargador para Smartwatch 7.62mm 2 pin Blanco Genérico",
-      "marca": "1789851936-5",
-      "precio": 150,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_6_productos31_83352.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83352.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0188",
-      "codigo": "ACC020945",
-      "nombre": "Cargador para Smartwatch 2.54mm 2 pin Negro Genérico",
-      "descripcion": "Cargador para Smartwatch 2.54mm 2 pin Negro Genérico",
-      "marca": "1789851936-6",
-      "precio": 150,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_7_productos31_83349.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83349.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0189",
-      "codigo": "ACC019758",
-      "nombre": "Cargador de Smartwatch W26 Genérico",
-      "descripcion": "Cargador de Smartwatch W26 Genérico",
-      "marca": "1789851936-7",
-      "precio": 165,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_8_productos31_80223.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_80223.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0190",
-      "codigo": "ACC016441",
-      "nombre": "Correa Smartwatch Mibro 22mm Verde by Xiaomi",
-      "descripcion": "Correa Smartwatch Mibro 22mm Verde by Xiaomi",
-      "marca": "1789851936-8",
-      "precio": 350,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_31_productos32_83152.png",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83152.png",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0191",
-      "codigo": "ACC021726",
-      "nombre": "Correa Smartwatch Mibro 22mm Gris by Xiaomi",
-      "descripcion": "Correa Smartwatch Mibro 22mm Gris by Xiaomi",
-      "marca": "1789851936-9",
-      "precio": 350,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_32_productos32_86472.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86472.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0192",
-      "codigo": "SACC021777",
-      "nombre": "AS - Smartwatch XZZ-SW-02 Negro/Negro X-Lizzard - Con Detalle",
-      "descripcion": "AS - Smartwatch XZZ-SW-02 Negro/Negro X-Lizzard - Con Detalle",
-      "marca": "1789851936-10",
-      "precio": 540,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_33_productos32_88339.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88339.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0193",
-      "codigo": "ACC017441",
-      "nombre": "Smartwatch Mibro C4 2.01\" 289mAh Negro by Xiaomi",
-      "descripcion": "Smartwatch Mibro C4 2.01\" 289mAh Negro by Xiaomi",
-      "marca": "1789851936-11",
-      "precio": 1.4,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_12_productos31_72213.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72213.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0194",
-      "codigo": "ACC017442",
-      "nombre": "Smartwatch Mibro C4 2.01\" 289mAh Plateado by Xiaomi",
-      "descripcion": "Smartwatch Mibro C4 2.01\" 289mAh Plateado by Xiaomi",
-      "marca": "1789851936-12",
-      "precio": 1.4,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_35_productos32_72217.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72217.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0195",
-      "codigo": "ACC013099",
-      "nombre": "Smartwatch Mibro A2 1.39\" 350mAh Negro by Xiaomi",
-      "descripcion": "Smartwatch Mibro A2 1.39\" 350mAh Negro by Xiaomi",
-      "marca": "1789851936-13",
-      "precio": 1.48,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_36_productos32_61240.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_61240.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0196",
-      "codigo": "ACC018499",
-      "nombre": "Smartwatch Mibro A3 1.39\" 350mAh Mocha by Xiaomi",
-      "descripcion": "Smartwatch Mibro A3 1.39\" 350mAh Mocha by Xiaomi",
-      "marca": "1789851936-14",
-      "precio": 1.97,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_15_productos31_77173.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77173.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0197",
-      "codigo": "ACC017443",
-      "nombre": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Gris Oscuro by Xiaomi",
-      "descripcion": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Gris Oscuro by Xiaomi",
-      "marca": "1789851936-15",
-      "precio": 2.1,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_16_productos31_72208.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72208.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0198",
-      "codigo": "ACC017444",
-      "nombre": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Dorado by Xiaomi",
-      "descripcion": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Dorado by Xiaomi",
-      "marca": "1789851936-16",
-      "precio": 2.1,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_39_productos32_72210.jpg",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72210.jpg",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0199",
-      "codigo": "ACC016438",
-      "nombre": "Smartwatch Mibro GS Active 1.3\" 400mAh Blanco by Xiaomi",
-      "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Blanco by Xiaomi",
-      "marca": "1789851936-17",
-      "precio": 2.275,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_40_productos32_69411.png",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69411.png",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
-    },
-    {
-      "id": "relive-0200",
-      "codigo": "ACC016439",
-      "nombre": "Smartwatch Mibro GS Active 1.3\" 400mAh Gris by Xiaomi",
-      "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Gris by Xiaomi",
-      "marca": "1789851936-18",
-      "precio": 2.275,
-      "categoria": "Accesorios",
-      "subcategoria": "smartwatch",
-      "imagen": "Accesorios/smartwacht/imgi_41_productos32_69413.png",
-      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69413.png",
-      "fuentes_excel": [
-        "Accesorios/smartwatch.xlsx"
-      ]
+      "subcategoria": "Cables de datos Roca",
+      "imagen": "Accesorios/Cables de datos roca img/87753.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos31_87753.jpg",
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
     }
   ]
 }
