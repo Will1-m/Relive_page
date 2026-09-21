@@ -1,235 +1,57 @@
 doctype html
-html(lang='en')
-
-    head
-
-        meta(charset='utf-8')
-        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
-
-        title Shop Homepage - Start Bootstrap Template
-
-        // Favicon
-        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
-
-        // Bootstrap icons
-        link(href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css', rel='stylesheet')
-
-        // Core theme CSS (includes Bootstrap)
-        link(href='css/styles.css', rel='stylesheet')
-
-    body
-
-        // Navigation
-        nav.navbar.navbar-expand-lg.navbar-light.bg-light
-            .container.px-4.px-lg-5
-                a.navbar-brand(href='#!') Start Bootstrap
-                button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
-                    span.navbar-toggler-icon
-                #navbarSupportedContent.collapse.navbar-collapse
-                    ul.navbar-nav.me-auto.mb-2.mb-lg-0.ms-lg-4
-                        li.nav-item
-                            a.nav-link.active(aria-current='page' href='#!') Home
-                        li.nav-item
-                            a.nav-link(href='#!') About
-                        li.nav-item.dropdown
-                            a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false')
-                                | Shop
-                            ul.dropdown-menu(aria-labelledby='navbarDropdown')
-                                li
-                                    a.dropdown-item(href='#!') All Products
-                                li
-                                    hr.dropdown-divider
-                                li
-                                    a.dropdown-item(href='#!') Popular Items
-                                li
-                                    a.dropdown-item(href='#!') New Arrivals
-                    form.d-flex
-                        button.btn.btn-outline-dark(type='submit')
-                            i.bi-cart-fill.me-1
-                            | Cart
-                            span.badge.bg-dark.text-white.ms-1.rounded-pill 0
-
-        // Header
-        header.bg-dark.py-5
-            .container.px-4.px-lg-5.my-5
-                .text-center.text-white
-                    h1.display-4.fw-bolder Shop in style
-                    p.lead.fw-normal.text-white-50.mb-0 With this shop hompeage template
-
-        // Section
-        section.py-5
-            .container.px-4.px-lg-5.mt-5
-                .row.gx-4.gx-lg-5.row-cols-2.row-cols-md-3.row-cols-xl-4.justify-content-center
-                    .col.mb-5
-                        .card.h-100
-                            // Product image
-                            img.card-img-top(src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg', alt='...')
-                            // Product details
-                            .card-body.p-4
-                                .text-center
-                                    // Product name
-                                    h5.fw-bolder Fancy Product
-                                    // Product price
-                                    | $40.00 - $80.00
-                            // Product actions
-                            .card-footer.p-4.pt-0.border-top-0.bg-transparent
-                                .text-center
-                                    a.btn.btn-outline-dark.mt-auto(href='#') View options
-                    .col.mb-5
-                        .card.h-100
-                            // Sale badge
-                            .badge.bg-dark.text-white.position-absolute(style='top: 0.5rem; right: 0.5rem;') Sale
-                            // Product image
-                            img.card-img-top(src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg', alt='...')
-                            // Product details
-                            .card-body.p-4
-                                .text-center
-                                    // Product name
-                                    h5.fw-bolder Special Item
-                                    // Product reviews
-                                    .d-flex.justify-content-center.small.text-warning.mb-2
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                    // Product price
-                                    span.text-muted.text-decoration-line-through $20.00
-                                    | $18.00
-                            // Product actions
-                            .card-footer.p-4.pt-0.border-top-0.bg-transparent
-                                .text-center
-                                    a.btn.btn-outline-dark.mt-auto(href='#') Add to cart
-                    .col.mb-5
-                        .card.h-100
-                            // Sale badge
-                            .badge.bg-dark.text-white.position-absolute(style='top: 0.5rem; right: 0.5rem;') Sale
-                            // Product image
-                            img.card-img-top(src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg', alt='...')
-                            // Product details
-                            .card-body.p-4
-                                .text-center
-                                    // Product name
-                                    h5.fw-bolder Sale Item
-                                    // Product price
-                                    span.text-muted.text-decoration-line-through $50.00
-                                    | $25.00
-                            // Product actions
-                            .card-footer.p-4.pt-0.border-top-0.bg-transparent
-                                .text-center
-                                    a.btn.btn-outline-dark.mt-auto(href='#') Add to cart
-                    .col.mb-5
-                        .card.h-100
-                            // Product image
-                            img.card-img-top(src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg', alt='...')
-                            // Product details
-                            .card-body.p-4
-                                .text-center
-                                    // Product name
-                                    h5.fw-bolder Popular Item
-                                    // Product reviews
-                                    .d-flex.justify-content-center.small.text-warning.mb-2
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                    // Product price
-                                    | $40.00
-                            // Product actions
-                            .card-footer.p-4.pt-0.border-top-0.bg-transparent
-                                .text-center
-                                    a.btn.btn-outline-dark.mt-auto(href='#') Add to cart
-                    .col.mb-5
-                        .card.h-100
-                            // Sale badge
-                            .badge.bg-dark.text-white.position-absolute(style='top: 0.5rem; right: 0.5rem;') Sale
-                            // Product image
-                            img.card-img-top(src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg', alt='...')
-                            // Product details
-                            .card-body.p-4
-                                .text-center
-                                    // Product name
-                                    h5.fw-bolder Sale Item
-                                    // Product price
-                                    span.text-muted.text-decoration-line-through $50.00
-                                    | $25.00
-                            // Product actions
-                            .card-footer.p-4.pt-0.border-top-0.bg-transparent
-                                .text-center
-                                    a.btn.btn-outline-dark.mt-auto(href='#') Add to cart
-                    .col.mb-5
-                        .card.h-100
-                            // Product image
-                            img.card-img-top(src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg', alt='...')
-                            // Product details
-                            .card-body.p-4
-                                .text-center
-                                    // Product name
-                                    h5.fw-bolder Fancy Product
-                                    // Product price
-                                    | $120.00 - $280.00
-                            // Product actions
-                            .card-footer.p-4.pt-0.border-top-0.bg-transparent
-                                .text-center
-                                    a.btn.btn-outline-dark.mt-auto(href='#') View options
-                    .col.mb-5
-                        .card.h-100
-                            // Sale badge
-                            .badge.bg-dark.text-white.position-absolute(style='top: 0.5rem; right: 0.5rem;') Sale
-                            // Product image
-                            img.card-img-top(src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg', alt='...')
-                            // Product details
-                            .card-body.p-4
-                                .text-center
-                                    // Product name
-                                    h5.fw-bolder Special Item
-                                    // Product reviews
-                                    .d-flex.justify-content-center.small.text-warning.mb-2
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                    // Product price
-                                    span.text-muted.text-decoration-line-through $20.00
-                                    | $18.00
-                            // Product actions
-                            .card-footer.p-4.pt-0.border-top-0.bg-transparent
-                                .text-center
-                                    a.btn.btn-outline-dark.mt-auto(href='#') Add to cart
-                    .col.mb-5
-                        .card.h-100
-                            // Product image
-                            img.card-img-top(src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg', alt='...')
-                            // Product details
-                            .card-body.p-4
-                                .text-center
-                                    // Product name
-                                    h5.fw-bolder Popular Item
-                                    // Product reviews
-                                    .d-flex.justify-content-center.small.text-warning.mb-2
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                        .bi-star-fill
-                                    // Product price
-                                    | $40.00
-                            // Product actions
-                            .card-footer.p-4.pt-0.border-top-0.bg-transparent
-                                .text-center
-                                    a.btn.btn-outline-dark.mt-auto(href='#') Add to cart
-
-        // Footer
-        footer.py-5.bg-dark
-            .container
-                p.m-0.text-center.text-white Copyright &copy; Your Website 2023
-
-        // Bootstrap core JS
-        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
-
-        // Core theme JS
-        script(src='js/scripts.js')
+html(lang='es')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='Relive — catálogo de accesorios, informática y servicio técnico.')
+    title Relive — Catálogo
+    link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+    link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css', rel='stylesheet')
+    link(href='css/styles.css', rel='stylesheet')
+  body
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+      .container
+        a.navbar-brand.fw-bold(href='index.html') RELIVE
+        button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#nav')
+          span.navbar-toggler-icon
+        #nav.collapse.navbar-collapse
+          ul.navbar-nav.me-auto
+            li.nav-item: a.nav-link.active(href='index.html') Catálogo
+            li.nav-item: a.nav-link(href='cart.html') Carrito
+          span.navbar-text Productos: 
+            strong#contador-catalogo 0
+    header.bg-dark.text-white.py-5
+      .container
+        h1.display-5.fw-bold Catálogo Relive
+        p.lead.mb-0 Accesorios, informática y productos disponibles.
+    main.container.py-4
+      .row.g-3.mb-4
+        .col-lg-6
+          label.form-label(for='buscador') Buscar
+          input#buscador.form-control(type='search', placeholder='Producto, código, marca…', autocomplete='off')
+        .col-sm-6.col-lg-2
+          label.form-label(for='filtro-marca') Marca
+          select#filtro-marca.form-select: option(value='') Todas
+        .col-sm-6.col-lg-2
+          label.form-label(for='orden') Ordenar
+          select#orden.form-select
+            option(value='relevancia') Relevancia
+            option(value='precio-asc') Precio menor
+            option(value='precio-desc') Precio mayor
+            option(value='nombre') Nombre
+        .col-sm-6.col-lg-2.d-flex.align-items-end
+          a.btn.btn-outline-dark.w-100(href='cart.html') Ver carrito
+      #categorias-nav.d-flex.flex-wrap.gap-2.mb-3
+      #subcategorias-nav.d-flex.flex-wrap.gap-2.mb-4
+      .d-flex.justify-content-between.align-items-center.mb-3
+        p#resultado-info.text-muted.mb-0 Cargando catálogo…
+        select#por-pagina.form-select.form-select-sm(style='width:auto')
+          option(value='24') 24 por página
+          option(value='48') 48 por página
+          option(value='96') 96 por página
+      #grid-productos.row.g-4
+      nav.mt-4(aria-label='Paginación'): ul#paginacion.pagination.justify-content-center.flex-wrap
+    footer.bg-dark.text-white.py-4.mt-5
+      .container: p.mb-0.text-center © 2026 Relive · Pinamar, Canelones, Uruguay
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+    script(src='js/scripts.js')
