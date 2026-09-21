@@ -1,0 +1,371 @@
+{
+  "page": 7,
+  "per_page": 24,
+  "total": 371,
+  "productos": [
+    {
+      "id": "relive-0145",
+      "codigo": "ACC020760",
+      "nombre": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 - Negro",
+      "descripcion": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 - Negro",
+      "marca": "Apple",
+      "precio": 350,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_137_productos31_84177.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84177.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0146",
+      "codigo": "ACC020761",
+      "nombre": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 - Rosado",
+      "descripcion": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 - Rosado",
+      "marca": "Apple",
+      "precio": 350,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_138_productos31_84213.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84213.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0147",
+      "codigo": "ACC020762",
+      "nombre": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 Pro - Negro",
+      "descripcion": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 Pro - Negro",
+      "marca": "Apple",
+      "precio": 350,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_295_productos32_84190.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84190.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0148",
+      "codigo": "ACC020763",
+      "nombre": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 Pro - Rosado",
+      "descripcion": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 Pro - Rosado",
+      "marca": "Apple",
+      "precio": 350,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_140_productos31_84192.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84192.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0149",
+      "codigo": "ACC020764",
+      "nombre": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 Pro Max - Rosado",
+      "descripcion": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 Pro Max - Rosado",
+      "marca": "Apple",
+      "precio": 350,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_141_productos31_84191.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84191.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0150",
+      "codigo": "ACC020765",
+      "nombre": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 Pro Max - Negro",
+      "descripcion": "Case Compatible con Carga Magnética Soporte Apple iPhone 17 Pro Max - Negro",
+      "marca": "Apple",
+      "precio": 350,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_142_productos31_84189.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84189.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0151",
+      "codigo": "ACC020754",
+      "nombre": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 - Anaranjado",
+      "descripcion": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 - Anaranjado",
+      "marca": "Apple",
+      "precio": 400,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_143_productos31_84217.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84217.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0152",
+      "codigo": "ACC020755",
+      "nombre": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 - Negro",
+      "descripcion": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 - Negro",
+      "marca": "Apple",
+      "precio": 400,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_144_productos31_84218.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84218.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0153",
+      "codigo": "ACC020759",
+      "nombre": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 Pro Max - Negro",
+      "descripcion": "Case Compatible con Carga Magnética y Protector de Lens Apple iPhone 17 Pro Max - Negro",
+      "marca": "Apple",
+      "precio": 400,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_145_productos31_84215.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84215.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0154",
+      "codigo": "SACC021691",
+      "nombre": "AS - Case Apple iPad 10 Negro 10.9'' TPU Winya Series Azul BH838 USAMS - Con Detalle",
+      "descripcion": "AS - Case Apple iPad 10 Negro 10.9'' TPU Winya Series Azul BH838 USAMS - Con Detalle",
+      "marca": "USAMS",
+      "precio": 430,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_146_productos31_88332.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88332.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0155",
+      "codigo": "ACC018924",
+      "nombre": "Case Apple iPad Air 10 9'' Negro Winto Series Rosado BH654 USAMS",
+      "descripcion": "Case Apple iPad Air 10 9'' Negro Winto Series Rosado BH654 USAMS",
+      "marca": "Apple",
+      "precio": 470,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_147_productos31_78093.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78093.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0156",
+      "codigo": "ACC018925",
+      "nombre": "Case Apple iPad Air 10 9'' Negro Winto Series Lila BH654 USAMS",
+      "descripcion": "Case Apple iPad Air 10 9'' Negro Winto Series Lila BH654 USAMS",
+      "marca": "Apple",
+      "precio": 470,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_304_productos32_78091.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78091.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0157",
+      "codigo": "ACC019289",
+      "nombre": "Case Apple iPad Pro Negro 11'' TPU Winya Series Negro BH839 USAMS",
+      "descripcion": "Case Apple iPad Pro Negro 11'' TPU Winya Series Negro BH839 USAMS",
+      "marca": "USAMS",
+      "precio": 490,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_149_productos31_79170.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79170.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0158",
+      "codigo": "ACC018919",
+      "nombre": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Negro BH838 USAMS",
+      "descripcion": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Negro BH838 USAMS",
+      "marca": "USAMS",
+      "precio": 540,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_306_productos32_77638.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77638.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0159",
+      "codigo": "ACC018920",
+      "nombre": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Gris BH838 USAMS",
+      "descripcion": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Gris BH838 USAMS",
+      "marca": "USAMS",
+      "precio": 540,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_307_productos32_77644.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77644.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0160",
+      "codigo": "ACC018921",
+      "nombre": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Lila BH838 USAMS",
+      "descripcion": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Lila BH838 USAMS",
+      "marca": "USAMS",
+      "precio": 540,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_308_productos32_78085.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78085.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0161",
+      "codigo": "ACC018923",
+      "nombre": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Azul BH838 USAMS",
+      "descripcion": "Case Apple iPad 10 Negro 10.9'' TPU Winya Series Azul BH838 USAMS",
+      "marca": "USAMS",
+      "precio": 540,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_153_productos31_78089.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78089.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0162",
+      "codigo": "ACC019292",
+      "nombre": "Case Apple iPad Pro Negro 11'' Winron Series Negro BH842 USAMS",
+      "descripcion": "Case Apple iPad Pro Negro 11'' Winron Series Negro BH842 USAMS",
+      "marca": "USAMS",
+      "precio": 590,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_310_productos32_79183.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79183.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0163",
+      "codigo": "ACC005211",
+      "nombre": "Case Apple iPad Air 10 9'' Negro Winto Series Negro BH654 USAMS",
+      "descripcion": "Case Apple iPad Air 10 9'' Negro Winto Series Negro BH654 USAMS",
+      "marca": "Apple",
+      "precio": 680,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_311_productos32_80335.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_80335.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0164",
+      "codigo": "ACC019290",
+      "nombre": "Case Apple iPad Pro Negro 12.9'' Winron Series Negro BH840 USAMS",
+      "descripcion": "Case Apple iPad Pro Negro 12.9'' Winron Series Negro BH840 USAMS",
+      "marca": "USAMS",
+      "precio": 790,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79173.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0165",
+      "codigo": "ACC011870",
+      "nombre": "Cargador Auto ROCA para Apple iPhone 2/3G/3Gs/4G/4Gs",
+      "descripcion": "Cargador Auto ROCA para Apple iPhone 2/3G/3Gs/4G/4Gs",
+      "marca": "Roca Mobile",
+      "precio": 40,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0166",
+      "codigo": "ACC011228",
+      "nombre": "Cargador ROCA 2.0A 1 USB Sin Cable (RC-TC-20)",
+      "descripcion": "Cargador ROCA 2.0A 1 USB Sin Cable (RC-TC-20)",
+      "marca": "Roca Mobile",
+      "precio": 85,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57516.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0167",
+      "codigo": "ACC010766",
+      "nombre": "Cargador Inteligente Auto ROCA 20W USB C/PD (sin Cable)",
+      "descripcion": "Cargador Inteligente Auto ROCA 20W USB C/PD (sin Cable)",
+      "marca": "Roca Mobile",
+      "precio": 90,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": "Accesorios/Cargadores de Pared/58388.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_58388.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0168",
+      "codigo": "ACC001272",
+      "nombre": "Cargador Inteligente Auto ROCA 3.1A 2 USB Sin Cable",
+      "descripcion": "Cargador Inteligente Auto ROCA 3.1A 2 USB Sin Cable",
+      "marca": "Roca Mobile",
+      "precio": 100,
+      "categoria": "Accesorios",
+      "subcategoria": "Cargadores pared",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_53058.jpg",
+      "fuentes_excel": [
+        "Accesorios/Cargadores pared.xlsx",
+        "Accesorios/Cargador de autos.xlsx"
+      ]
+    }
+  ]
+}
