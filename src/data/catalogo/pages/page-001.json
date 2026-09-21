@@ -1,0 +1,756 @@
+{
+  "pagina": 1,
+  "total_paginas": 8,
+  "productos": [
+    {
+      "id": "relive-0001",
+      "codigo": "ACC013295",
+      "nombre": "Fiber TPU Nokia C01 Plus - Negro",
+      "descripcion": "Fiber TPU Nokia C01 Plus - Negro",
+      "marca": "Nokia",
+      "precio": 10,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0002",
+      "codigo": "ACC013296",
+      "nombre": "Fiber TPU Nokia G11 Plus - Negro",
+      "descripcion": "Fiber TPU Nokia G11 Plus - Negro",
+      "marca": "Nokia",
+      "precio": 10,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0003",
+      "codigo": "ACC007669",
+      "nombre": "2in1 NSC Motorola XT2097/E7i Power - Negro",
+      "descripcion": "2in1 NSC Motorola XT2097/E7i Power - Negro",
+      "marca": "Motorola",
+      "precio": 50,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0004",
+      "codigo": "ACC015469",
+      "nombre": "Case 2in1 NSC Samsung A355/A35 Negro",
+      "descripcion": "Case 2in1 NSC Samsung A355/A35 Negro",
+      "marca": "Samsung",
+      "precio": 50,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_3_productos31_75652.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75652.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0005",
+      "codigo": "ACC016293",
+      "nombre": "Case 2in1 NSC Motorola G84 - Negro",
+      "descripcion": "Case 2in1 NSC Motorola G84 - Negro",
+      "marca": "Motorola",
+      "precio": 50,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_160_productos32_69724.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69724.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0006",
+      "codigo": "ACC016965",
+      "nombre": "Case 2in1 NSC Motorola G85 - Negro",
+      "descripcion": "Case 2in1 NSC Motorola G85 - Negro",
+      "marca": "Motorola",
+      "precio": 50,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_161_productos32_75431.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75431.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0007",
+      "codigo": "ACC018028",
+      "nombre": "Case 2in1 NSC Motorola E15 - Negro",
+      "descripcion": "Case 2in1 NSC Motorola E15 - Negro",
+      "marca": "Motorola",
+      "precio": 50,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_162_productos32_75606.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75606.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0008",
+      "codigo": "ACC019385",
+      "nombre": "Case 2in1 NSC Xiaomi 15 Negro",
+      "descripcion": "Case 2in1 NSC Xiaomi 15 Negro",
+      "marca": "Xiaomi",
+      "precio": 50,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_7_productos31_84205.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84205.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0009",
+      "codigo": "ACC019655",
+      "nombre": "Case 2in1 NSC Motorola G56 - Negro",
+      "descripcion": "Case 2in1 NSC Motorola G56 - Negro",
+      "marca": "Motorola",
+      "precio": 50,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_164_productos32_84204.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84204.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0010",
+      "codigo": "ACC019403",
+      "nombre": "TPU Case Apple iPhone 17 - Transparente",
+      "descripcion": "TPU Case Apple iPhone 17 - Transparente",
+      "marca": "Apple",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_9_productos31_83151.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83151.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0011",
+      "codigo": "ACC019405",
+      "nombre": "TPU Case Apple iPhone 17 Pro - Transparente",
+      "descripcion": "TPU Case Apple iPhone 17 Pro - Transparente",
+      "marca": "Apple",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_10_productos31_83149.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83149.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0012",
+      "codigo": "ACC019406",
+      "nombre": "TPU Case Apple iPhone 17 Pro Max - Transparente",
+      "descripcion": "TPU Case Apple iPhone 17 Pro Max - Transparente",
+      "marca": "Apple",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_167_productos32_80116.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_80116.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0013",
+      "codigo": "ACC021532",
+      "nombre": "TPU Case Samsung A06 - Transparente",
+      "descripcion": "TPU Case Samsung A06 - Transparente",
+      "marca": "Samsung",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_12_productos31_86910.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86910.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0014",
+      "codigo": "ACC021533",
+      "nombre": "TPU Case Samsung A16 - Transparente",
+      "descripcion": "TPU Case Samsung A16 - Transparente",
+      "marca": "Samsung",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_169_productos32_86911.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86911.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0015",
+      "codigo": "ACC021534",
+      "nombre": "TPU Case Samsung A26- Transparente",
+      "descripcion": "TPU Case Samsung A26- Transparente",
+      "marca": "Samsung",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_170_productos32_86912.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86912.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0016",
+      "codigo": "ACC022328",
+      "nombre": "TPU Case Honor 400 - Transparente",
+      "descripcion": "TPU Case Honor 400 - Transparente",
+      "marca": "Huawei",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_15_productos31_88561.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88561.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0017",
+      "codigo": "ACC022329",
+      "nombre": "TPU Case Xiaomi 15 - Transparente",
+      "descripcion": "TPU Case Xiaomi 15 - Transparente",
+      "marca": "Huawei",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_172_productos32_88575.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88575.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0018",
+      "codigo": "ACC022330",
+      "nombre": "TPU Case Xiaomi 15C - Transparente",
+      "descripcion": "TPU Case Xiaomi 15C - Transparente",
+      "marca": "Huawei",
+      "precio": 60,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_17_productos31_88577.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88577.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0019",
+      "codigo": "ACC018449",
+      "nombre": "JD Case c/Anillo Soporte Apple iPhone 16 Plus - Gris",
+      "descripcion": "JD Case c/Anillo Soporte Apple iPhone 16 Plus - Gris",
+      "marca": "Apple",
+      "precio": 90,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_174_productos32_77965.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77965.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0020",
+      "codigo": "ACC018451",
+      "nombre": "JD Case c/Anillo Soporte Apple iPhone 16 Plus - Azul",
+      "descripcion": "JD Case c/Anillo Soporte Apple iPhone 16 Plus - Azul",
+      "marca": "Apple",
+      "precio": 90,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_175_productos32_77975.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77975.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0021",
+      "codigo": "ACC018461",
+      "nombre": "Case c/Anillo Soporte Samsung S24 Plus/S25 Plus - Gris",
+      "descripcion": "Case c/Anillo Soporte Samsung S24 Plus/S25 Plus - Gris",
+      "marca": "Samsung",
+      "precio": 90,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_20_productos31_77969.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77969.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0022",
+      "codigo": "ACC019404",
+      "nombre": "TPU Case Apple iPhone 17 Air - Transparente",
+      "descripcion": "TPU Case Apple iPhone 17 Air - Transparente",
+      "marca": "Apple",
+      "precio": 90,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_21_productos31_80114.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_80114.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0023",
+      "codigo": "ACC013716",
+      "nombre": "Case Apple iPhone 15 Plus 6.7\" Primary Series Transparente BH853 USAMS",
+      "descripcion": "Case Apple iPhone 15 Plus 6.7\" Primary Series Transparente BH853 USAMS",
+      "marca": "USAMS",
+      "precio": 99,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_22_productos31_61469.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_61469.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0024",
+      "codigo": "ACC016853",
+      "nombre": "Case Apple iPhone 16 6.1\" TPU Transparente Primary Series BH885 USAMS",
+      "descripcion": "Case Apple iPhone 16 6.1\" TPU Transparente Primary Series BH885 USAMS",
+      "marca": "USAMS",
+      "precio": 99,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_23_productos31_70901.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70901.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0025",
+      "codigo": "ACC016854",
+      "nombre": "Case Apple iPhone 16 Pro 6.3\" TPU Transparente Primary Series BH886 USAMS",
+      "descripcion": "Case Apple iPhone 16 Pro 6.3\" TPU Transparente Primary Series BH886 USAMS",
+      "marca": "USAMS",
+      "precio": 99,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_24_productos31_70899.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70899.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0026",
+      "codigo": "ACC016855",
+      "nombre": "Case Apple iPhone 16 Plus 6.7\" TPU Transparente Primary Series BH887 USAMS",
+      "descripcion": "Case Apple iPhone 16 Plus 6.7\" TPU Transparente Primary Series BH887 USAMS",
+      "marca": "USAMS",
+      "precio": 99,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_181_productos32_70897.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70897.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0027",
+      "codigo": "ACC007638",
+      "nombre": "Case 2in1 NSC Apple iPhone 14 - Negro",
+      "descripcion": "Case 2in1 NSC Apple iPhone 14 - Negro",
+      "marca": "Apple",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_26_productos31_70054.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70054.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0028",
+      "codigo": "ACC009297",
+      "nombre": "Muestras de cables - Varios modelos/colores",
+      "descripcion": "Muestras de cables - Varios modelos/colores",
+      "marca": "Genérico",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": null,
+      "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0029",
+      "codigo": "ACC015961",
+      "nombre": "Case 2in1 NSC Samsung A355/A35 Azul",
+      "descripcion": "Case 2in1 NSC Samsung A355/A35 Azul",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_183_productos32_75434.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75434.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0030",
+      "codigo": "ACC016285",
+      "nombre": "Case 2in1 NSC Apple iPhone 15 - Negro",
+      "descripcion": "Case 2in1 NSC Apple iPhone 15 - Negro",
+      "marca": "Apple",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_28_productos31_69725.png",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69725.png",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0031",
+      "codigo": "ACC017698",
+      "nombre": "Case 2in1 NSC Apple iPhone 16 - Negro",
+      "descripcion": "Case 2in1 NSC Apple iPhone 16 - Negro",
+      "marca": "Apple",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_185_productos32_75439.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75439.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0032",
+      "codigo": "ACC017854",
+      "nombre": "Case 2in1 NSC Samsung A366/A36 - Negro",
+      "descripcion": "Case 2in1 NSC Samsung A366/A36 - Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_30_productos31_75444.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75444.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0033",
+      "codigo": "ACC017855",
+      "nombre": "Case 2in1 NSC Samsung A366/A36 - Azul",
+      "descripcion": "Case 2in1 NSC Samsung A366/A36 - Azul",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_187_productos32_75445.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75445.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0034",
+      "codigo": "ACC017856",
+      "nombre": "Case 2in1 NSC Samsung A366/A36 - Rojo",
+      "descripcion": "Case 2in1 NSC Samsung A366/A36 - Rojo",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_32_productos31_75446.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75446.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0035",
+      "codigo": "ACC017857",
+      "nombre": "Case 2in1 NSC Samsung A26 - Negro",
+      "descripcion": "Case 2in1 NSC Samsung A26 - Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_189_productos32_83145.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83145.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0036",
+      "codigo": "ACC017858",
+      "nombre": "Case 2in1 NSC Samsung A26 - Azul",
+      "descripcion": "Case 2in1 NSC Samsung A26 - Azul",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_190_productos32_75448.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75448.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0037",
+      "codigo": "ACC017859",
+      "nombre": "Case 2in1 NSC Samsung A26 - Rojo",
+      "descripcion": "Case 2in1 NSC Samsung A26 - Rojo",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_191_productos32_75449.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75449.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0038",
+      "codigo": "ACC017860",
+      "nombre": "Case 2in1 NSC Samsung A566/A56 - Negro",
+      "descripcion": "Case 2in1 NSC Samsung A566/A56 - Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_192_productos32_75450.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75450.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0039",
+      "codigo": "ACC017861",
+      "nombre": "Case 2in1 NSC Samsung A566/A56 - Azul",
+      "descripcion": "Case 2in1 NSC Samsung A566/A56 - Azul",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_193_productos32_75451.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75451.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0040",
+      "codigo": "ACC017862",
+      "nombre": "Case 2in1 NSC Samsung A566/A56 - Rojo",
+      "descripcion": "Case 2in1 NSC Samsung A566/A56 - Rojo",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_38_productos31_75610.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75610.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0041",
+      "codigo": "ACC017863",
+      "nombre": "Case 2in1 NSC Xiaomi Note 14 5G - Negro",
+      "descripcion": "Case 2in1 NSC Xiaomi Note 14 5G - Negro",
+      "marca": "Xiaomi",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_39_productos31_75452.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75452.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0042",
+      "codigo": "ACC017865",
+      "nombre": "Case 2in1 NSC Xiaomi Redmi 14C - Negro",
+      "descripcion": "Case 2in1 NSC Xiaomi Redmi 14C - Negro",
+      "marca": "Xiaomi",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_40_productos31_75468.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75468.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0043",
+      "codigo": "ACC017867",
+      "nombre": "Case 2in1 NSC Motorola G05 - Negro",
+      "descripcion": "Case 2in1 NSC Motorola G05 - Negro",
+      "marca": "Motorola",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_197_productos32_75470.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75470.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0044",
+      "codigo": "ACC017642",
+      "nombre": "Case 2in1 NSC Samsung S25 - Negro",
+      "descripcion": "Case 2in1 NSC Samsung S25 - Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_198_productos32_75438.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75438.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0045",
+      "codigo": "ACC017633",
+      "nombre": "Case 2in1 NSC Samsung A16 - Negro",
+      "descripcion": "Case 2in1 NSC Samsung A16 - Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_43_productos31_75650.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75650.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0046",
+      "codigo": "ACC017471",
+      "nombre": "Case 2in1 NSC Samsung A065/A06 4G - Negro",
+      "descripcion": "Case 2in1 NSC Samsung A065/A06 4G - Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_200_productos32_75762.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75762.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0047",
+      "codigo": "ACC017695",
+      "nombre": "2in1 NSC Samsung S24 FE - Negro",
+      "descripcion": "2in1 NSC Samsung S24 FE - Negro",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_45_productos31_75657.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_75657.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0048",
+      "codigo": "ACC018433",
+      "nombre": "Case 2in1 NSC Motorola G75 - Negro",
+      "descripcion": "Case 2in1 NSC Motorola G75 - Negro",
+      "marca": "Motorola",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_202_productos32_77758.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77758.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0049",
+      "codigo": "ACC017470",
+      "nombre": "Case 2in1 NSC Samsung A06 - Azul",
+      "descripcion": "Case 2in1 NSC Samsung A06 - Azul",
+      "marca": "Samsung",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_203_productos32_77765.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77765.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    },
+    {
+      "id": "relive-0050",
+      "codigo": "ACC018801",
+      "nombre": "Case 2in1 NSC Apple iPhone 16e - Negro",
+      "descripcion": "Case 2in1 NSC Apple iPhone 16e - Negro",
+      "marca": "Apple",
+      "precio": 120,
+      "categoria": "Accesorios",
+      "subcategoria": "fundas y estuches",
+      "imagen": "Accesorios/fundas y estuches/imgi_48_productos31_80155.jpg",
+      "imagen_url": "https://www.mancru.com/imgs/productos/productos32_80155.jpg",
+      "fuentes_excel": [
+        "Accesorios/fundas y estuches.xlsx"
+      ]
+    }
+  ]
+}
