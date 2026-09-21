@@ -1,0 +1,29 @@
+name: Actualizar catálogo Relive
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 6 * * *'
+permissions:
+  contents: write
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - name: Actualizar fuente
+        env:
+          CATALOG_SOURCE_URL: ${{ secrets.CATALOG_SOURCE_URL }}
+        run: node scripts/update-catalog.js
+      - name: Regenerar catálogo
+        run: npm run build:catalog
+      - name: Publicar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data dist/productos_relive.json dist/catalogo
+          git diff --cached --quiet || git commit -m "Actualizar precios y stock del catálogo"
+          git push
