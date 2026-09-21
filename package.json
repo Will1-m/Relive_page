@@ -1,7 +1,7 @@
 {
-    "title": "Relive",
-    "name": "relive-page",
-    "version": "1.0.0",
+    "title": "Shop Homepage",
+    "name": "startbootstrap-shop-homepage",
+    "version": "5.0.6",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:catalog && npm run build:assets",
         "build:catalog": "node scripts/build-catalog.js",
@@ -13,7 +13,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "Catálogo y tienda estática de Relive",
+    "description": "A shop homepage HTML template built with Bootstrap",
     "license": "MIT",
     "dependencies": {
         "bootstrap": "5.2.3"
