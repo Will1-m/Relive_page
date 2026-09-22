@@ -300,9 +300,91 @@ footer.bg-dark {
 }
 
 @media (max-width: 768px) {
+  .navbar .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
   .relive-logo {
     width: 44px;
     height: 44px;
+  }
+
+  header.bg-dark {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+  header h1.display-5 {
+    font-size: 2rem;
+  }
+
+  header .lead {
+    font-size: 1rem;
+  }
+
+  .offer-panel-content {
+    padding: 1rem;
+  }
+
+  .offer-panel-content > .d-flex {
+    align-items: flex-start !important;
+  }
+
+  .offer-panel-content #limpiar-ofertas {
+    width: 100%;
+  }
+
+  .offer-card img {
+    height: 180px;
+  }
+
+  .offer-card-body h3 {
+    font-size: 1rem;
+  }
+
+  .offer-carousel > .d-flex button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .offer-brands {
+    overflow-x: auto;
+    flex-wrap: nowrap !important;
+    padding-bottom: 0.35rem;
+  }
+
+  .offer-brands .btn {
+    flex: 0 0 auto;
+  }
+
+  .input-group #buscar-btn {
+    min-width: 92px;
+  }
+
+  #categorias-nav,
+  #subcategorias-nav {
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    padding-bottom: 0.35rem;
+  }
+
+  #categorias-nav .btn,
+  #subcategorias-nav .btn {
+    flex: 0 0 auto;
+  }
+
+  #grid-productos > .col {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  #resultado-info {
+    max-width: 65%;
+  }
+
+  #por-pagina {
+    min-width: 8rem;
   }
 
   .card {

@@ -1,3 +1,44 @@
+# Relive
+
+Catálogo web estático de productos Relive, generado con Pug, SCSS y JavaScript.
+
+## Publicar en GitHub Pages
+
+El workflow `.github/workflows/deploy-pages.yml` construye `dist` y lo publica automáticamente cada vez que hay un push a `main`.
+
+Para activarlo en el repositorio:
+
+1. Sube el proyecto a GitHub y asegúrate de usar la rama `main`.
+2. En **Settings > Pages**, selecciona **GitHub Actions** como fuente de publicación.
+3. Ejecuta el workflow desde **Actions > Publicar Relive en GitHub Pages**, o haz un push a `main`.
+
+La URL tendrá este formato:
+
+```text
+https://TU_USUARIO.github.io/NOMBRE_DEL_REPOSITORIO/
+```
+
+El sitio publicado corresponde al contenido generado en `dist`. Para probar el build localmente:
+
+```bash
+npm ci
+npm run build
+```
+
+## Desarrollo local
+
+```bash
+npm start
+```
+
+El catálogo se genera a partir de `src/data` y las plantillas están en `src/pug`.
+
+## Licencia
+
+Este proyecto conserva la licencia MIT incluida en [LICENSE](LICENSE).
+
+<!--
+
 # [Start Bootstrap - Shop Homepage](https://startbootstrap.com/template/shop-homepage/)
 
 [Shop Homepage](https://startbootstrap.com/template/shop-homepage/) is a basic HTML online store homepage template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
@@ -67,3 +108,4 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 ## Copyright and License
 
 Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE) license.
+-->
