@@ -11,24 +11,41 @@ html(lang='es')
   body
     nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
       .container
-        a.navbar-brand.fw-bold(href='index.html') RELIVE
+        a.navbar-brand.relive-brand.fw-bold(href='index.html' aria-label='Relive, inicio')
+          img.relive-logo(src='assets/logo.webp' alt='Relive')
+          span.visually-hidden RELIVE
         button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#nav')
           span.navbar-toggler-icon
         #nav.collapse.navbar-collapse
           ul.navbar-nav.me-auto
             li.nav-item: a.nav-link.active(href='index.html') Catálogo
             li.nav-item: a.nav-link(href='cart.html') Carrito
-          span.navbar-text Productos: 
-            strong#contador-catalogo 0
     header.bg-dark.text-white.py-5
       .container
         h1.display-5.fw-bold Catálogo Relive
         p.lead.mb-0 Accesorios, informática y productos disponibles.
     main.container.py-4
+      section#ofertas-panel.offer-panel.mb-4(aria-labelledby='ofertas-titulo')
+        .offer-panel-content
+          .d-flex.flex-wrap.justify-content-between.align-items-center.gap-3
+            div
+              span.offer-kicker Selección de temporada
+              h2#ofertas-titulo.h3.mb-1 Ofertas por marca
+              p#ofertas-info.mb-0 Buscando promociones disponibles…
+            button#limpiar-ofertas.btn.btn-outline-light(type='button' hidden) Ver ofertas en catálogo
+          .offer-carousel.mt-4
+            #ofertas-productos.offer-products.row.g-3
+            .d-flex.justify-content-between.align-items-center.mt-3
+              button#ofertas-anterior.btn.btn-sm.btn-outline-light(type='button' aria-label='Oferta anterior') ←
+              #ofertas-paginacion.offer-pagination.d-flex.gap-2(aria-label='Paginación de ofertas')
+              button#ofertas-siguiente.btn.btn-sm.btn-outline-light(type='button' aria-label='Oferta siguiente') →
+          #ofertas-marcas.offer-brands.d-flex.flex-wrap.gap-2.mt-3
       .row.g-3.mb-4
         .col-lg-6
           label.form-label(for='buscador') Buscar
-          input#buscador.form-control(type='search', placeholder='Producto, código, marca…', autocomplete='off')
+          .input-group
+            input#buscador.form-control(type='search', placeholder='Producto, código, marca…', autocomplete='off')
+            button#buscar-btn.btn.btn-dark(type='button') Buscar
         .col-sm-6.col-lg-2
           label.form-label(for='filtro-marca') Marca
           select#filtro-marca.form-select: option(value='') Todas

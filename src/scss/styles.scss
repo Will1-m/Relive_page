@@ -1,7 +1,315 @@
 @import "bootstrap/scss/bootstrap.scss";
-:root{--relive-orange:#ff6600}
-body{background:#fff}
-.card{border:0}
-.card img{background:#fff}
-.btn-dark{background:#111;border-color:#111}
-.btn-dark:hover{background:#ff6600;border-color:#ff6600}
+
+:root {
+  --relive-cedar: #a65332;
+  --relive-cedar-light: #c8784f;
+  --relive-cedar-dark: #713522;
+  --relive-fire: #f05a16;
+  --relive-gold: #ffc85a;
+  --relive-charcoal: #100b08;
+  --relive-dark: #241510;
+  --relive-soft: #fbf5f1;
+  --relive-border: #ead9d0;
+  --relive-text: #2b1b16;
+}
+
+body {
+  background: linear-gradient(180deg, #fff 0%, var(--relive-soft) 100%);
+  color: var(--relive-text);
+}
+
+.navbar.bg-dark,
+header.bg-dark,
+footer.bg-dark {
+  background: #000 !important;
+}
+
+.navbar {
+  box-shadow: none;
+}
+
+.navbar-brand {
+  letter-spacing: 0.08em;
+}
+
+.relive-brand {
+  display: inline-flex;
+  align-items: center;
+  min-height: 52px;
+}
+
+.relive-logo {
+  width: 52px;
+  height: 52px;
+  aspect-ratio: 1;
+  border-radius: 0.7rem;
+  object-fit: contain;
+  background: #000;
+  box-shadow: 0 0 18px rgba(240, 90, 22, 0.45), inset 0 0 14px rgba(255, 224, 180, 0.2);
+}
+
+.offer-panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  color: #fff;
+  background: var(--relive-charcoal);
+  background-image:
+    radial-gradient(circle at 82% 28%, rgba(240, 90, 22, 0.42), transparent 31%),
+    linear-gradient(125deg, #100b08 0%, #3c150b 45%, #170906 100%);
+  box-shadow: 0 12px 28px rgba(240, 90, 22, 0.22);
+  isolation: isolate;
+}
+
+.offer-panel::after {
+  position: absolute;
+  inset: -50% -10%;
+  z-index: -1;
+  content: '';
+  background: linear-gradient(115deg, transparent 35%, rgba(255, 200, 90, 0.32) 48%, transparent 58%);
+  transform: translateX(-60%);
+  animation: cedar-shine 7s ease-in-out infinite;
+}
+
+.offer-panel-content {
+  padding: 1.5rem;
+  background: repeating-linear-gradient(168deg, rgba(95, 24, 7, 0.3) 0 2px, rgba(240, 90, 22, 0.1) 2px 5px, rgba(255, 200, 90, 0.06) 5px 7px, transparent 7px 11px);
+}
+
+.offer-kicker {
+  display: block;
+  color: var(--relive-gold);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.offer-brands .btn {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.55);
+}
+
+.offer-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 0.8rem;
+  background: rgba(35, 10, 5, 0.62);
+  box-shadow: 0 8px 18px rgba(40, 12, 5, 0.2);
+}
+
+.offer-card > a {
+  display: block;
+  background: #fff;
+}
+
+.offer-card img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  padding: 0.65rem;
+  object-fit: contain;
+}
+
+.offer-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.85rem;
+}
+
+.offer-card-body small,
+.offer-card-body h3,
+.offer-card-body strong,
+.offer-previous-price {
+  color: #fff;
+}
+
+.offer-card-body h3 {
+  display: -webkit-box;
+  min-height: 2.6em;
+  margin: 0;
+  overflow: hidden;
+  font-size: 0.95rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.offer-card-body strong {
+  font-size: 1.1rem;
+}
+
+.offer-add {
+  align-self: flex-start;
+  margin-top: auto;
+  color: var(--relive-cedar-dark);
+}
+
+.offer-pagination {
+  min-height: 0.75rem;
+}
+
+.offer-dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  background: transparent;
+}
+
+.offer-dot.active {
+  background: #fff;
+}
+
+.offer-badge {
+  position: absolute;
+  z-index: 1;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--relive-fire);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+@keyframes cedar-shine {
+  0%, 45% { transform: translateX(-60%); }
+  70%, 100% { transform: translateX(60%); }
+}
+
+.card {
+  border: 1px solid var(--relive-border);
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(17, 17, 17, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.product-card-image {
+  width: 100%;
+  height: 210px;
+  padding: 12px;
+  object-fit: contain;
+  display: block;
+}
+
+.product-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.product-card-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px rgba(17, 17, 17, 0.08);
+}
+
+.card img {
+  background: #fff;
+  border-radius: 0.85rem 0.85rem 0 0;
+}
+
+.btn {
+  transition: all 0.2s ease;
+}
+
+.btn-dark {
+  background: var(--relive-cedar);
+  border-color: var(--relive-cedar);
+  background-image:
+    linear-gradient(112deg, rgba(255, 224, 180, 0.18), transparent 27%, rgba(74, 24, 10, 0.18) 72%),
+    repeating-linear-gradient(166deg, rgba(64, 18, 7, 0.14) 0 2px, rgba(227, 137, 93, 0.08) 2px 5px, transparent 5px 9px);
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  background: var(--relive-cedar-dark);
+  border-color: var(--relive-cedar-dark);
+  background-image:
+    linear-gradient(112deg, rgba(255, 231, 192, 0.28), transparent 35%, rgba(42, 10, 3, 0.2) 100%),
+    repeating-linear-gradient(166deg, rgba(64, 18, 7, 0.18) 0 2px, rgba(227, 137, 93, 0.1) 2px 5px, transparent 5px 9px);
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus {
+  background: var(--relive-cedar);
+  border-color: var(--relive-cedar);
+  color: #fff;
+}
+
+.btn-outline-dark {
+  color: var(--relive-cedar-dark);
+  border-color: var(--relive-cedar);
+}
+
+.navbar .nav-link,
+.navbar .navbar-text,
+header.bg-dark,
+footer.bg-dark {
+  text-shadow: 0 1px 2px rgba(34, 10, 3, 0.45);
+}
+
+.page-item.active .page-link,
+.page-link:hover,
+.page-link:focus {
+  background-color: var(--relive-cedar);
+  border-color: var(--relive-cedar);
+  color: #fff;
+}
+
+#categorias-nav,
+#subcategorias-nav {
+  gap: 0.5rem;
+}
+
+#categorias-nav .btn,
+#subcategorias-nav .btn {
+  margin-bottom: 0.2rem;
+}
+
+.page-link {
+  border-radius: 0.5rem;
+}
+
+.alert {
+  border-radius: 1rem;
+}
+
+.form-control,
+.form-select {
+  border-radius: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .relive-logo {
+    width: 44px;
+    height: 44px;
+  }
+
+  .card {
+    border-radius: 0.9rem;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+}

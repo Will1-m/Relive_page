@@ -2773,7 +2773,7 @@
       "codigo": "ACC020873",
       "nombre": "Cargador para Smartwatch Mibro 2.54mm 2 pin Blanco Genérico",
       "descripcion": "Cargador para Smartwatch Mibro 2.54mm 2 pin Blanco Genérico",
-      "marca": "1789851936-2",
+      "marca": "Mibro",
       "precio": 150,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -2781,7 +2781,9 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83348.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 172.5
     },
     {
       "id": "relive-0185",
@@ -2863,7 +2865,7 @@
       "codigo": "ACC016441",
       "nombre": "Correa Smartwatch Mibro 22mm Verde by Xiaomi",
       "descripcion": "Correa Smartwatch Mibro 22mm Verde by Xiaomi",
-      "marca": "1789851936-8",
+      "marca": "Mibro",
       "precio": 350,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -2871,14 +2873,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83152.png",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 402.5
     },
     {
       "id": "relive-0191",
       "codigo": "ACC021726",
       "nombre": "Correa Smartwatch Mibro 22mm Gris by Xiaomi",
       "descripcion": "Correa Smartwatch Mibro 22mm Gris by Xiaomi",
-      "marca": "1789851936-9",
+      "marca": "Mibro",
       "precio": 350,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -2886,14 +2890,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86472.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 402.5
     },
     {
       "id": "relive-0192",
       "codigo": "SACC021777",
       "nombre": "AS - Smartwatch XZZ-SW-02 Negro/Negro X-Lizzard - Con Detalle",
       "descripcion": "AS - Smartwatch XZZ-SW-02 Negro/Negro X-Lizzard - Con Detalle",
-      "marca": "1789851936-10",
+      "marca": "X-Lizzard",
       "precio": 540,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -2901,14 +2907,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88339.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 621
     },
     {
       "id": "relive-0193",
       "codigo": "ACC017441",
       "nombre": "Smartwatch Mibro C4 2.01\" 289mAh Negro by Xiaomi",
       "descripcion": "Smartwatch Mibro C4 2.01\" 289mAh Negro by Xiaomi",
-      "marca": "1789851936-11",
+      "marca": "Mibro",
       "precio": 1.4,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -2916,14 +2924,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72213.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 1.61
     },
     {
       "id": "relive-0194",
       "codigo": "ACC017442",
       "nombre": "Smartwatch Mibro C4 2.01\" 289mAh Plateado by Xiaomi",
       "descripcion": "Smartwatch Mibro C4 2.01\" 289mAh Plateado by Xiaomi",
-      "marca": "1789851936-12",
+      "marca": "Mibro",
       "precio": 1.4,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -2931,14 +2941,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72217.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 1.61
     },
     {
       "id": "relive-0195",
       "codigo": "ACC013099",
       "nombre": "Smartwatch Mibro A2 1.39\" 350mAh Negro by Xiaomi",
       "descripcion": "Smartwatch Mibro A2 1.39\" 350mAh Negro by Xiaomi",
-      "marca": "1789851936-13",
+      "marca": "Mibro",
       "precio": 1.48,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -2946,14 +2958,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_61240.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 1.7
     },
     {
       "id": "relive-0196",
       "codigo": "ACC018499",
       "nombre": "Smartwatch Mibro A3 1.39\" 350mAh Mocha by Xiaomi",
       "descripcion": "Smartwatch Mibro A3 1.39\" 350mAh Mocha by Xiaomi",
-      "marca": "1789851936-14",
+      "marca": "Mibro",
       "precio": 1.97,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -2961,14 +2975,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77173.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.27
     },
     {
       "id": "relive-0197",
       "codigo": "ACC017443",
       "nombre": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Gris Oscuro by Xiaomi",
       "descripcion": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Gris Oscuro by Xiaomi",
-      "marca": "1789851936-15",
+      "marca": "Mibro",
       "precio": 2.1,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -2976,14 +2992,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72208.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.42
     },
     {
       "id": "relive-0198",
       "codigo": "ACC017444",
       "nombre": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Dorado by Xiaomi",
       "descripcion": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Dorado by Xiaomi",
-      "marca": "1789851936-16",
+      "marca": "Mibro",
       "precio": 2.1,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -2991,14 +3009,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72210.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.42
     },
     {
       "id": "relive-0199",
       "codigo": "ACC016438",
       "nombre": "Smartwatch Mibro GS Active 1.3\" 400mAh Blanco by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Blanco by Xiaomi",
-      "marca": "1789851936-17",
+      "marca": "Mibro",
       "precio": 2.275,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3006,14 +3026,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69411.png",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.62
     },
     {
       "id": "relive-0200",
       "codigo": "ACC016439",
       "nombre": "Smartwatch Mibro GS Active 1.3\" 400mAh Gris by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Gris by Xiaomi",
-      "marca": "1789851936-18",
+      "marca": "Mibro",
       "precio": 2.275,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3021,14 +3043,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69413.png",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.62
     },
     {
       "id": "relive-0201",
       "codigo": "ACC016440",
       "nombre": "Smartwatch Mibro GS Active 1.3\" 400mAh Dorado by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Dorado by Xiaomi",
-      "marca": "1789851936-19",
+      "marca": "Mibro",
       "precio": 2.275,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3036,14 +3060,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69423.png",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.62
     },
     {
       "id": "relive-0202",
       "codigo": "ACC014580",
       "nombre": "Smartwatch Mibro T2 1.75\" 300mAh Azul by Xiaomi",
       "descripcion": "Smartwatch Mibro T2 1.75\" 300mAh Azul by Xiaomi",
-      "marca": "1789851936-20",
+      "marca": "Mibro",
       "precio": 2.35,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3051,14 +3077,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_64277.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.7
     },
     {
       "id": "relive-0203",
       "codigo": "SACC021048",
       "nombre": "AS - Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi Con Detalle",
       "descripcion": "AS - Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi Con Detalle",
-      "marca": "1789851936-21",
+      "marca": "Mibro",
       "precio": 2.5,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3066,14 +3094,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85850.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.88
     },
     {
       "id": "relive-0204",
       "codigo": "ACC020722",
       "nombre": "Smartwatch Mibro Fit 350mAh c/2 Mallas Negro XPAW027 by Xiaomi",
       "descripcion": "Smartwatch Mibro Fit 350mAh c/2 Mallas Negro XPAW027 by Xiaomi",
-      "marca": "1789851936-22",
+      "marca": "Mibro",
       "precio": 2.62,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3081,14 +3111,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84756.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.01
     },
     {
       "id": "relive-0205",
       "codigo": "ACC020723",
       "nombre": "Smartwatch Mibro Fit 350mAh c/2 Mallas Plateado XPAW027 by Xiaomi",
       "descripcion": "Smartwatch Mibro Fit 350mAh c/2 Mallas Plateado XPAW027 by Xiaomi",
-      "marca": "1789851936-23",
+      "marca": "Mibro",
       "precio": 2.62,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3096,14 +3128,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84753.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.01
     },
     {
       "id": "relive-0206",
       "codigo": "ACC016824",
       "nombre": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Dorado by Xiaomi",
       "descripcion": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Dorado by Xiaomi",
-      "marca": "1789851936-24",
+      "marca": "Mibro",
       "precio": 2.85,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3111,14 +3145,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70964.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.28
     },
     {
       "id": "relive-0207",
       "codigo": "ACC016825",
       "nombre": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi",
       "descripcion": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi",
-      "marca": "1789851936-25",
+      "marca": "Mibro",
       "precio": 2.85,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3126,14 +3162,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70966.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.28
     },
     {
       "id": "relive-0208",
       "codigo": "ACC016826",
       "nombre": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Verde by Xiaomi",
       "descripcion": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Verde by Xiaomi",
-      "marca": "1789851936-26",
+      "marca": "Mibro",
       "precio": 2.85,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3141,14 +3179,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70959.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.28
     },
     {
       "id": "relive-0209",
       "codigo": "ACC014582",
       "nombre": "Smartwatch Mibro GS Pro 1.43\" 460mAh Negro by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Pro 1.43\" 460mAh Negro by Xiaomi",
-      "marca": "1789851936-27",
+      "marca": "Mibro",
       "precio": 2.94,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3156,14 +3196,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_67209.png",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.38
     },
     {
       "id": "relive-0210",
       "codigo": "ACC020720",
       "nombre": "Smartwatch Mibro GT 350mAh c/2 Mallas Negro XPAW026 by Xiaomi",
       "descripcion": "Smartwatch Mibro GT 350mAh c/2 Mallas Negro XPAW026 by Xiaomi",
-      "marca": "1789851936-28",
+      "marca": "Mibro",
       "precio": 3.09,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3171,14 +3213,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84760.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.55
     },
     {
       "id": "relive-0211",
       "codigo": "ACC020721",
       "nombre": "Smartwatch Mibro GT 350mAh c/2 Mallas Plateado XPAW026 by Xiaomi",
       "descripcion": "Smartwatch Mibro GT 350mAh c/2 Mallas Plateado XPAW026 by Xiaomi",
-      "marca": "1789851936-29",
+      "marca": "Mibro",
       "precio": 3.09,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3186,14 +3230,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84757.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.55
     },
     {
       "id": "relive-0212",
       "codigo": "ACC019135",
       "nombre": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Lila (XPAW024) by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Lila (XPAW024) by Xiaomi",
-      "marca": "1789851936-30",
+      "marca": "Mibro",
       "precio": 3.14,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3201,14 +3247,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78630.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.61
     },
     {
       "id": "relive-0213",
       "codigo": "ACC019136",
       "nombre": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Gris Oscuro (XPAW024) by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Gris Oscuro (XPAW024) by Xiaomi",
-      "marca": "1789851936-31",
+      "marca": "Mibro",
       "precio": 3.14,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3216,14 +3264,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78627.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.61
     },
     {
       "id": "relive-0214",
       "codigo": "SACC018394",
       "nombre": "AS - Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi Caja Dañada",
       "descripcion": "AS - Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi Caja Dañada",
-      "marca": "1789851936-32",
+      "marca": "Mibro",
       "precio": 3.32,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3231,14 +3281,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_81666.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 3.82
     },
     {
       "id": "relive-0215",
       "codigo": "ACC019137",
       "nombre": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Gris Oscuro (XPAW025) by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Gris Oscuro (XPAW025) by Xiaomi",
-      "marca": "1789851936-33",
+      "marca": "Mibro",
       "precio": 3.75,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3246,14 +3298,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_78618.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 4.31
     },
     {
       "id": "relive-0216",
       "codigo": "ACC019138",
       "nombre": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Beige (XPAW025) by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Beige (XPAW025) by Xiaomi",
-      "marca": "1789851936-34",
+      "marca": "Mibro",
       "precio": 3.75,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3261,14 +3315,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79599.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 4.31
     },
     {
       "id": "relive-0217",
       "codigo": "ACC017445",
       "nombre": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Negro by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Negro by Xiaomi",
-      "marca": "1789851936-35",
+      "marca": "Mibro",
       "precio": 3.85,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3276,14 +3332,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74431.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 4.43
     },
     {
       "id": "relive-0218",
       "codigo": "ACC017446",
       "nombre": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi",
-      "marca": "1789851936-36",
+      "marca": "Mibro",
       "precio": 3.85,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3291,14 +3349,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74430.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 4.43
     },
     {
       "id": "relive-0219",
       "codigo": "ACC019954",
       "nombre": "Smartwatch Mibro GS Explorer S Titanium/Silicona 1.32\" 460mAh Gris by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Explorer S Titanium/Silicona 1.32\" 460mAh Gris by Xiaomi",
-      "marca": "1789851936-37",
+      "marca": "Mibro",
       "precio": 7.76,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3306,14 +3366,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_82703.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 8.92
     },
     {
       "id": "relive-0220",
       "codigo": "ACC019955",
       "nombre": "Smartwatch Mibro GS Explorer S Titanium 1.32\" 460mAh Gris by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Explorer S Titanium 1.32\" 460mAh Gris by Xiaomi",
-      "marca": "1789851936-38",
+      "marca": "Mibro",
       "precio": 11.65,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -3321,7 +3383,9 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_82696.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 13.4
     },
     {
       "id": "relive-0221",
@@ -4969,7 +5033,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_3_productos31_64684.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_64684.png",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 224.25
     },
     {
       "id": "relive-0331",
@@ -4982,7 +5048,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_32_productos32_85535.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85535.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 276
     },
     {
       "id": "relive-0332",
@@ -4995,7 +5063,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_33_productos32_85532.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85532.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 281.75
     },
     {
       "id": "relive-0333",
@@ -5008,7 +5078,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_34_productos32_44214.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44214.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 322
     },
     {
       "id": "relive-0334",
@@ -5021,7 +5093,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_7_productos31_44207.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44207.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 345
     },
     {
       "id": "relive-0335",
@@ -5034,7 +5108,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_36_productos32_44210.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44210.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 431.25
     },
     {
       "id": "relive-0336",
@@ -5047,7 +5123,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_9_productos31_44203.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44203.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 483
     },
     {
       "id": "relive-0337",
@@ -5060,7 +5138,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_10_productos31_85605.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85605.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 501.4
     },
     {
       "id": "relive-0338",
@@ -5073,7 +5153,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_11_productos31_81171.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_81171.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 690
     },
     {
       "id": "relive-0339",
@@ -5086,7 +5168,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_40_productos32_87911.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_87911.png",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 690
     },
     {
       "id": "relive-0340",
@@ -5099,7 +5183,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_13_productos31_44229.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44229.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 879.75
     },
     {
       "id": "relive-0341",
@@ -5112,7 +5198,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_14_productos31_44234.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44234.png",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 897
     },
     {
       "id": "relive-0342",
@@ -5125,7 +5213,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_15_productos31_44200.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44200.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 948.75
     },
     {
       "id": "relive-0343",
@@ -5138,7 +5228,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_16_productos31_44225.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_44225.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 1081
     },
     {
       "id": "relive-0344",
@@ -5151,7 +5243,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_45_productos32_66778.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_66778.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 1081
     },
     {
       "id": "relive-0345",
@@ -5164,7 +5258,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_18_productos31_70229.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70229.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 1.6
     },
     {
       "id": "relive-0346",
@@ -5177,7 +5273,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_47_productos32_70234.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70234.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 2.13
     },
     {
       "id": "relive-0347",
@@ -5190,7 +5288,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_20_productos31_89617.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_89617.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 2.24
     },
     {
       "id": "relive-0348",
@@ -5203,7 +5303,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_21_productos31_85536.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_85536.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 3.28
     },
     {
       "id": "relive-0349",
@@ -5216,7 +5318,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_50_productos32_57262.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57262.png",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 3.91
     },
     {
       "id": "relive-0350",
@@ -5229,7 +5333,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_23_productos31_57265.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57265.png",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 3.91
     },
     {
       "id": "relive-0351",
@@ -5242,7 +5348,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_52_productos32_70235.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70235.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 3.94
     },
     {
       "id": "relive-0352",
@@ -5255,7 +5363,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_53_productos32_71528.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_71528.png",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 4.08
     },
     {
       "id": "relive-0353",
@@ -5268,7 +5378,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_26_productos31_70821.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70821.jpg",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 5.85
     },
     {
       "id": "relive-0354",
@@ -5281,7 +5393,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_55_productos32_57272.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57272.png",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 6.1
     },
     {
       "id": "relive-0355",
@@ -5294,7 +5408,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_56_productos32_70465.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70465.png",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 6.1
     },
     {
       "id": "relive-0356",
@@ -5307,7 +5423,9 @@
       "subcategoria": "Xlizzard",
       "imagen": "informatica/Xlizzard/imgi_57_productos32_70458.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70458.png",
-      "fuente_excel": "informatica/Xlizzard.xlsx"
+      "fuente_excel": "informatica/Xlizzard.xlsx",
+      "oferta": true,
+      "precio_anterior": 6.61
     },
     {
       "id": "relive-0357",

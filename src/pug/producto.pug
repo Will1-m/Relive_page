@@ -10,7 +10,9 @@ html(lang='es')
   body
     nav.navbar.navbar-dark.bg-dark
       .container
-        a.navbar-brand.fw-bold(href='index.html') RELIVE
+        a.navbar-brand.relive-brand.fw-bold(href='index.html' aria-label='Relive, inicio')
+          img.relive-logo(src='assets/logo.webp' alt='Relive')
+          span.visually-hidden RELIVE
         a.btn.btn-outline-light(href='cart.html') Carrito
     main.container.py-5
       a.text-decoration-none(href='index.html') ← Volver al catálogo

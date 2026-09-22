@@ -1270,7 +1270,7 @@
       "codigo": "ACC020873",
       "nombre": "Cargador para Smartwatch Mibro 2.54mm 2 pin Blanco Genérico",
       "descripcion": "Cargador para Smartwatch Mibro 2.54mm 2 pin Blanco Genérico",
-      "marca": "1789851936-2",
+      "marca": "Mibro",
       "precio": 150,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1278,7 +1278,9 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83348.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 172.5
     },
     {
       "id": "relive-0185",
@@ -1360,7 +1362,7 @@
       "codigo": "ACC016441",
       "nombre": "Correa Smartwatch Mibro 22mm Verde by Xiaomi",
       "descripcion": "Correa Smartwatch Mibro 22mm Verde by Xiaomi",
-      "marca": "1789851936-8",
+      "marca": "Mibro",
       "precio": 350,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1368,14 +1370,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83152.png",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 402.5
     },
     {
       "id": "relive-0191",
       "codigo": "ACC021726",
       "nombre": "Correa Smartwatch Mibro 22mm Gris by Xiaomi",
       "descripcion": "Correa Smartwatch Mibro 22mm Gris by Xiaomi",
-      "marca": "1789851936-9",
+      "marca": "Mibro",
       "precio": 350,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1383,14 +1387,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_86472.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 402.5
     },
     {
       "id": "relive-0192",
       "codigo": "SACC021777",
       "nombre": "AS - Smartwatch XZZ-SW-02 Negro/Negro X-Lizzard - Con Detalle",
       "descripcion": "AS - Smartwatch XZZ-SW-02 Negro/Negro X-Lizzard - Con Detalle",
-      "marca": "1789851936-10",
+      "marca": "X-Lizzard",
       "precio": 540,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1398,14 +1404,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_88339.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 621
     },
     {
       "id": "relive-0193",
       "codigo": "ACC017441",
       "nombre": "Smartwatch Mibro C4 2.01\" 289mAh Negro by Xiaomi",
       "descripcion": "Smartwatch Mibro C4 2.01\" 289mAh Negro by Xiaomi",
-      "marca": "1789851936-11",
+      "marca": "Mibro",
       "precio": 1.4,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1413,14 +1421,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72213.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 1.61
     },
     {
       "id": "relive-0194",
       "codigo": "ACC017442",
       "nombre": "Smartwatch Mibro C4 2.01\" 289mAh Plateado by Xiaomi",
       "descripcion": "Smartwatch Mibro C4 2.01\" 289mAh Plateado by Xiaomi",
-      "marca": "1789851936-12",
+      "marca": "Mibro",
       "precio": 1.4,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1428,14 +1438,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72217.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 1.61
     },
     {
       "id": "relive-0195",
       "codigo": "ACC013099",
       "nombre": "Smartwatch Mibro A2 1.39\" 350mAh Negro by Xiaomi",
       "descripcion": "Smartwatch Mibro A2 1.39\" 350mAh Negro by Xiaomi",
-      "marca": "1789851936-13",
+      "marca": "Mibro",
       "precio": 1.48,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1443,14 +1455,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_61240.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 1.7
     },
     {
       "id": "relive-0196",
       "codigo": "ACC018499",
       "nombre": "Smartwatch Mibro A3 1.39\" 350mAh Mocha by Xiaomi",
       "descripcion": "Smartwatch Mibro A3 1.39\" 350mAh Mocha by Xiaomi",
-      "marca": "1789851936-14",
+      "marca": "Mibro",
       "precio": 1.97,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1458,14 +1472,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_77173.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.27
     },
     {
       "id": "relive-0197",
       "codigo": "ACC017443",
       "nombre": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Gris Oscuro by Xiaomi",
       "descripcion": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Gris Oscuro by Xiaomi",
-      "marca": "1789851936-15",
+      "marca": "Mibro",
       "precio": 2.1,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1473,14 +1489,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72208.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.42
     },
     {
       "id": "relive-0198",
       "codigo": "ACC017444",
       "nombre": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Dorado by Xiaomi",
       "descripcion": "Smartwatch Mibro Lite 3 1.3\" c/2 Mallas Dorado by Xiaomi",
-      "marca": "1789851936-16",
+      "marca": "Mibro",
       "precio": 2.1,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1488,14 +1506,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_72210.jpg",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.42
     },
     {
       "id": "relive-0199",
       "codigo": "ACC016438",
       "nombre": "Smartwatch Mibro GS Active 1.3\" 400mAh Blanco by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Blanco by Xiaomi",
-      "marca": "1789851936-17",
+      "marca": "Mibro",
       "precio": 2.275,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1503,14 +1523,16 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69411.png",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.62
     },
     {
       "id": "relive-0200",
       "codigo": "ACC016439",
       "nombre": "Smartwatch Mibro GS Active 1.3\" 400mAh Gris by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Gris by Xiaomi",
-      "marca": "1789851936-18",
+      "marca": "Mibro",
       "precio": 2.275,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
@@ -1518,7 +1540,9 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69413.png",
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
-      ]
+      ],
+      "oferta": true,
+      "precio_anterior": 2.62
     }
   ]
 }

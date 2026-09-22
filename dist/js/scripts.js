@@ -1,3 +1,8 @@
+/*!
+* Start Bootstrap - Shop Homepage v5.0.6 (undefined)
+* Copyright 2013-2026 undefined
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+*/
 document.addEventListener('DOMContentLoaded', function () {
   var cartKey = 'relive_cart';
 
