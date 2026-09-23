@@ -10,6 +10,10 @@ function cleanCode(value){
   return String(value || '').trim().replace(/[^A-Za-z0-9._-]+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'').toUpperCase();
 }
 
+function cleanFolderName(value){
+  return String(value || '').trim().replace(/[\\/]+/g,' ').replace(/[^A-Za-z0-9._ -]+/g,'-').replace(/\s+/g,' ').replace(/^-+|-+$/g,'').trim();
+}
+
 function resolveLocalImage(product){
   if(!product) return null;
   if(product.imagen_local) return product.imagen_local;
@@ -28,10 +32,13 @@ function resolveLocalImage(product){
       if(candidate) ext=candidate;
     }
   }
-  if(code) return 'assets/productos/' + code + ext;
+
+  const parts=[product.categoria, product.subcategoria].map(cleanFolderName).filter(Boolean);
+  const folderPath=parts.length ? parts.join('/') : '';
+  if(code) return 'assets/productos/' + (folderPath ? folderPath + '/' : '') + code + ext;
   if(product.imagen && typeof product.imagen === 'string') {
     const basename=product.imagen.split(/[\\/]/).pop();
-    if(basename) return 'assets/productos/' + basename;
+    if(basename) return 'assets/productos/' + (folderPath ? folderPath + '/' : '') + basename;
   }
   return null;
 }

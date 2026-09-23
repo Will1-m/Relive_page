@@ -32,13 +32,22 @@ function getExtensionFromUrl(url) {
   }
 }
 
+function folderPathForProduct(product) {
+  const parts = [product && product.categoria, product && product.subcategoria].map((part) => String(part || '').trim()).filter(Boolean);
+  if (!parts.length) return targetDir;
+  return path.join(targetDir, ...parts.map((part) => part.replace(/[\\/]+/g, ' ').replace(/[^A-Za-z0-9._ -]+/g, '-').replace(/\s+/g, ' ').trim()));
+}
+
 function fileNameForProduct(product, index, url) {
   const code = getProductCode(product, index);
   const ext = getExtensionFromUrl(url);
+  const folderPath = folderPathForProduct(product);
+  const localPath = path.posix.join('assets/productos', ...((product && product.categoria && product.subcategoria) ? [product.categoria, product.subcategoria] : []), code + ext).replace(/\\/g, '/');
   return {
     code,
     ext,
-    localPath: 'assets/productos/' + code + ext
+    localPath: localPath.replace(/\/+/g, '/'),
+    folderPath
   };
 }
 
@@ -88,7 +97,8 @@ async function main() {
     }
 
     const naming = fileNameForProduct(product, index, url);
-    const filePath = path.join(targetDir, naming.code + naming.ext);
+    ensureDirectory(naming.folderPath);
+    const filePath = path.join(naming.folderPath, naming.code + naming.ext);
 
     try {
       await downloadImage(url, filePath);
