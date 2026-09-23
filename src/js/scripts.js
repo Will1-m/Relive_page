@@ -45,6 +45,13 @@ document.addEventListener('DOMContentLoaded', function () {
     return p.imagen_url || (p.imagen ? 'img/' + p.imagen : 'img/placeholder.png');
   }
 
+  function productCard(p, compact) {
+    var previousPrice = p.oferta && p.precio_anterior != null ? '<del class="text-muted small me-2">' + money(p.precio_anterior) + '</del>' : '';
+    var offerBadge = p.oferta ? '<span class="offer-badge">Oferta</span>' : '';
+    var column = compact ? 'col-12 col-sm-6 col-lg-3' : 'col';
+    return '<div class="' + column + '"><div class="card product-card h-100">' + offerBadge + '<a href="producto.html?id=' + encodeURIComponent(p.id) + '"><img class="card-img-top product-card-image" loading="lazy" src="' + esc(image(p)) + '" alt="' + esc(p.nombre) + '" onerror="this.onerror=null;this.src=\'img/placeholder.png\'"></a><div class="card-body product-card-body"><small class="text-muted">' + esc(p.categoria || '') + ' · ' + esc(p.subcategoria || '') + '</small><h5 class="mt-2">' + esc(p.nombre) + '</h5><div class="mb-3">' + previousPrice + '<strong class="fw-bold fs-5">' + money(p.precio) + '</strong></div><div class="product-card-actions"><a class="btn btn-outline-dark flex-fill" href="producto.html?id=' + encodeURIComponent(p.id) + '">Ver</a><button class="btn btn-dark flex-fill add">Agregar</button></div></div></div></div>';
+  }
+
   function load(u) {
     return fetch(u, { cache: 'no-store' }).then(function (r) {
       if (!r.ok) throw Error(u + ' HTTP ' + r.status);
@@ -115,7 +122,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function initCatalog() {
     var grid = document.getElementById('grid-productos');
-    if (!grid) return Promise.resolve();
+    var homeProducts = document.getElementById('home-categorias-grid');
+    if (!grid && !homeProducts) return Promise.resolve();
 
     return load('catalogo-index.json').then(function (ix) {
       var search = document.getElementById('buscador');
@@ -136,11 +144,72 @@ document.addEventListener('DOMContentLoaded', function () {
       var offersPrevious = document.getElementById('ofertas-anterior');
       var offersNext = document.getElementById('ofertas-siguiente');
       var suggestions = document.getElementById('sugerencias-busqueda');
+      var home = document.getElementById('inicio');
+      var catalogView = document.getElementById('catalogo-view');
+      var headerSearch = document.getElementById('header-search');
 
       if (!ix || !Array.isArray(ix.productos)) {
         if (info) info.textContent = 'No hay productos disponibles.';
         return Promise.resolve();
       }
+
+      function showCatalog() {
+        if (!catalogView) {
+          window.location.href = 'tienda.html';
+          return;
+        }
+        catalogView.hidden = false;
+        if (home) home.classList.add('home-catalog-open');
+        window.setTimeout(function () { catalogView.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 0);
+      }
+
+      document.querySelectorAll('a[href="#catalogo-view"]').forEach(function (link) {
+        link.addEventListener('click', showCatalog);
+      });
+
+      document.querySelectorAll('a[href="#home-categorias"], a[href="#ofertas-panel"], a[href="#destacados"], a[href="#novedades"], a[href="#reparaciones"]').forEach(function (link) {
+        link.addEventListener('click', function () {
+          if (catalogView && !catalogView.hidden) catalogView.hidden = true;
+          if (home) home.classList.remove('home-catalog-open');
+        });
+      });
+
+      function renderHomeProducts() {
+        var categoriesGrid = document.getElementById('home-categorias-grid');
+        var featured = document.getElementById('destacados-productos');
+        var news = document.getElementById('novedades-productos');
+        if (categoriesGrid) {
+          categoriesGrid.innerHTML = '';
+          ix.categorias.slice(0, 6).forEach(function (category) {
+            var link = document.createElement('a');
+            link.className = 'category-tile';
+            link.href = 'tienda.html';
+            link.innerHTML = '<span class="category-tile-count">' + category.cantidad_productos + ' productos</span><strong>' + esc(category.nombre) + '</strong><span class="category-arrow">→</span>';
+            link.onclick = function () {
+              showCatalog();
+              if (cats) {
+                var categoryButton = Array.from(cats.querySelectorAll('button')).find(function (button) { return button.textContent.indexOf(category.nombre) === 0; });
+                if (categoryButton) categoryButton.click();
+              }
+            };
+            categoriesGrid.appendChild(link);
+          });
+        }
+
+        function fill(root, products) {
+          if (!root) return;
+          root.innerHTML = products.map(function (p) { return productCard(p, true); }).join('');
+          root.querySelectorAll('.add').forEach(function (button, index) {
+            button.onclick = function () { add(products[index]); };
+          });
+        }
+
+        var available = ix.productos.filter(function (p) { return p.imagen || p.imagen_url; });
+        fill(featured, available.filter(function (p) { return !p.oferta; }).slice(0, 8));
+        fill(news, available.slice(-6).reverse());
+      }
+
+      renderHomeProducts();
 
       var counter = document.getElementById('contador-catalogo');
       if (counter) counter.textContent = ix.total_productos || ix.productos.length;
@@ -277,7 +346,7 @@ document.addEventListener('DOMContentLoaded', function () {
         offersInfo.textContent = offers.length + ' producto' + (offers.length === 1 ? '' : 's') + ' con precio especial';
 
         var offerPage = 0;
-        var offersPerPage = 3;
+        var offersPerPage = 6;
         var totalOfferPages = Math.ceil(offers.length / offersPerPage);
 
         function renderOfferPage() {
@@ -320,6 +389,10 @@ document.addEventListener('DOMContentLoaded', function () {
         offersTimer = setInterval(function () { moveOfferPage(1); }, 5000);
 
         offersBrands.appendChild(btn('Todas las ofertas', offerOnly && !brand.value, function () {
+          if (!grid) {
+            window.location.href = 'tienda.html';
+            return;
+          }
           offerOnly = true;
           if (brand) brand.value = '';
           current = 1;
@@ -329,6 +402,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }));
         brands.forEach(function (name) {
           offersBrands.appendChild(btn(name, offerOnly && brand.value === name, function () {
+            if (!grid) {
+              window.location.href = 'tienda.html';
+              return;
+            }
             offerOnly = true;
             if (brand) brand.value = name;
             current = 1;
@@ -337,7 +414,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
           }));
         });
-        clearOffers.hidden = false;
+        if (clearOffers) clearOffers.hidden = false;
       }
 
       function filtered() {
@@ -374,6 +451,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       function render() {
+        if (!grid) return Promise.resolve();
         var all = filtered();
         var pages = Math.max(1, Math.ceil(all.length / size));
         if (current > pages) current = pages;
@@ -406,12 +484,10 @@ document.addEventListener('DOMContentLoaded', function () {
           visible.forEach(function (s) {
             var p = by.get(s.id) || s;
             var col = document.createElement('div');
-            col.className = 'col';
-            var previousPrice = p.oferta && p.precio_anterior != null ? '<del class="text-muted small me-2">' + money(p.precio_anterior) + '</del>' : '';
-            var offerBadge = p.oferta ? '<span class="offer-badge">Oferta</span>' : '';
-            col.innerHTML = '<div class="card product-card h-100">' + offerBadge + '<a href="producto.html?id=' + encodeURIComponent(p.id) + '"><img class="card-img-top product-card-image" loading="lazy" src="' + esc(image(p)) + '" alt="' + esc(p.nombre) + '" onerror="this.onerror=null;this.src=\'img/placeholder.png\'"></a><div class="card-body product-card-body"><small class="text-muted">' + esc(p.categoria || '') + ' · ' + esc(p.subcategoria || '') + '</small><h5 class="mt-2">' + esc(p.nombre) + '</h5><div class="mb-3">' + previousPrice + '<strong class="fw-bold fs-5">' + money(p.precio) + '</strong></div><div class="product-card-actions"><a class="btn btn-outline-dark flex-fill" href="producto.html?id=' + encodeURIComponent(p.id) + '">Ver</a><button class="btn btn-dark flex-fill add">Agregar</button></div></div></div>';
-            col.querySelector('.add').onclick = function () { add(p); };
-            grid.appendChild(col);
+            col.innerHTML = productCard(p, false);
+            var cardColumn = col.firstElementChild;
+            cardColumn.querySelector('.add').onclick = function () { add(p); };
+            grid.appendChild(cardColumn);
           });
 
           if (info) info.textContent = all.length + ' producto' + (all.length === 1 ? '' : 's') + ' · página ' + current + ' de ' + pages;
@@ -437,9 +513,17 @@ document.addEventListener('DOMContentLoaded', function () {
         searchButton.onclick = function () {
           if (suggestions) suggestions.hidden = true;
           if (search) search.setAttribute('aria-expanded', 'false');
+          showCatalog();
           current = 1;
           render();
         };
+      }
+
+      if (headerSearch) {
+        headerSearch.addEventListener('submit', function (event) {
+          event.preventDefault();
+          if (searchButton) searchButton.click();
+        });
       }
 
       document.addEventListener('click', function (event) {
@@ -455,7 +539,7 @@ document.addEventListener('DOMContentLoaded', function () {
             current = 1;
             if (control === brand) offerOnly = false;
             var update = render();
-            if (control === brand) {
+            if (control === brand && grid) {
               update.then(function () {
                 grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
               });
@@ -483,8 +567,8 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       setupOffers();
-      filters();
-      return render();
+      if (grid) filters();
+      return grid ? render() : Promise.resolve();
     }).catch(function (err) {
       console.error(err);
       var info = document.getElementById('resultado-info');
@@ -603,8 +687,48 @@ document.addEventListener('DOMContentLoaded', function () {
     render();
   }
 
+  function initAccountMenu() {
+    var modal = document.getElementById('account-modal');
+    if (!modal) return;
+
+    var views = {
+      login: document.getElementById('account-login'),
+      register: document.getElementById('account-register')
+    };
+
+    function showView(view) {
+      Object.keys(views).forEach(function (key) {
+        if (views[key]) views[key].hidden = key !== view;
+      });
+    }
+
+    document.querySelectorAll('[data-account-view]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        showView(button.dataset.accountView || 'login');
+      });
+    });
+
+    document.querySelectorAll('[data-account-switch]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        showView(button.dataset.accountSwitch || 'login');
+      });
+    });
+
+    modal.querySelectorAll('form').forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        var feedback = modal.querySelector('.account-feedback');
+        if (feedback) {
+          feedback.textContent = 'El acceso de usuarios estará disponible próximamente.';
+          feedback.hidden = false;
+        }
+      });
+    });
+  }
+
   badge();
   initCatalog().catch(function (err) { console.error(err); });
   initProduct().catch(function (err) { console.error(err); });
   initCart();
+  initAccountMenu();
 });

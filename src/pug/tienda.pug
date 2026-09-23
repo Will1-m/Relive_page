@@ -3,8 +3,8 @@ html(lang='es')
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    meta(name='description', content='Relive — catálogo de accesorios, informática y servicio técnico.')
-    title Relive — Catálogo
+    meta(name='description', content='Relive — tienda online de accesorios, informática y electrónica.')
+    title Relive — Tienda
     link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
     link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css', rel='stylesheet')
     link(href='css/styles.css', rel='stylesheet')
@@ -14,16 +14,17 @@ html(lang='es')
         a.navbar-brand.relive-brand.fw-bold(href='index.html' aria-label='Relive, inicio')
           img.relive-logo(src='assets/logo.webp' alt='Relive')
           span.visually-hidden RELIVE
-        button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#nav')
+        button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#nav-tienda' aria-label='Abrir navegación')
           span.navbar-toggler-icon
-        #nav.collapse.navbar-collapse
+        #nav-tienda.collapse.navbar-collapse
           ul.navbar-nav.me-auto
-            li.nav-item: a.nav-item-link.nav-link(href='tienda.html') Tienda
+            li.nav-item: a.nav-link(href='index.html') Inicio
+            li.nav-item: a.nav-link.active(href='tienda.html' aria-current='page') Tienda
           form#header-search.header-search(role='search')
             label.visually-hidden(for='buscador') Buscar productos
             .search-field
               .input-group
-                input#buscador.form-control(type='search', placeholder='¿Qué estás buscando?', autocomplete='off', role='combobox', aria-autocomplete='list', aria-controls='sugerencias-busqueda', aria-expanded='false')
+                input#buscador.form-control(type='search' placeholder='¿Qué estás buscando?' autocomplete='off' role='combobox' aria-autocomplete='list' aria-controls='sugerencias-busqueda' aria-expanded='false')
                 button#buscar-btn.btn(type='button' aria-label='Buscar') Buscar
               #sugerencias-busqueda.search-suggestions(role='listbox' hidden)
           .relive-header-actions
@@ -43,37 +44,18 @@ html(lang='es')
                 li: button.dropdown-item(type='button' data-bs-toggle='modal' data-bs-target='#account-modal' data-account-view='register') Registrarme
       .header-category-bar
         .container
-          a(href='#home-categorias') Categorías
+          a(href='#categorias-nav') Categorías
           a(href='#ofertas-panel') Ofertas
-          a(href='#destacados') Destacados
-          a(href='#novedades') Novedades
-          a(href='#reparaciones') Reparaciones
-    main#inicio
-      section.relive-hero
-        .container
-          .relive-hero-content
-            span.eyebrow Tecnología que vuelve a funcionar
-            h1 Electrónica, informática y reparación con respaldo real.
-            p Encontrá accesorios, equipos y soluciones para que tu tecnología siga dando más.
-            .d-flex.flex-wrap.gap-3
-              a.btn.btn-light.btn-lg(href='tienda.html') Ver tienda
-              a.btn.btn-outline-light.btn-lg(href='#reparaciones') Reparaciones
-          .relive-hero-mark(aria-hidden='true') R
-      section#home-categorias.home-section.container(aria-labelledby='categorias-titulo')
-        .section-heading
-          div
-            span.eyebrow.text-fire Elegí por categoría
-            h2#categorias-titulo Encontrá lo que necesitás
-          a.section-link(href='tienda.html') Ver catálogo →
-        #home-categorias-grid.category-grid
+          a(href='#grid-productos') Productos
+          a(href='index.html#reparaciones') Reparaciones
+    main.catalog-page
       section#ofertas-panel.offer-panel.container-fluid(aria-labelledby='ofertas-titulo')
         .offer-panel-content.container
           .section-heading.light-heading
             div
               span.offer-kicker Promos Relive
-              h2#ofertas-titulo Ofertas que valen la pena
+              h1#ofertas-titulo Ofertas
               p#ofertas-info.mb-0 Buscando promociones disponibles…
-            a.btn.btn-light(href='tienda.html') Ver todas
           .offer-carousel.mt-4
             #ofertas-productos.offer-products.row.g-3
             .d-flex.justify-content-between.align-items-center.mt-3
@@ -81,29 +63,35 @@ html(lang='es')
               #ofertas-paginacion.offer-pagination.d-flex.gap-2(aria-label='Paginación de ofertas')
               button#ofertas-siguiente.btn.btn-sm.btn-outline-light(type='button' aria-label='Oferta siguiente') →
           #ofertas-marcas.offer-brands.d-flex.flex-wrap.gap-2.mt-3
-      section#destacados.home-section.container(aria-labelledby='destacados-titulo')
-        .section-heading
+      section#catalogo-view.catalog-section.container.py-5(aria-labelledby='catalogo-titulo')
+        .catalog-heading
           div
-            span.eyebrow.text-fire Selección Relive
-            h2#destacados-titulo Productos destacados
-          a.section-link(href='tienda.html') Ver tienda →
-        #destacados-productos.product-showcase.row.g-4
-      section#novedades.home-section.home-section-tint(aria-labelledby='novedades-titulo')
-        .container
-          .section-heading
-            div
-              span.eyebrow.text-fire Lo último del catálogo
-              h2#novedades-titulo Novedades
-            a.section-link(href='tienda.html') Explorar todo →
-          #novedades-productos.product-showcase.row.g-4
-      section#reparaciones.repairs-band
-        .container
-          .repairs-content
-            span.eyebrow Reparaciones y mantenimiento
-            h2 Tu equipo merece una segunda oportunidad.
-            p Diagnóstico, mantenimiento y reparación de consolas y electrónica con atención cercana.
-            a.btn.btn-light(href='mailto:contacto@relive.com.uy') Consultar reparación
-          .repairs-icon(aria-hidden='true') +
+            span.eyebrow.text-fire Catálogo completo
+            h2#catalogo-titulo Tienda Relive
+          a.btn.btn-outline-dark(href='index.html') Volver al inicio
+        .row.g-3.mb-4
+          .col-sm-6.col-lg-3
+            label.form-label(for='filtro-marca') Marca
+            select#filtro-marca.form-select: option(value='') Todas
+          .col-sm-6.col-lg-3
+            label.form-label(for='orden') Ordenar
+            select#orden.form-select
+              option(value='relevancia') Relevancia
+              option(value='precio-asc') Precio menor
+              option(value='precio-desc') Precio mayor
+              option(value='nombre') Nombre
+          .col-sm-6.col-lg-3.d-flex.align-items-end
+            a.btn.btn-outline-dark.w-100(href='cart.html') Ver carrito
+        #categorias-nav.d-flex.flex-wrap.gap-2.mb-3
+        #subcategorias-nav.d-flex.flex-wrap.gap-2.mb-4
+        .d-flex.justify-content-between.align-items-center.mb-3
+          p#resultado-info.text-muted.mb-0 Cargando catálogo…
+          select#por-pagina.form-select.form-select-sm(style='width:auto')
+            option(value='24') 24 por página
+            option(value='48') 48 por página
+            option(value='96') 96 por página
+        #grid-productos.row.g-4
+        nav.mt-4(aria-label='Paginación'): ul#paginacion.pagination.justify-content-center.flex-wrap
     footer.bg-dark.text-white.relive-footer
       .container
         .footer-grid
@@ -114,11 +102,11 @@ html(lang='es')
             h3 Tienda
             a(href='tienda.html') Todos los productos
             a(href='#ofertas-panel') Ofertas
-            a(href='#destacados') Destacados
+            a(href='index.html#destacados') Destacados
           div
             h3 Ayuda
-            a(href='#home-categorias') Categorías
-            a(href='#reparaciones') Reparaciones
+            a(href='#categorias-nav') Categorías
+            a(href='index.html#reparaciones') Reparaciones
             a(href='cart.html') Carrito
         p.footer-legal © 2026 Relive · Pinamar, Canelones, Uruguay
     #account-modal.modal.fade(tabindex='-1' aria-labelledby='account-modal-title' aria-hidden='true')

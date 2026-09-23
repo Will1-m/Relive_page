@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Relive — catálogo de accesorios, informática y servicio técnico." />
-        <title>Relive — Catálogo</title>
+        <meta name="description" content="Relive — tienda online de accesorios, informática y electrónica." />
+        <title>Relive — Tienda</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
@@ -16,10 +16,11 @@
                     <img class="relive-logo" src="assets/logo.webp" alt="Relive" />
                     <span class="visually-hidden">RELIVE</span>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="nav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-tienda" aria-label="Abrir navegación"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="nav-tienda">
                     <ul class="navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-item-link nav-link" href="tienda.html">Tienda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="tienda.html" aria-current="page">Tienda</a></li>
                     </ul>
                     <form class="header-search" id="header-search" role="search">
                         <label class="visually-hidden" for="buscador">Buscar productos</label>
@@ -56,48 +57,22 @@
             </div>
             <div class="header-category-bar">
                 <div class="container">
-                    <a href="#home-categorias">Categorías</a>
+                    <a href="#categorias-nav">Categorías</a>
                     <a href="#ofertas-panel">Ofertas</a>
-                    <a href="#destacados">Destacados</a>
-                    <a href="#novedades">Novedades</a>
-                    <a href="#reparaciones">Reparaciones</a>
+                    <a href="#grid-productos">Productos</a>
+                    <a href="index.html#reparaciones">Reparaciones</a>
                 </div>
             </div>
         </nav>
-        <main id="inicio">
-            <section class="relive-hero">
-                <div class="container">
-                    <div class="relive-hero-content">
-                        <span class="eyebrow">Tecnología que vuelve a funcionar</span>
-                        <h1>Electrónica, informática y reparación con respaldo real.</h1>
-                        <p>Encontrá accesorios, equipos y soluciones para que tu tecnología siga dando más.</p>
-                        <div class="d-flex flex-wrap gap-3">
-                            <a class="btn btn-light btn-lg" href="tienda.html">Ver tienda</a>
-                            <a class="btn btn-outline-light btn-lg" href="#reparaciones">Reparaciones</a>
-                        </div>
-                    </div>
-                    <div class="relive-hero-mark" aria-hidden="true">R</div>
-                </div>
-            </section>
-            <section class="home-section container" id="home-categorias" aria-labelledby="categorias-titulo">
-                <div class="section-heading">
-                    <div>
-                        <span class="eyebrow text-fire">Elegí por categoría</span>
-                        <h2 id="categorias-titulo">Encontrá lo que necesitás</h2>
-                    </div>
-                    <a class="section-link" href="tienda.html">Ver catálogo →</a>
-                </div>
-                <div class="category-grid" id="home-categorias-grid"></div>
-            </section>
+        <main class="catalog-page">
             <section class="offer-panel container-fluid" id="ofertas-panel" aria-labelledby="ofertas-titulo">
                 <div class="offer-panel-content container">
                     <div class="section-heading light-heading">
                         <div>
                             <span class="offer-kicker">Promos Relive</span>
-                            <h2 id="ofertas-titulo">Ofertas que valen la pena</h2>
+                            <h1 id="ofertas-titulo">Ofertas</h1>
                             <p class="mb-0" id="ofertas-info">Buscando promociones disponibles…</p>
                         </div>
-                        <a class="btn btn-light" href="tienda.html">Ver todas</a>
                     </div>
                     <div class="offer-carousel mt-4">
                         <div class="offer-products row g-3" id="ofertas-productos"></div>
@@ -110,38 +85,44 @@
                     <div class="offer-brands d-flex flex-wrap gap-2 mt-3" id="ofertas-marcas"></div>
                 </div>
             </section>
-            <section class="home-section container" id="destacados" aria-labelledby="destacados-titulo">
-                <div class="section-heading">
+            <section class="catalog-section container py-5" id="catalogo-view" aria-labelledby="catalogo-titulo">
+                <div class="catalog-heading">
                     <div>
-                        <span class="eyebrow text-fire">Selección Relive</span>
-                        <h2 id="destacados-titulo">Productos destacados</h2>
+                        <span class="eyebrow text-fire">Catálogo completo</span>
+                        <h2 id="catalogo-titulo">Tienda Relive</h2>
                     </div>
-                    <a class="section-link" href="tienda.html">Ver tienda →</a>
+                    <a class="btn btn-outline-dark" href="index.html">Volver al inicio</a>
                 </div>
-                <div class="product-showcase row g-4" id="destacados-productos"></div>
-            </section>
-            <section class="home-section home-section-tint" id="novedades" aria-labelledby="novedades-titulo">
-                <div class="container">
-                    <div class="section-heading">
-                        <div>
-                            <span class="eyebrow text-fire">Lo último del catálogo</span>
-                            <h2 id="novedades-titulo">Novedades</h2>
-                        </div>
-                        <a class="section-link" href="tienda.html">Explorar todo →</a>
+                <div class="row g-3 mb-4">
+                    <div class="col-sm-6 col-lg-3">
+                        <label class="form-label" for="filtro-marca">Marca</label>
+                        <select class="form-select" id="filtro-marca">
+                            <option value="">Todas</option>
+                        </select>
                     </div>
-                    <div class="product-showcase row g-4" id="novedades-productos"></div>
-                </div>
-            </section>
-            <section class="repairs-band" id="reparaciones">
-                <div class="container">
-                    <div class="repairs-content">
-                        <span class="eyebrow">Reparaciones y mantenimiento</span>
-                        <h2>Tu equipo merece una segunda oportunidad.</h2>
-                        <p>Diagnóstico, mantenimiento y reparación de consolas y electrónica con atención cercana.</p>
-                        <a class="btn btn-light" href="mailto:contacto@relive.com.uy">Consultar reparación</a>
+                    <div class="col-sm-6 col-lg-3">
+                        <label class="form-label" for="orden">Ordenar</label>
+                        <select class="form-select" id="orden">
+                            <option value="relevancia">Relevancia</option>
+                            <option value="precio-asc">Precio menor</option>
+                            <option value="precio-desc">Precio mayor</option>
+                            <option value="nombre">Nombre</option>
+                        </select>
                     </div>
-                    <div class="repairs-icon" aria-hidden="true">+</div>
+                    <div class="col-sm-6 col-lg-3 d-flex align-items-end"><a class="btn btn-outline-dark w-100" href="cart.html">Ver carrito</a></div>
                 </div>
+                <div class="d-flex flex-wrap gap-2 mb-3" id="categorias-nav"></div>
+                <div class="d-flex flex-wrap gap-2 mb-4" id="subcategorias-nav"></div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <p class="text-muted mb-0" id="resultado-info">Cargando catálogo…</p>
+                    <select class="form-select form-select-sm" id="por-pagina" style="width: auto">
+                        <option value="24">24 por página</option>
+                        <option value="48">48 por página</option>
+                        <option value="96">96 por página</option>
+                    </select>
+                </div>
+                <div class="row g-4" id="grid-productos"></div>
+                <nav class="mt-4" aria-label="Paginación"><ul class="pagination justify-content-center flex-wrap" id="paginacion"></ul></nav>
             </section>
         </main>
         <footer class="bg-dark text-white relive-footer">
@@ -155,12 +136,12 @@
                         <h3>Tienda</h3>
                         <a href="tienda.html">Todos los productos</a>
                         <a href="#ofertas-panel">Ofertas</a>
-                        <a href="#destacados">Destacados</a>
+                        <a href="index.html#destacados">Destacados</a>
                     </div>
                     <div>
                         <h3>Ayuda</h3>
-                        <a href="#home-categorias">Categorías</a>
-                        <a href="#reparaciones">Reparaciones</a>
+                        <a href="#categorias-nav">Categorías</a>
+                        <a href="index.html#reparaciones">Reparaciones</a>
                         <a href="cart.html">Carrito</a>
                     </div>
                 </div>
