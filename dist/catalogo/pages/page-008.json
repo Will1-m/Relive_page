@@ -4,7 +4,7 @@
   "productos": [
     {
       "id": "relive-0351",
-      "codigo": null,
+      "codigo": "RELIVE-0351",
       "nombre": "Consola Game Stick para TV XZZ-VG-05 4K 64GB Apto para +30000 Juegos X-Lizzard",
       "descripcion": "Consola Game Stick para TV XZZ-VG-05 4K 64GB Apto para +30000 Juegos X-Lizzard",
       "marca": "X-Lizzard",
@@ -14,12 +14,13 @@
       "imagen": "informatica/Xlizzard/imgi_52_productos32_70235.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70235.jpg",
       "fuente_excel": "informatica/Xlizzard.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0351.jpg",
       "oferta": true,
       "precio_anterior": 3.94
     },
     {
       "id": "relive-0352",
-      "codigo": null,
+      "codigo": "RELIVE-0352",
       "nombre": "Consola Portátil XZZ-VG-01 Pantalla 3.5\" Apto para 15000 Juegos X-Lizzard",
       "descripcion": "Consola Portátil XZZ-VG-01 Pantalla 3.5\" Apto para 15000 Juegos X-Lizzard",
       "marca": "X-Lizzard",
@@ -29,12 +30,13 @@
       "imagen": "informatica/Xlizzard/imgi_53_productos32_71528.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_71528.png",
       "fuente_excel": "informatica/Xlizzard.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0352.png",
       "oferta": true,
       "precio_anterior": 4.08
     },
     {
       "id": "relive-0353",
-      "codigo": null,
+      "codigo": "RELIVE-0353",
       "nombre": "Silla Gamer XZZ-SG-05 Negro/Rojo X-Lizzard",
       "descripcion": "Silla Gamer XZZ-SG-05 Negro/Rojo X-Lizzard",
       "marca": "X-Lizzard",
@@ -44,12 +46,13 @@
       "imagen": "informatica/Xlizzard/imgi_26_productos31_70821.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70821.jpg",
       "fuente_excel": "informatica/Xlizzard.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0353.jpg",
       "oferta": true,
       "precio_anterior": 5.85
     },
     {
       "id": "relive-0354",
-      "codigo": null,
+      "codigo": "RELIVE-0354",
       "nombre": "Silla Gamer XZZ-SG-02/R Rojo X-Lizzard",
       "descripcion": "Silla Gamer XZZ-SG-02/R Rojo X-Lizzard",
       "marca": "X-Lizzard",
@@ -59,12 +62,13 @@
       "imagen": "informatica/Xlizzard/imgi_55_productos32_57272.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57272.png",
       "fuente_excel": "informatica/Xlizzard.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0354.png",
       "oferta": true,
       "precio_anterior": 6.1
     },
     {
       "id": "relive-0355",
-      "codigo": null,
+      "codigo": "RELIVE-0355",
       "nombre": "Silla Gamer XZZ-SG-02/A Azul X-Lizzard",
       "descripcion": "Silla Gamer XZZ-SG-02/A Azul X-Lizzard",
       "marca": "X-Lizzard",
@@ -74,12 +78,13 @@
       "imagen": "informatica/Xlizzard/imgi_56_productos32_70465.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70465.png",
       "fuente_excel": "informatica/Xlizzard.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0355.png",
       "oferta": true,
       "precio_anterior": 6.1
     },
     {
       "id": "relive-0356",
-      "codigo": null,
+      "codigo": "RELIVE-0356",
       "nombre": "Silla Gamer XZZ-SG-06 Negro - Amarillo X-Lizzard",
       "descripcion": "Silla Gamer XZZ-SG-06 Negro - Amarillo X-Lizzard",
       "marca": "X-Lizzard",
@@ -89,12 +94,13 @@
       "imagen": "informatica/Xlizzard/imgi_57_productos32_70458.png",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_70458.png",
       "fuente_excel": "informatica/Xlizzard.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0356.png",
       "oferta": true,
       "precio_anterior": 6.61
     },
     {
       "id": "relive-0357",
-      "codigo": null,
+      "codigo": "RELIVE-0357",
       "nombre": "Cable de Datos ROCA PD USB C a Lightning 20cm 3A 27W Blanco",
       "descripcion": "Cable de Datos ROCA PD USB C a Lightning 20cm 3A 27W Blanco",
       "marca": "Roca Mobile",
@@ -103,11 +109,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/56591.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56591.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0357.jpg"
     },
     {
       "id": "relive-0358",
-      "codigo": null,
+      "codigo": "RELIVE-0358",
       "nombre": "Cable de Datos ROCA TWIST USB A a microUSB 200cm 2A Azul",
       "descripcion": "Cable de Datos ROCA TWIST USB A a microUSB 200cm 2A Azul",
       "marca": "Roca Mobile",
@@ -116,11 +123,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/75785.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_75785.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0358.jpg"
     },
     {
       "id": "relive-0359",
-      "codigo": null,
+      "codigo": "RELIVE-0359",
       "nombre": "Cable de Datos ROCA Power Delivery USB C a Lightning 100cm 3A 27W Blanco 721317",
       "descripcion": "Cable de Datos ROCA Power Delivery USB C a Lightning 100cm 3A 27W Blanco 721317",
       "marca": "Roca Mobile",
@@ -129,11 +137,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/88467.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_88467.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0359.jpg"
     },
     {
       "id": "relive-0360",
-      "codigo": null,
+      "codigo": "RELIVE-0360",
       "nombre": "Cable de Datos ROCA RUDE USB a microUSB 300cm 2A Azul",
       "descripcion": "Cable de Datos ROCA RUDE USB a microUSB 300cm 2A Azul",
       "marca": "Roca Mobile",
@@ -142,11 +151,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/58552.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_58552.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0360.jpg"
     },
     {
       "id": "relive-0361",
-      "codigo": null,
+      "codigo": "RELIVE-0361",
       "nombre": "Cable de Datos ROCA VIT USB C a Lightning 100cm 27W Blanco 721317",
       "descripcion": "Cable de Datos ROCA VIT USB C a Lightning 100cm 27W Blanco 721317",
       "marca": "Roca Mobile",
@@ -155,11 +165,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/86439.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_86439.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0361.jpg"
     },
     {
       "id": "relive-0362",
-      "codigo": null,
+      "codigo": "RELIVE-0362",
       "nombre": "Cable de Datos ROCA TWIST USB A a Lightning 200cm 2A Blanco",
       "descripcion": "Cable de Datos ROCA TWIST USB A a Lightning 200cm 2A Blanco",
       "marca": "Roca Mobile",
@@ -168,11 +179,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/75781.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_75781.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0362.jpg"
     },
     {
       "id": "relive-0363",
-      "codigo": null,
+      "codigo": "RELIVE-0363",
       "nombre": "Cable de Datos ROCA mulTIPy 3en1 120cm 2.4A microUSB/USB C/Lightning (sólo carga) Blanco",
       "descripcion": "Cable de Datos ROCA mulTIPy 3en1 120cm 2.4A microUSB/USB C/Lightning (sólo carga) Blanco",
       "marca": "Roca Mobile",
@@ -181,11 +193,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/56579.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56579.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0363.jpg"
     },
     {
       "id": "relive-0364",
-      "codigo": null,
+      "codigo": "RELIVE-0364",
       "nombre": "Cable de Datos ROCA RUDE USB A a USB C 300cm 2A Verde",
       "descripcion": "Cable de Datos ROCA RUDE USB A a USB C 300cm 2A Verde",
       "marca": "Roca Mobile",
@@ -194,11 +207,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/58530.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_58530.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0364.jpg"
     },
     {
       "id": "relive-0365",
-      "codigo": null,
+      "codigo": "RELIVE-0365",
       "nombre": "Cable de Datos ROCA Power Delivery USB C a USB C 100cm 100W Blanco",
       "descripcion": "Cable de Datos ROCA Power Delivery USB C a USB C 100cm 100W Blanco",
       "marca": "Roca Mobile",
@@ -207,11 +221,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/65852.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_65852.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0365.jpg"
     },
     {
       "id": "relive-0366",
-      "codigo": null,
+      "codigo": "RELIVE-0366",
       "nombre": "Cable de Datos ROCA RUDE USB A a Lightning 300cm 2A Blanco",
       "descripcion": "Cable de Datos ROCA RUDE USB A a Lightning 300cm 2A Blanco",
       "marca": "Roca Mobile",
@@ -220,11 +235,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/58529.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_58529.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0366.jpg"
     },
     {
       "id": "relive-0367",
-      "codigo": null,
+      "codigo": "RELIVE-0367",
       "nombre": "Cable de Datos ROCA PD USB C a USB C 200cm 3A 60W Blanco",
       "descripcion": "Cable de Datos ROCA PD USB C a USB C 200cm 3A 60W Blanco",
       "marca": "Roca Mobile",
@@ -233,11 +249,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/70148.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70148.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0367.jpg"
     },
     {
       "id": "relive-0368",
-      "codigo": null,
+      "codigo": "RELIVE-0368",
       "nombre": "Cable de Datos ROCA PD USB C a Lightning 200cm 3A 27W Blanco",
       "descripcion": "Cable de Datos ROCA PD USB C a Lightning 200cm 3A 27W Blanco",
       "marca": "Roca Mobile",
@@ -246,11 +263,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/56593.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56593.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0368.jpg"
     },
     {
       "id": "relive-0369",
-      "codigo": null,
+      "codigo": "RELIVE-0369",
       "nombre": "Cargador Magnético W1 para iWatch ROCA USB C 2.5W",
       "descripcion": "Cargador Magnético W1 para iWatch ROCA USB C 2.5W",
       "marca": "Roca Mobile",
@@ -259,11 +277,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/70015.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70015.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0369.jpg"
     },
     {
       "id": "relive-0370",
-      "codigo": null,
+      "codigo": "RELIVE-0370",
       "nombre": "Cable de Datos ROCA Power Delivery USB C a USB C 200cm 100W Blanco",
       "descripcion": "Cable de Datos ROCA Power Delivery USB C a USB C 200cm 100W Blanco",
       "marca": "Roca Mobile",
@@ -272,11 +291,12 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/64310.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_64310.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0370.jpg"
     },
     {
       "id": "relive-0371",
-      "codigo": null,
+      "codigo": "RELIVE-0371",
       "nombre": "Cable de Datos ROCA Power Delivery USB C a USB C 300cm 100W Blanco",
       "descripcion": "Cable de Datos ROCA Power Delivery USB C a USB C 300cm 100W Blanco",
       "marca": "Roca Mobile",
@@ -285,7 +305,8 @@
       "subcategoria": "Cables de datos Roca",
       "imagen": "Accesorios/Cables de datos roca img/87753.jpg",
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_87753.jpg",
-      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx"
+      "fuente_excel": "Accesorios/Cables de datos Roca.xlsx",
+      "imagen_local": "assets/productos/RELIVE-0371.jpg"
     }
   ]
 }

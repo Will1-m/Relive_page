@@ -6,6 +6,7 @@
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:catalog && npm run build:assets",
         "build:catalog": "node scripts/build-catalog.js",
         "build:assets": "node scripts/build-assets.js",
+        "download:images": "node scripts/download-product-images.js",
         "build:pug": "node scripts/build-pug.js",
         "build:scripts": "node scripts/build-scripts.js",
         "build:scss": "node scripts/build-scss.js",

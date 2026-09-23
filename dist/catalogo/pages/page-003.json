@@ -16,6 +16,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC016440.png",
       "oferta": true,
       "precio_anterior": 2.62
     },
@@ -33,6 +34,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC014580.jpg",
       "oferta": true,
       "precio_anterior": 2.7
     },
@@ -50,6 +52,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/SACC021048.jpg",
       "oferta": true,
       "precio_anterior": 2.88
     },
@@ -67,6 +70,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC020722.jpg",
       "oferta": true,
       "precio_anterior": 3.01
     },
@@ -84,6 +88,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC020723.jpg",
       "oferta": true,
       "precio_anterior": 3.01
     },
@@ -101,6 +106,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC016824.jpg",
       "oferta": true,
       "precio_anterior": 3.28
     },
@@ -118,6 +124,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC016825.jpg",
       "oferta": true,
       "precio_anterior": 3.28
     },
@@ -135,6 +142,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC016826.jpg",
       "oferta": true,
       "precio_anterior": 3.28
     },
@@ -152,6 +160,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC014582.png",
       "oferta": true,
       "precio_anterior": 3.38
     },
@@ -169,6 +178,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC020720.jpg",
       "oferta": true,
       "precio_anterior": 3.55
     },
@@ -186,6 +196,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC020721.jpg",
       "oferta": true,
       "precio_anterior": 3.55
     },
@@ -203,6 +214,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC019135.jpg",
       "oferta": true,
       "precio_anterior": 3.61
     },
@@ -220,6 +232,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC019136.jpg",
       "oferta": true,
       "precio_anterior": 3.61
     },
@@ -237,6 +250,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/SACC018394.jpg",
       "oferta": true,
       "precio_anterior": 3.82
     },
@@ -254,6 +268,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC019137.jpg",
       "oferta": true,
       "precio_anterior": 4.31
     },
@@ -271,6 +286,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC019138.jpg",
       "oferta": true,
       "precio_anterior": 4.31
     },
@@ -288,6 +304,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC017445.jpg",
       "oferta": true,
       "precio_anterior": 4.43
     },
@@ -305,6 +322,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC017446.jpg",
       "oferta": true,
       "precio_anterior": 4.43
     },
@@ -322,6 +340,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC019954.jpg",
       "oferta": true,
       "precio_anterior": 8.92
     },
@@ -339,6 +358,7 @@
       "fuentes_excel": [
         "Accesorios/smartwatch.xlsx"
       ],
+      "imagen_local": "assets/productos/ACC019955.jpg",
       "oferta": true,
       "precio_anterior": 13.4
     },
@@ -355,7 +375,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_50941.png",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010362.png"
     },
     {
       "id": "relive-0222",
@@ -370,7 +391,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_80365.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC019908.jpg"
     },
     {
       "id": "relive-0223",
@@ -385,7 +407,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_50948.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010363.jpg"
     },
     {
       "id": "relive-0224",
@@ -400,7 +423,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_50953.png",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010364.png"
     },
     {
       "id": "relive-0225",
@@ -415,7 +439,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_68484.png",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC015501.png"
     },
     {
       "id": "relive-0226",
@@ -430,7 +455,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_72824.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017298.jpg"
     },
     {
       "id": "relive-0227",
@@ -445,7 +471,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73730.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC012154.jpg"
     },
     {
       "id": "relive-0228",
@@ -460,7 +487,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_72810.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017299.jpg"
     },
     {
       "id": "relive-0229",
@@ -475,7 +503,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_80364.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC019907.jpg"
     },
     {
       "id": "relive-0230",
@@ -490,7 +519,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_79465.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC019315.jpg"
     },
     {
       "id": "relive-0231",
@@ -505,7 +535,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73746.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC012155.jpg"
     },
     {
       "id": "relive-0232",
@@ -520,7 +551,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_77356.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC018701.jpg"
     },
     {
       "id": "relive-0233",
@@ -535,7 +567,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73778.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017547.jpg"
     },
     {
       "id": "relive-0234",
@@ -550,7 +583,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73793.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017548.jpg"
     },
     {
       "id": "relive-0235",
@@ -565,7 +599,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76367.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC018282.jpg"
     },
     {
       "id": "relive-0236",
@@ -580,7 +615,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56976.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC012156.jpg"
     },
     {
       "id": "relive-0237",
@@ -595,7 +631,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73762.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC014341.jpg"
     },
     {
       "id": "relive-0238",
@@ -610,7 +647,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73808.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017549.jpg"
     },
     {
       "id": "relive-0239",
@@ -625,7 +663,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56983.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC012157.jpg"
     },
     {
       "id": "relive-0240",
@@ -640,7 +679,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_82936.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC020417.jpg"
     },
     {
       "id": "relive-0241",
@@ -655,7 +695,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_50899.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010370.jpg"
     },
     {
       "id": "relive-0242",
@@ -670,7 +711,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_64787.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC014346.jpg"
     },
     {
       "id": "relive-0243",
@@ -685,7 +727,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76305.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC018273.jpg"
     },
     {
       "id": "relive-0244",
@@ -700,7 +743,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_75165.png",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017166.png"
     },
     {
       "id": "relive-0245",
@@ -715,7 +759,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73844.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017551.jpg"
     },
     {
       "id": "relive-0246",
@@ -730,7 +775,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_78933.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC018281.jpg"
     },
     {
       "id": "relive-0247",
@@ -745,7 +791,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73827.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017550.jpg"
     },
     {
       "id": "relive-0248",
@@ -760,7 +807,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_68491.png",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC015503.png"
     },
     {
       "id": "relive-0249",
@@ -775,7 +823,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_73861.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017552.jpg"
     },
     {
       "id": "relive-0250",
@@ -790,7 +839,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76345.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC018280.jpg"
     },
     {
       "id": "relive-0251",
@@ -805,7 +855,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_75170.png",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017167.png"
     },
     {
       "id": "relive-0252",
@@ -820,7 +871,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_72124.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017181.jpg"
     },
     {
       "id": "relive-0253",
@@ -835,7 +887,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_72134.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017178.jpg"
     },
     {
       "id": "relive-0254",
@@ -850,7 +903,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76294.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC018271.jpg"
     },
     {
       "id": "relive-0255",
@@ -865,7 +919,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_74876.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017180.jpg"
     },
     {
       "id": "relive-0256",
@@ -880,7 +935,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_78374.png",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC019150.png"
     },
     {
       "id": "relive-0257",
@@ -895,7 +951,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_76300.jpg",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC018272.jpg"
     },
     {
       "id": "relive-0258",
@@ -910,7 +967,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_78369.png",
       "fuentes_excel": [
         "Accesorios/Cables hdmi.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC019149.png"
     },
     {
       "id": "relive-0259",
@@ -925,7 +983,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56597.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC004156.jpg"
     },
     {
       "id": "relive-0260",
@@ -940,7 +999,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56601.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC004161.jpg"
     },
     {
       "id": "relive-0261",
@@ -955,7 +1015,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56595.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC004151.jpg"
     },
     {
       "id": "relive-0262",
@@ -970,7 +1031,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70431.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC004155.jpg"
     },
     {
       "id": "relive-0263",
@@ -985,7 +1047,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_85748.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC004160.jpg"
     },
     {
       "id": "relive-0264",
@@ -1000,7 +1063,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56588.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010643.jpg"
     },
     {
       "id": "relive-0265",
@@ -1015,7 +1079,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_53260.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010827.jpg"
     },
     {
       "id": "relive-0266",
@@ -1030,7 +1095,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_53253.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010829.jpg"
     },
     {
       "id": "relive-0267",
@@ -1045,7 +1111,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70299.png",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC012937.png"
     },
     {
       "id": "relive-0268",
@@ -1060,7 +1127,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_70297.png",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC012938.png"
     },
     {
       "id": "relive-0269",
@@ -1075,7 +1143,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_85758.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC004152.jpg"
     },
     {
       "id": "relive-0270",
@@ -1090,7 +1159,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_87018.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/SACC021550.jpg"
     },
     {
       "id": "relive-0271",
@@ -1105,7 +1175,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_85835.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC004146.jpg"
     },
     {
       "id": "relive-0272",
@@ -1120,7 +1191,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_58531.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010637.jpg"
     },
     {
       "id": "relive-0273",
@@ -1135,7 +1207,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_81774.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/SACC020180.jpg"
     },
     {
       "id": "relive-0274",
@@ -1150,7 +1223,8 @@
       "imagen_url": "https://www.mancru.com/artworks/nofoto/256x256.png",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/SACC022833.png"
     },
     {
       "id": "relive-0275",
@@ -1165,7 +1239,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_86437.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC001266.jpg"
     },
     {
       "id": "relive-0276",
@@ -1180,7 +1255,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_53161.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC009594.jpg"
     },
     {
       "id": "relive-0277",
@@ -1195,7 +1271,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_56611.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010636.jpg"
     },
     {
       "id": "relive-0278",
@@ -1210,7 +1287,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos31_58532.jpg",
       "fuentes_excel": [
         "Accesorios/Cables de datos Roca.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010638.jpg"
     },
     {
       "id": "relive-0279",
@@ -1225,7 +1303,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_57185.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010978.jpg"
     },
     {
       "id": "relive-0280",
@@ -1240,7 +1319,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74833.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017599.jpg"
     },
     {
       "id": "relive-0281",
@@ -1255,7 +1335,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_59308.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC012426.jpg"
     },
     {
       "id": "relive-0282",
@@ -1270,7 +1351,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_81725.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/SACC019106.jpg"
     },
     {
       "id": "relive-0283",
@@ -1285,7 +1367,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_84173.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC020766.jpg"
     },
     {
       "id": "relive-0284",
@@ -1300,7 +1383,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_46959.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC009336.jpg"
     },
     {
       "id": "relive-0285",
@@ -1315,7 +1399,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_46957.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC009337.jpg"
     },
     {
       "id": "relive-0286",
@@ -1330,7 +1415,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_79454.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC004291.jpg"
     },
     {
       "id": "relive-0287",
@@ -1345,7 +1431,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74944.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC017600.jpg"
     },
     {
       "id": "relive-0288",
@@ -1360,7 +1447,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_89313.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC022483.jpg"
     },
     {
       "id": "relive-0289",
@@ -1375,7 +1463,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_48290.png",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC009983.png"
     },
     {
       "id": "relive-0290",
@@ -1390,7 +1479,8 @@
       "imagen_url": "https://www.mancru.com/artworks/nofoto/512x512.png",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/SACC022837.png"
     },
     {
       "id": "relive-0291",
@@ -1405,7 +1495,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_53358.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010773.jpg"
     },
     {
       "id": "relive-0292",
@@ -1420,7 +1511,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_53360.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC010774.jpg"
     },
     {
       "id": "relive-0293",
@@ -1435,7 +1527,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_66104.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC014574.jpg"
     },
     {
       "id": "relive-0294",
@@ -1450,7 +1543,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_87011.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/SACC021542.jpg"
     },
     {
       "id": "relive-0295",
@@ -1465,7 +1559,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_48289.png",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC009882.png"
     },
     {
       "id": "relive-0296",
@@ -1480,7 +1575,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_74831.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC015702.jpg"
     },
     {
       "id": "relive-0297",
@@ -1495,7 +1591,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69303.png",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC015951.png"
     },
     {
       "id": "relive-0298",
@@ -1510,7 +1607,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_61308.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC013358.jpg"
     },
     {
       "id": "relive-0299",
@@ -1525,7 +1623,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_69300.png",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC015952.png"
     },
     {
       "id": "relive-0300",
@@ -1540,7 +1639,8 @@
       "imagen_url": "https://www.mancru.com/imgs/productos/productos32_83072.jpg",
       "fuentes_excel": [
         "Accesorios/soprtes.xlsx"
-      ]
+      ],
+      "imagen_local": "assets/productos/ACC020454.jpg"
     }
   ]
 }

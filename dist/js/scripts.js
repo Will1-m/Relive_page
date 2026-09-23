@@ -3,9 +3,7 @@
 * Copyright 2013-2026 undefined
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
 */
-document.addEventListener('DOMContentLoaded', function () {
-  var cartKey = 'relive_cart';
-
+(function (global) {
   function safeNumber(v) {
     var n = Number(v);
     return Number.isFinite(n) ? n : 0;
@@ -14,6 +12,73 @@ document.addEventListener('DOMContentLoaded', function () {
   function safeText(v) {
     return String(v == null ? '' : v);
   }
+
+  function toCodeSafe(value) {
+    return safeText(value).trim().replace(/[^A-Za-z0-9._-]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '').toUpperCase();
+  }
+
+  function getProductCode(product) {
+    if (!product) return '';
+    var code = safeText(product.codigo || product.id || '').trim();
+    return code || '';
+  }
+
+  function normalizeProduct(product) {
+    if (!product) return null;
+    var normalized = Object.assign({}, product);
+    var code = getProductCode(normalized);
+    var localBase = safeText(normalized.imagen_local || '').trim();
+    normalized.codigo = code;
+
+    if (localBase) {
+      normalized.imagen_local = localBase;
+      return normalized;
+    }
+
+    if (code) {
+      normalized.imagen_local = 'assets/productos/' + toCodeSafe(code) + '.jpg';
+      return normalized;
+    }
+
+    if (safeText(normalized.imagen || '').trim()) {
+      var basename = safeText(normalized.imagen).split(/[\\/]/).pop();
+      normalized.imagen_local = basename ? 'assets/productos/' + basename : '';
+    }
+
+    return normalized;
+  }
+
+  function resolveProductImage(product) {
+    if (!product) return 'assets/placeholder.svg';
+    var normalized = normalizeProduct(product);
+    if (!normalized) return 'assets/placeholder.svg';
+    if (normalized.imagen_local) return normalized.imagen_local;
+    if (normalized.imagen_url) return normalized.imagen_url;
+    return 'assets/placeholder.svg';
+  }
+
+  function image(p) {
+    return resolveProductImage(p);
+  }
+
+  var productResolver = {
+    getProductCode: getProductCode,
+    normalizeProduct: normalizeProduct,
+    resolveProductImage: resolveProductImage,
+    image: image
+  };
+
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = productResolver;
+  }
+  if (global) {
+    global.reliveProductResolver = productResolver;
+  }
+
+  if (typeof document === 'undefined') return;
+
+  document.addEventListener('DOMContentLoaded', function () {
+  var cartKey = 'relive_cart';
 
   function isValidBrandName(value) {
     var text = safeText(value).trim();
@@ -45,16 +110,12 @@ document.addEventListener('DOMContentLoaded', function () {
     return new Intl.NumberFormat('es-UY', { style: 'currency', currency: 'UYU', maximumFractionDigits: 0 }).format(n);
   }
 
-  function image(p) {
-    if (!p) return 'img/placeholder.png';
-    return p.imagen_url || (p.imagen ? 'img/' + p.imagen : 'img/placeholder.png');
-  }
-
   function productCard(p, compact) {
     var previousPrice = p.oferta && p.precio_anterior != null ? '<del class="text-muted small me-2">' + money(p.precio_anterior) + '</del>' : '';
     var offerBadge = p.oferta ? '<span class="offer-badge">Oferta</span>' : '';
     var column = compact ? 'col-12 col-sm-6 col-lg-3' : 'col';
-    return '<div class="' + column + '"><div class="card product-card h-100">' + offerBadge + '<a href="producto.html?id=' + encodeURIComponent(p.id) + '"><img class="card-img-top product-card-image" loading="lazy" src="' + esc(image(p)) + '" alt="' + esc(p.nombre) + '" onerror="this.onerror=null;this.src=\'img/placeholder.png\'"></a><div class="card-body product-card-body"><small class="text-muted">' + esc(p.categoria || '') + ' · ' + esc(p.subcategoria || '') + '</small><h5 class="mt-2">' + esc(p.nombre) + '</h5><div class="mb-3">' + previousPrice + '<strong class="fw-bold fs-5">' + money(p.precio) + '</strong></div><div class="product-card-actions"><a class="btn btn-outline-dark flex-fill" href="producto.html?id=' + encodeURIComponent(p.id) + '">Ver</a><button class="btn btn-dark flex-fill add">Agregar</button></div></div></div></div>';
+    var codeText = p.codigo ? '<small class="d-block text-muted mt-1">Código: ' + esc(p.codigo) + '</small>' : '';
+    return '<div class="' + column + '"><div class="card product-card h-100">' + offerBadge + '<a href="producto.html?id=' + encodeURIComponent(p.id) + '"><img class="card-img-top product-card-image" loading="lazy" src="' + esc(image(p)) + '" alt="' + esc(p.nombre) + '" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"></a><div class="card-body product-card-body"><small class="text-muted">' + esc(p.categoria || '') + ' · ' + esc(p.subcategoria || '') + '</small>' + codeText + '<h5 class="mt-2">' + esc(p.nombre) + '</h5><div class="mb-3">' + previousPrice + '<strong class="fw-bold fs-5">' + money(p.precio) + '</strong></div><div class="product-card-actions"><a class="btn btn-outline-dark flex-fill" href="producto.html?id=' + encodeURIComponent(p.id) + '">Ver</a><button class="btn btn-dark flex-fill add">Agregar</button></div></div></div></div>';
   }
 
   function load(u) {
@@ -362,7 +423,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var col = document.createElement('div');
             col.className = 'col-md-4';
             var previousPrice = p.precio_anterior != null ? '<del class="small me-2 offer-previous-price">' + money(p.precio_anterior) + '</del>' : '';
-            col.innerHTML = '<article class="offer-card h-100"><span class="offer-badge">Oferta</span><a href="producto.html?id=' + encodeURIComponent(p.id) + '"><img src="' + esc(image(p)) + '" alt="' + esc(p.nombre) + '" loading="lazy" onerror="this.onerror=null;this.src=\'img/placeholder.png\'"></a><div class="offer-card-body"><small>' + esc(p.marca || '') + '</small><h3>' + esc(p.nombre) + '</h3><div>' + previousPrice + '<strong>' + money(p.precio) + '</strong></div><button class="btn btn-sm btn-light offer-add">Agregar</button></div></article>';
+            col.innerHTML = '<article class="offer-card h-100"><span class="offer-badge">Oferta</span><a href="producto.html?id=' + encodeURIComponent(p.id) + '"><img src="' + esc(image(p)) + '" alt="' + esc(p.nombre) + '" loading="lazy" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"></a><div class="offer-card-body"><small>' + esc(p.marca || '') + '</small><h3>' + esc(p.nombre) + '</h3><div>' + previousPrice + '<strong>' + money(p.precio) + '</strong></div><button class="btn btn-sm btn-light offer-add">Agregar</button></div></article>';
             col.querySelector('.offer-add').onclick = function () { add(p); };
             offersProducts.appendChild(col);
           });
@@ -613,7 +674,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         document.title = 'Relive — ' + p.nombre;
-        root.innerHTML = '<div class="row g-5"><div class="col-md-6"><div class="border rounded p-3 text-center"><img src="' + esc(image(p)) + '" class="img-fluid" style="max-height:500px;object-fit:contain" alt="' + esc(p.nombre) + '" onerror="this.onerror=null;this.src=\'img/placeholder.png\'"></div></div><div class="col-md-6"><small class="text-muted">' + esc(p.categoria || '') + ' · ' + esc(p.subcategoria || '') + '</small><h1 class="display-6 mt-2">' + esc(p.nombre) + '</h1><p class="lead">' + esc(p.descripcion || '') + '</p>' + (p.marca ? '<p><strong>Marca:</strong> ' + esc(p.marca) + '</p>' : '') + (p.codigo ? '<p><strong>Código:</strong> ' + esc(p.codigo) + '</p>' : '') + '<div class="fs-2 fw-bold mb-3">' + money(p.precio) + '</div><p class="text-muted">' + (p.stock === 0 ? 'Sin stock' : p.stock != null ? 'Stock disponible' : 'Consultar disponibilidad') + '</p><button id="add-product" class="btn btn-dark btn-lg" ' + (p.stock === 0 ? 'disabled' : '') + '>Agregar al carrito</button></div></div>';
+        root.innerHTML = '<div class="row g-5"><div class="col-md-6"><div class="border rounded p-3 text-center"><img src="' + esc(image(p)) + '" class="img-fluid" style="max-height:500px;object-fit:contain" alt="' + esc(p.nombre) + '" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"></div></div><div class="col-md-6"><small class="text-muted">' + esc(p.categoria || '') + ' · ' + esc(p.subcategoria || '') + '</small><h1 class="display-6 mt-2">' + esc(p.nombre) + '</h1><p class="lead">' + esc(p.descripcion || '') + '</p>' + (p.marca ? '<p><strong>Marca:</strong> ' + esc(p.marca) + '</p>' : '') + (p.codigo ? '<p><strong>Código:</strong> ' + esc(p.codigo) + '</p>' : '') + '<div class="fs-2 fw-bold mb-3">' + money(p.precio) + '</div><p class="text-muted">' + (p.stock === 0 ? 'Sin stock' : p.stock != null ? 'Stock disponible' : 'Consultar disponibilidad') + '</p><button id="add-product" class="btn btn-dark btn-lg" ' + (p.stock === 0 ? 'disabled' : '') + '>Agregar al carrito</button></div></div>';
 
         var addButton = document.getElementById('add-product');
         if (addButton) {
@@ -641,7 +702,7 @@ document.addEventListener('DOMContentLoaded', function () {
       root.innerHTML = c.map(function (x, i) {
         var price = safeNumber(x.precio);
         total += price * (Number(x.cantidad) || 1);
-        return '<div class="card mb-3"><div class="card-body d-flex align-items-center gap-3"><img src="' + esc(image(x)) + '" style="width:80px;height:80px;object-fit:contain" alt="' + esc(x.nombre) + '" onerror="this.onerror=null;this.src=\'img/placeholder.png\'"><div class="flex-grow-1"><h5>' + esc(x.nombre) + '</h5>' + money(x.precio) + ' × <input data-q="' + i + '" type="number" min="1" value="' + (Number(x.cantidad) || 1) + '" class="form-control d-inline-block" style="width:80px"></div><button class="btn btn-outline-danger del" data-i="' + i + '">Eliminar</button></div></div>';
+        return '<div class="card mb-3"><div class="card-body d-flex align-items-center gap-3"><img src="' + esc(image(x)) + '" style="width:80px;height:80px;object-fit:contain" alt="' + esc(x.nombre) + '" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"><div class="flex-grow-1"><h5>' + esc(x.nombre) + '</h5>' + money(x.precio) + ' × <input data-q="' + i + '" type="number" min="1" value="' + (Number(x.cantidad) || 1) + '" class="form-control d-inline-block" style="width:80px"></div><button class="btn btn-outline-danger del" data-i="' + i + '">Eliminar</button></div></div>';
       }).join('') + '<div class="text-end"><h3>Total: ' + money(total) + '</h3><button id="empty" class="btn btn-outline-danger me-2">Vaciar</button><button id="order" class="btn btn-dark">Preparar pedido</button></div>';
 
       root.querySelectorAll('.del').forEach(function (b) {
@@ -737,3 +798,4 @@ document.addEventListener('DOMContentLoaded', function () {
   initCart();
   initAccountMenu();
 });
+})(typeof window !== 'undefined' ? window : globalThis);
