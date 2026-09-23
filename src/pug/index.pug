@@ -19,12 +19,34 @@ html(lang='es')
         #nav.collapse.navbar-collapse
           ul.navbar-nav.me-auto
             li.nav-item: a.nav-link.active(href='index.html') Catálogo
-            li.nav-item: a.nav-link(href='cart.html') Carrito
+            li.nav-item: a.nav-link(href='#categorias-nav') Categorías
+            li.nav-item: a.nav-link(href='#ofertas-panel') Ofertas
+          a.nav-link.text-white(href='cart.html') Carrito (<span class='relive-cart-count'>0</span>)
     header.bg-dark.text-white.py-5
       .container
         h1.display-5.fw-bold Catálogo Relive
         p.lead.mb-0 Accesorios, informática y productos disponibles.
     main.container.py-4
+      .row.g-3.mb-4
+        .col-lg-6
+          label.form-label(for='buscador') Buscar
+          .search-field
+            .input-group
+              input#buscador.form-control(type='search', placeholder='Producto, código, marca…', autocomplete='off', role='combobox', aria-autocomplete='list', aria-controls='sugerencias-busqueda', aria-expanded='false')
+              button#buscar-btn.btn.btn-dark(type='button') Buscar
+            #sugerencias-busqueda.search-suggestions(role='listbox' hidden)
+        .col-sm-6.col-lg-2
+          label.form-label(for='filtro-marca') Marca
+          select#filtro-marca.form-select: option(value='') Todas
+        .col-sm-6.col-lg-2
+          label.form-label(for='orden') Ordenar
+          select#orden.form-select
+            option(value='relevancia') Relevancia
+            option(value='precio-asc') Precio menor
+            option(value='precio-desc') Precio mayor
+            option(value='nombre') Nombre
+        .col-sm-6.col-lg-2.d-flex.align-items-end
+          a.btn.btn-outline-dark.w-100(href='cart.html') Ver carrito
       section#ofertas-panel.offer-panel.mb-4(aria-labelledby='ofertas-titulo')
         .offer-panel-content
           .d-flex.flex-wrap.justify-content-between.align-items-center.gap-3
@@ -40,24 +62,6 @@ html(lang='es')
               #ofertas-paginacion.offer-pagination.d-flex.gap-2(aria-label='Paginación de ofertas')
               button#ofertas-siguiente.btn.btn-sm.btn-outline-light(type='button' aria-label='Oferta siguiente') →
           #ofertas-marcas.offer-brands.d-flex.flex-wrap.gap-2.mt-3
-      .row.g-3.mb-4
-        .col-lg-6
-          label.form-label(for='buscador') Buscar
-          .input-group
-            input#buscador.form-control(type='search', placeholder='Producto, código, marca…', autocomplete='off')
-            button#buscar-btn.btn.btn-dark(type='button') Buscar
-        .col-sm-6.col-lg-2
-          label.form-label(for='filtro-marca') Marca
-          select#filtro-marca.form-select: option(value='') Todas
-        .col-sm-6.col-lg-2
-          label.form-label(for='orden') Ordenar
-          select#orden.form-select
-            option(value='relevancia') Relevancia
-            option(value='precio-asc') Precio menor
-            option(value='precio-desc') Precio mayor
-            option(value='nombre') Nombre
-        .col-sm-6.col-lg-2.d-flex.align-items-end
-          a.btn.btn-outline-dark.w-100(href='cart.html') Ver carrito
       #categorias-nav.d-flex.flex-wrap.gap-2.mb-3
       #subcategorias-nav.d-flex.flex-wrap.gap-2.mb-4
       .d-flex.justify-content-between.align-items-center.mb-3

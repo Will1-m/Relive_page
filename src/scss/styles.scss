@@ -32,6 +32,21 @@ footer.bg-dark {
   letter-spacing: 0.08em;
 }
 
+.relive-cart-count {
+  display: inline-flex;
+  min-width: 1.35rem;
+  min-height: 1.35rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.25rem;
+  border-radius: 999px;
+  color: var(--relive-charcoal);
+  background: var(--relive-gold);
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .relive-brand {
   display: inline-flex;
   align-items: center;
@@ -297,6 +312,60 @@ footer.bg-dark {
 .form-control,
 .form-select {
   border-radius: 0.75rem;
+}
+
+.search-field {
+  position: relative;
+  z-index: 5;
+}
+
+.search-suggestions {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 0.35rem);
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  border: 1px solid var(--relive-border);
+  border-radius: 0.75rem;
+  background: #fff;
+  box-shadow: 0 12px 24px rgba(43, 27, 22, 0.16);
+}
+
+.search-suggestion {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  padding: 0.7rem 0.9rem;
+  border: 0;
+  border-bottom: 1px solid var(--relive-border);
+  color: var(--relive-text);
+  background: #fff;
+  text-align: left;
+}
+
+.search-suggestion:last-child {
+  border-bottom: 0;
+}
+
+.search-suggestion:hover,
+.search-suggestion:focus {
+  color: var(--relive-cedar-dark);
+  background: var(--relive-soft);
+}
+
+.search-suggestion-name {
+  overflow: hidden;
+  width: 100%;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-suggestion-meta {
+  color: #765b4f;
 }
 
 @media (max-width: 768px) {

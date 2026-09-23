@@ -140,6 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var offersPagination = document.getElementById('ofertas-paginacion');
       var offersPrevious = document.getElementById('ofertas-anterior');
       var offersNext = document.getElementById('ofertas-siguiente');
+      var suggestions = document.getElementById('sugerencias-busqueda');
 
       if (!ix || !Array.isArray(ix.productos)) {
         if (info) info.textContent = 'No hay productos disponibles.';
@@ -163,6 +164,48 @@ document.addEventListener('DOMContentLoaded', function () {
       var current = 1;
       var size = per ? Number(per.value) || 12 : 12;
       var offersTimer;
+
+      function updateSuggestions() {
+        if (!search || !suggestions) return;
+        var q = search.value.trim().toLowerCase();
+        suggestions.innerHTML = '';
+        if (!q) {
+          suggestions.hidden = true;
+          search.setAttribute('aria-expanded', 'false');
+          return;
+        }
+
+        var matches = ix.productos.filter(function (p) {
+          var text = [p.nombre, p.codigo, p.marca, p.categoria, p.subcategoria].filter(Boolean).join(' ').toLowerCase();
+          return text.indexOf(q) >= 0;
+        }).slice(0, 8);
+
+        if (!matches.length) {
+          suggestions.hidden = true;
+          search.setAttribute('aria-expanded', 'false');
+          return;
+        }
+
+        matches.forEach(function (p, index) {
+          var item = document.createElement('button');
+          item.type = 'button';
+          item.className = 'search-suggestion';
+          item.setAttribute('role', 'option');
+          item.setAttribute('id', 'sugerencia-' + index);
+          item.innerHTML = '<span class="search-suggestion-name"></span><small class="search-suggestion-meta"></small>';
+          item.querySelector('.search-suggestion-name').textContent = p.nombre || p.codigo || 'Producto';
+          item.querySelector('.search-suggestion-meta').textContent = [p.marca, p.codigo].filter(Boolean).join(' · ');
+          item.onclick = function () {
+            suggestions.hidden = true;
+            search.setAttribute('aria-expanded', 'false');
+            window.location.href = 'producto.html?id=' + encodeURIComponent(p.id);
+          };
+          suggestions.appendChild(item);
+        });
+
+        suggestions.hidden = false;
+        search.setAttribute('aria-expanded', 'true');
+      }
 
       function btn(t, a, f) {
         var b = document.createElement('button');
@@ -285,14 +328,18 @@ document.addEventListener('DOMContentLoaded', function () {
           offerOnly = true;
           if (brand) brand.value = '';
           current = 1;
-          render();
+          render().then(function () {
+            grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
         }));
         brands.forEach(function (name) {
           offersBrands.appendChild(btn(name, offerOnly && brand.value === name, function () {
             offerOnly = true;
             if (brand) brand.value = name;
             current = 1;
-            render();
+            render().then(function () {
+              grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
           }));
         });
         clearOffers.hidden = false;
@@ -379,24 +426,45 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (search) {
         search.addEventListener('input', debounce(function () {
+          updateSuggestions();
           current = 1;
           render();
         }, 300));
+        search.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape' && suggestions) {
+            suggestions.hidden = true;
+            search.setAttribute('aria-expanded', 'false');
+          }
+        });
       }
 
       if (searchButton) {
         searchButton.onclick = function () {
+          if (suggestions) suggestions.hidden = true;
+          if (search) search.setAttribute('aria-expanded', 'false');
           current = 1;
           render();
         };
       }
+
+      document.addEventListener('click', function (event) {
+        if (suggestions && search && !search.contains(event.target) && !suggestions.contains(event.target)) {
+          suggestions.hidden = true;
+          search.setAttribute('aria-expanded', 'false');
+        }
+      });
 
       [brand, sort].forEach(function (control) {
         if (control) {
           control.addEventListener('change', function () {
             current = 1;
             if (control === brand) offerOnly = false;
-            render();
+            var update = render();
+            if (control === brand) {
+              update.then(function () {
+                grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              });
+            }
           });
         }
       });
