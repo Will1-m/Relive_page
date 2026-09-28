@@ -14,6 +14,7 @@ html(lang='es')
           img.relive-logo(src='assets/logo.webp' alt='Relive')
           span.visually-hidden RELIVE
         a.nav-link.text-white(href='index.html') Catálogo
+        a.nav-link.text-white(href='index.html?account=login') Ingresar
         a.nav-link.text-white.relive-cart-link(href='cart.html' aria-label='Ver carrito' title='Ver carrito')
           svg.relive-cart-icon(viewBox='0 0 24 24' aria-hidden='true' focusable='false')
             path(d='M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 1.9-1.4L21 8H6')
@@ -24,4 +25,6 @@ html(lang='es')
       a.text-decoration-none(href='index.html') ← Volver al catálogo
       #producto.mt-4
         .text-center.py-5: .spinner-border(role='status'): span.visually-hidden Cargando…
+    script(src='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2')
+    script(src='js/supabase-config.js')
     script(src='js/scripts.js')

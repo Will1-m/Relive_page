@@ -17,6 +17,7 @@
                 </a>
                 <div class="d-flex align-items-center gap-3">
                     <a class="nav-link text-white" href="index.html">Catálogo</a>
+                    <a class="nav-link text-white" href="index.html?account=login">Ingresar</a>
                     <span class="navbar-text text-white">
                         Artículos:
                         <span class="relive-cart-count">0</span>
@@ -27,7 +28,44 @@
         <main class="container py-5">
             <h1 class="mb-4">Tu carrito</h1>
             <div id="carrito"></div>
+            <section class="order-checkout mt-4" id="order-checkout" hidden aria-labelledby="order-checkout-title">
+                <h2 class="h4 mb-3" id="order-checkout-title">Datos para el pedido</h2>
+                <p class="text-muted">El pedido queda pendiente de confirmar stock, precio y entrega por WhatsApp.</p>
+                <div class="alert" id="checkout-feedback" role="status" aria-live="polite" hidden></div>
+                <form id="checkout-form">
+                    <div class="checkout-fields">
+                        <div>
+                            <label class="form-label" for="checkout-name">Nombre y apellido</label>
+                            <input class="form-control" id="checkout-name" type="text" name="customer_name" autocomplete="name" maxlength="100" required />
+                        </div>
+                        <div>
+                            <label class="form-label" for="checkout-phone">Teléfono de contacto</label>
+                            <input class="form-control" id="checkout-phone" type="tel" name="customer_phone" autocomplete="tel" maxlength="30" required />
+                        </div>
+                        <div>
+                            <label class="form-label" for="checkout-email">Email (opcional)</label>
+                            <input class="form-control" id="checkout-email" type="email" name="customer_email" autocomplete="email" maxlength="150" />
+                        </div>
+                        <div>
+                            <label class="form-label" for="checkout-delivery">Entrega</label>
+                            <select class="form-select" id="checkout-delivery" name="delivery_method">
+                                <option value="Coordinar entrega por WhatsApp">Coordinar entrega por WhatsApp</option>
+                                <option value="Retiro en el local">Retiro en el local</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <label class="form-label" for="checkout-notes">Zona o indicaciones (opcional)</label>
+                        <textarea class="form-control" id="checkout-notes" name="customer_notes" rows="2" maxlength="500"></textarea>
+                    </div>
+                    <button class="btn btn-dark mt-4" id="checkout-submit" type="submit">Enviar pedido a WhatsApp y email</button>
+                    <button class="btn btn-link mt-4" id="checkout-cancel" type="button">Volver al carrito</button>
+                </form>
+            </section>
         </main>
+        <script src="js/order-config.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+        <script src="js/supabase-config.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>

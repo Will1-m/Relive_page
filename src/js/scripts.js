@@ -74,6 +74,70 @@
 
   document.addEventListener('DOMContentLoaded', function () {
   var cartKey = 'relive_cart';
+  var supabaseClient = null;
+  var currentUser = null;
+  var privatePrices = new Map();
+  var authReady = Promise.resolve();
+
+  function hasPriceAccess() {
+    return Boolean(supabaseClient && currentUser && currentUser.email_confirmed_at);
+  }
+
+  function applyPrivatePrices(products) {
+    if (!Array.isArray(products)) return products;
+    products.forEach(function (product) {
+      var price = hasPriceAccess() ? privatePrices.get(String(product.id || product.codigo || '')) : null;
+      product.precio = price ? price.price : null;
+      product.precio_anterior = price ? price.previous_price : null;
+      delete product.precio_costo;
+      delete product.margen_porcentaje;
+    });
+    return products;
+  }
+
+  function loadPrivatePrices() {
+    if (!hasPriceAccess()) return Promise.resolve();
+    return supabaseClient.from('product_prices').select('product_id,price,previous_price').then(function (result) {
+      if (result.error) throw result.error;
+      privatePrices = new Map((result.data || []).map(function (price) {
+        return [String(price.product_id), price];
+      }));
+    });
+  }
+
+  function initializeSupabase() {
+    var config = global.RELIVE_SUPABASE_CONFIG || {};
+    if (!config.url || !config.anonKey || !global.supabase || !global.supabase.createClient) return;
+
+    supabaseClient = global.supabase.createClient(config.url, config.anonKey);
+    authReady = supabaseClient.auth.getSession().then(function (result) {
+      if (result.error) throw result.error;
+      currentUser = result.data.session ? result.data.session.user : null;
+      return loadPrivatePrices();
+    }).catch(function (error) {
+      currentUser = null;
+      privatePrices.clear();
+      console.error('No se pudo iniciar la sesión de Relive:', error);
+    });
+
+    supabaseClient.auth.onAuthStateChange(function (event, session) {
+      if (event === 'INITIAL_SESSION' || event === 'TOKEN_REFRESHED') return;
+      currentUser = session ? session.user : null;
+      if (!hasPriceAccess()) privatePrices.clear();
+      window.location.reload();
+    });
+  }
+
+  function priceMarkup(product) {
+    if (!hasPriceAccess()) return '<a class="price-login-required" href="index.html?account=login">Ingresá para ver el precio</a>';
+    return money(product.precio);
+  }
+
+  function requireAccount() {
+    if (hasPriceAccess()) return true;
+    window.location.href = 'index.html?account=login';
+    return false;
+  }
 
   function isValidBrandName(value) {
     var text = safeText(value).trim();
@@ -106,16 +170,19 @@
   }
 
   function productCard(p, compact) {
-    var previousPrice = p.oferta && p.precio_anterior != null ? '<del class="text-muted small me-2">' + money(p.precio_anterior) + '</del>' : '';
+    var previousPrice = hasPriceAccess() && p.oferta && p.precio_anterior != null ? '<del class="text-muted small me-2">' + money(p.precio_anterior) + '</del>' : '';
     var offerBadge = p.oferta ? '<span class="offer-badge">Oferta</span>' : '';
     var column = compact ? 'col-12 col-sm-6 col-lg-3' : 'col';
-    return '<div class="' + column + '"><div class="card product-card h-100">' + offerBadge + '<a href="producto.html?id=' + encodeURIComponent(p.id) + '"><img class="card-img-top product-card-image" loading="lazy" src="' + esc(image(p)) + '" alt="' + esc(p.nombre) + '" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"></a><div class="card-body product-card-body"><h5 class="mt-2">' + esc(p.nombre) + '</h5><div class="mb-3">' + previousPrice + '<strong class="fw-bold fs-5">' + money(p.precio) + '</strong></div><div class="product-card-actions"><a class="btn btn-outline-dark flex-fill" href="producto.html?id=' + encodeURIComponent(p.id) + '">Ver</a><button class="btn btn-dark flex-fill add">Agregar</button></div></div></div></div>';
+    return '<div class="' + column + '"><div class="card product-card h-100">' + offerBadge + '<a href="producto.html?id=' + encodeURIComponent(p.id) + '"><img class="card-img-top product-card-image" loading="lazy" src="' + esc(image(p)) + '" alt="' + esc(p.nombre) + '" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"></a><div class="card-body product-card-body"><h5 class="mt-2">' + esc(p.nombre) + '</h5><div class="mb-3">' + previousPrice + '<strong class="fw-bold fs-5">' + priceMarkup(p) + '</strong></div><div class="product-card-actions"><a class="btn btn-outline-dark flex-fill" href="producto.html?id=' + encodeURIComponent(p.id) + '">Ver</a><button class="btn btn-dark flex-fill add">' + (hasPriceAccess() ? 'Agregar' : 'Ingresar') + '</button></div></div></div></div>';
   }
 
   function load(u) {
     return fetch(u, { cache: 'no-store' }).then(function (r) {
       if (!r.ok) throw Error(u + ' HTTP ' + r.status);
       return r.json();
+    }).then(function (data) {
+      if (data && Array.isArray(data.productos)) applyPrivatePrices(data.productos);
+      return data;
     });
   }
 
@@ -147,6 +214,7 @@
   };
 
   var add = function (p) {
+    if (!requireAccount()) return;
     if (!p || !p.id) return;
     if (p.stock === 0) {
       alert('Este producto no tiene stock disponible.');
@@ -185,7 +253,9 @@
     var homeProducts = document.getElementById('home-categorias-grid');
     if (!grid && !homeProducts) return Promise.resolve();
 
-    return load('catalogo-index.json').then(function (ix) {
+    return authReady.then(function () {
+      return load('catalogo-index.json');
+    }).then(function (ix) {
       var search = document.getElementById('buscador');
       var searchButton = document.getElementById('buscar-btn');
       var brand = document.getElementById('filtro-marca');
@@ -416,8 +486,8 @@
           visibleOffers.forEach(function (p) {
             var col = document.createElement('div');
             col.className = 'col-md-4';
-            var previousPrice = p.precio_anterior != null ? '<del class="small me-2 offer-previous-price">' + money(p.precio_anterior) + '</del>' : '';
-            col.innerHTML = '<article class="offer-card h-100"><span class="offer-badge">Oferta</span><a href="producto.html?id=' + encodeURIComponent(p.id) + '"><img src="' + esc(image(p)) + '" alt="' + esc(p.nombre) + '" loading="lazy" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"></a><div class="offer-card-body"><small>' + esc(p.marca || '') + '</small><h3>' + esc(p.nombre) + '</h3><div>' + previousPrice + '<strong>' + money(p.precio) + '</strong></div><button class="btn btn-sm btn-light offer-add">Agregar</button></div></article>';
+            var previousPrice = hasPriceAccess() && p.precio_anterior != null ? '<del class="small me-2 offer-previous-price">' + money(p.precio_anterior) + '</del>' : '';
+            col.innerHTML = '<article class="offer-card h-100"><span class="offer-badge">Oferta</span><a href="producto.html?id=' + encodeURIComponent(p.id) + '"><img src="' + esc(image(p)) + '" alt="' + esc(p.nombre) + '" loading="lazy" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"></a><div class="offer-card-body"><small>' + esc(p.marca || '') + '</small><h3>' + esc(p.nombre) + '</h3><div>' + previousPrice + '<strong>' + priceMarkup(p) + '</strong></div><button class="btn btn-sm btn-light offer-add">' + (hasPriceAccess() ? 'Agregar' : 'Ingresar') + '</button></div></article>';
             col.querySelector('.offer-add').onclick = function () { add(p); };
             offersProducts.appendChild(col);
           });
@@ -484,8 +554,8 @@
           return (!offerOnly || p.oferta === true) && (!cat || p.categoria === cat) && (!sub || p.subcategoria === sub) && (!brand || !brand.value || p.marca === brand.value) && (!q || text.indexOf(q) >= 0);
         });
 
-        if (sort && sort.value === 'precio-asc') a.sort(function (x, y) { return safeNumber(x.precio) - safeNumber(y.precio); });
-        if (sort && sort.value === 'precio-desc') a.sort(function (x, y) { return safeNumber(y.precio) - safeNumber(x.precio); });
+        if (hasPriceAccess() && sort && sort.value === 'precio-asc') a.sort(function (x, y) { return safeNumber(x.precio) - safeNumber(y.precio); });
+        if (hasPriceAccess() && sort && sort.value === 'precio-desc') a.sort(function (x, y) { return safeNumber(y.precio) - safeNumber(x.precio); });
         if (sort && sort.value === 'nombre') a.sort(function (x, y) { return String(x.nombre || '').localeCompare(String(y.nombre || ''), 'es'); });
         return a;
       }
@@ -608,6 +678,13 @@
         }
       });
 
+      if (sort && !hasPriceAccess()) {
+        Array.from(sort.options).forEach(function (option) {
+          if (option.value === 'precio-asc' || option.value === 'precio-desc') option.disabled = true;
+        });
+        if (sort.value === 'precio-asc' || sort.value === 'precio-desc') sort.value = 'relevancia';
+      }
+
       if (per) {
         per.onchange = function () {
           size = Number(per.value) || 12;
@@ -648,7 +725,9 @@
       return Promise.resolve();
     }
 
-    return load('catalogo-index.json').then(function (ix) {
+    return authReady.then(function () {
+      return load('catalogo-index.json');
+    }).then(function (ix) {
       if (!ix || !Array.isArray(ix.productos)) {
         root.innerHTML = '<div class="alert alert-warning">No se pudo cargar el producto.</div>';
         return;
@@ -668,7 +747,7 @@
         }
 
         document.title = 'Relive — ' + p.nombre;
-        root.innerHTML = '<div class="row g-5"><div class="col-md-6"><div class="border rounded p-3 text-center"><img src="' + esc(image(p)) + '" class="img-fluid" style="max-height:500px;object-fit:contain" alt="' + esc(p.nombre) + '" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"></div></div><div class="col-md-6"><small class="text-muted">' + esc(p.categoria || '') + ' · ' + esc(p.subcategoria || '') + '</small><h1 class="display-6 mt-2">' + esc(p.nombre) + '</h1><p class="lead">' + esc(p.descripcion || '') + '</p>' + (p.marca ? '<p><strong>Marca:</strong> ' + esc(p.marca) + '</p>' : '') + (p.codigo ? '<p><strong>Código:</strong> ' + esc(p.codigo) + '</p>' : '') + '<div class="fs-2 fw-bold mb-3">' + money(p.precio) + '</div><p class="text-muted">' + (p.stock === 0 ? 'Sin stock' : p.stock != null ? 'Stock disponible' : 'Consultar disponibilidad') + '</p><button id="add-product" class="btn btn-dark btn-lg" ' + (p.stock === 0 ? 'disabled' : '') + '>Agregar al carrito</button></div></div>';
+        root.innerHTML = '<div class="row g-5"><div class="col-md-6"><div class="border rounded p-3 text-center"><img src="' + esc(image(p)) + '" class="img-fluid" style="max-height:500px;object-fit:contain" alt="' + esc(p.nombre) + '" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"></div></div><div class="col-md-6"><small class="text-muted">' + esc(p.categoria || '') + ' · ' + esc(p.subcategoria || '') + '</small><h1 class="display-6 mt-2">' + esc(p.nombre) + '</h1><p class="lead">' + esc(p.descripcion || '') + '</p>' + (p.marca ? '<p><strong>Marca:</strong> ' + esc(p.marca) + '</p>' : '') + (p.codigo ? '<p><strong>Código:</strong> ' + esc(p.codigo) + '</p>' : '') + '<div class="fs-2 fw-bold mb-3">' + priceMarkup(p) + '</div><p class="text-muted">' + (p.stock === 0 ? 'Sin stock' : p.stock != null ? 'Stock disponible' : 'Consultar disponibilidad') + '</p><button id="add-product" class="btn btn-dark btn-lg" ' + (p.stock === 0 ? 'disabled' : '') + '>' + (hasPriceAccess() ? 'Agregar al carrito' : 'Ingresar para comprar') + '</button></div></div>';
 
         var addButton = document.getElementById('add-product');
         if (addButton) {
@@ -686,18 +765,28 @@
     if (!root) return;
 
     function render() {
+      if (!hasPriceAccess()) {
+        root.innerHTML = '<div class="alert alert-info">Iniciá sesión con un email verificado para consultar precios y preparar un pedido. <a href="index.html?account=login">Ingresar o registrarme</a></div>';
+        return;
+      }
       var c = getCart();
       if (!Array.isArray(c) || !c.length) {
         root.innerHTML = '<div class="alert alert-info">Tu carrito está vacío.</div>';
         return;
       }
 
+      c.forEach(function (item) {
+        var price = privatePrices.get(String(item.id || ''));
+        item.precio = price ? price.price : null;
+      });
+      saveCart(c);
+
       var total = 0;
       root.innerHTML = c.map(function (x, i) {
         var price = safeNumber(x.precio);
         total += price * (Number(x.cantidad) || 1);
         return '<div class="card mb-3"><div class="card-body d-flex align-items-center gap-3"><img src="' + esc(image(x)) + '" style="width:80px;height:80px;object-fit:contain" alt="' + esc(x.nombre) + '" onerror="this.onerror=null;this.src=\'assets/placeholder.svg\'"><div class="flex-grow-1"><h5>' + esc(x.nombre) + '</h5>' + money(x.precio) + ' × <input data-q="' + i + '" type="number" min="1" value="' + (Number(x.cantidad) || 1) + '" class="form-control d-inline-block" style="width:80px"></div><button class="btn btn-outline-danger del" data-i="' + i + '">Eliminar</button></div></div>';
-      }).join('') + '<div class="text-end"><h3>Total: ' + money(total) + '</h3><button id="empty" class="btn btn-outline-danger me-2">Vaciar</button><button id="order" class="btn btn-dark">Preparar pedido</button></div>';
+      }).join('') + '<div class="text-end"><h3>Total: ' + money(total) + '</h3><button id="empty" class="btn btn-outline-danger me-2">Vaciar</button><button id="order" class="btn btn-dark">Continuar con el pedido</button></div>';
 
       root.querySelectorAll('.del').forEach(function (b) {
         b.onclick = function () {
@@ -733,18 +822,144 @@
       var order = document.getElementById('order');
       if (order) {
         order.onclick = function () {
-          var t = c.map(function (x) {
-            return (x.nombre || 'Producto') + ' x' + (Number(x.cantidad) || 1) + ' — ' + money(x.precio);
-          }).join('\n');
-          try {
-            if (navigator.clipboard) navigator.clipboard.writeText(t);
-          } catch (e) {}
-          alert('Pedido copiado.');
+          var checkout = document.getElementById('order-checkout');
+          if (!checkout) return;
+          checkout.hidden = false;
+          checkout.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          var nameInput = document.getElementById('checkout-name');
+          if (nameInput) nameInput.focus({ preventScroll: true });
         };
       }
     }
 
-    render();
+    authReady.then(render);
+  }
+
+  function initOrderCheckout() {
+    var form = document.getElementById('checkout-form');
+    var cancel = document.getElementById('checkout-cancel');
+    if (!form) return;
+
+    var checkout = document.getElementById('order-checkout');
+    var feedback = document.getElementById('checkout-feedback');
+    var submit = document.getElementById('checkout-submit');
+    var config = global.RELIVE_ORDER_CONFIG || {};
+
+    if (cancel) {
+      cancel.addEventListener('click', function () {
+        checkout.hidden = true;
+        feedback.hidden = true;
+        form.reset();
+        document.getElementById('carrito').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+      if (!requireAccount()) return;
+
+      var cart = getCart();
+      if (!cart.length) {
+        feedback.className = 'alert alert-warning';
+        feedback.textContent = 'El carrito está vacío.';
+        feedback.hidden = false;
+        return;
+      }
+
+      var whatsappPhone = safeText(config.whatsappPhone).replace(/\D/g, '');
+      if (!/^\d{8,15}$/.test(whatsappPhone)) {
+        feedback.className = 'alert alert-danger';
+        feedback.textContent = 'El teléfono de WhatsApp no está configurado correctamente.';
+        feedback.hidden = false;
+        return;
+      }
+
+      var orderNumber = 'REL-' + Date.now().toString(36).toUpperCase();
+      var customerName = form.elements.customer_name.value.trim();
+      var customerPhone = form.elements.customer_phone.value.trim();
+      var customerEmail = form.elements.customer_email.value.trim();
+      var deliveryMethod = form.elements.delivery_method.value;
+      var customerNotes = form.elements.customer_notes.value.trim();
+      var total = 0;
+      var orderItems = cart.map(function (item) {
+        var quantity = Math.max(1, Number(item.cantidad) || 1);
+        var price = safeNumber(item.precio);
+        total += price * quantity;
+        return (item.nombre || 'Producto') + ' x' + quantity + ' — ' + money(item.precio);
+      }).join('\n');
+      var orderMessage = [
+        'Solicitud de pedido ' + orderNumber,
+        'Nombre: ' + customerName,
+        'Teléfono: ' + customerPhone,
+        'Email: ' + (customerEmail || 'No informado'),
+        'Entrega: ' + deliveryMethod,
+        'Indicaciones: ' + (customerNotes || 'Sin indicaciones'),
+        '',
+        'Productos:',
+        orderItems,
+        'Total estimado: ' + money(total),
+        '',
+        'Pendiente de confirmar stock, precio y entrega.'
+      ].join('\n');
+      var whatsappUrl = 'https://wa.me/' + whatsappPhone + '?text=' + encodeURIComponent(orderMessage);
+      global.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+
+      var whatsappLink = document.createElement('a');
+      whatsappLink.href = whatsappUrl;
+      whatsappLink.target = '_blank';
+      whatsappLink.rel = 'noopener noreferrer';
+      whatsappLink.textContent = 'Abrir WhatsApp';
+
+      var serviceId = safeText(config.emailjsServiceId).trim();
+      var templateId = safeText(config.emailjsTemplateId).trim();
+      var publicKey = safeText(config.emailjsPublicKey).trim();
+      if (!serviceId || !templateId || !publicKey) {
+        feedback.className = 'alert alert-warning';
+        feedback.textContent = 'WhatsApp quedó preparado. Falta configurar EmailJS para que llegue el aviso por correo. ';
+        feedback.appendChild(whatsappLink);
+        feedback.hidden = false;
+        return;
+      }
+
+      submit.disabled = true;
+      feedback.className = 'alert alert-info';
+      feedback.textContent = 'Enviando el aviso de pedido al email de Relive…';
+      feedback.hidden = false;
+
+      fetch('https://api.emailjs.com/api/v1.0/email/send', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          service_id: serviceId,
+          template_id: templateId,
+          user_id: publicKey,
+          template_params: {
+            order_number: orderNumber,
+            customer_name: customerName,
+            customer_phone: customerPhone,
+            customer_email: customerEmail || 'No informado',
+            delivery_method: deliveryMethod,
+            customer_notes: customerNotes || 'Sin indicaciones',
+            order_items: orderItems,
+            order_total: money(total),
+            order_status: 'Pendiente de confirmación por WhatsApp; verificar stock, precio y entrega.'
+          }
+        })
+      }).then(function (response) {
+        if (!response.ok) throw new Error('EmailJS HTTP ' + response.status);
+        feedback.className = 'alert alert-success';
+        feedback.textContent = 'Aviso enviado a Relive. Revisa WhatsApp y pulsa Enviar para confirmar el pedido. ';
+        feedback.appendChild(whatsappLink);
+      }).catch(function (error) {
+        console.error('No se pudo enviar el aviso del pedido:', error);
+        feedback.className = 'alert alert-warning';
+        feedback.textContent = 'No se pudo enviar el aviso por email. El pedido sigue preparado en WhatsApp; confirma el mensaje allí. ';
+        feedback.appendChild(whatsappLink);
+      }).finally(function () {
+        submit.disabled = false;
+      });
+    });
   }
 
   function initAccountMenu() {
@@ -753,12 +968,32 @@
 
     var views = {
       login: document.getElementById('account-login'),
-      register: document.getElementById('account-register')
+      register: document.getElementById('account-register'),
+      recovery: document.getElementById('account-recovery'),
+      'password-update': document.getElementById('account-password-update')
     };
 
     function showView(view) {
       Object.keys(views).forEach(function (key) {
         if (views[key]) views[key].hidden = key !== view;
+      });
+    }
+
+    function showFeedback(message, type) {
+      var feedback = modal.querySelector('.account-feedback');
+      if (!feedback) return;
+      feedback.className = 'account-feedback alert alert-' + (type || 'info');
+      feedback.textContent = message;
+      feedback.hidden = false;
+    }
+
+    function updateAccountControls() {
+      var signedIn = hasPriceAccess();
+      document.querySelectorAll('[data-account-signout]').forEach(function (button) {
+        button.hidden = !signedIn;
+      });
+      document.querySelectorAll('[data-account-view="login"], [data-account-view="register"]').forEach(function (button) {
+        button.hidden = signedIn;
       });
     }
 
@@ -774,22 +1009,126 @@
       });
     });
 
-    modal.querySelectorAll('form').forEach(function (form) {
-      form.addEventListener('submit', function (event) {
+    var loginForm = views.login && views.login.querySelector('form');
+    if (loginForm) {
+      loginForm.addEventListener('submit', function (event) {
         event.preventDefault();
-        var feedback = modal.querySelector('.account-feedback');
-        if (feedback) {
-          feedback.textContent = 'El acceso de usuarios estará disponible próximamente.';
-          feedback.hidden = false;
-        }
+        if (!supabaseClient) return showFeedback('El acceso todavía no está configurado. Falta conectar el proyecto Supabase.', 'warning');
+        var button = loginForm.querySelector('[type="submit"]');
+        button.disabled = true;
+        supabaseClient.auth.signInWithPassword({
+          email: document.getElementById('login-email').value.trim(),
+          password: document.getElementById('login-password').value
+        }).then(function (result) {
+          if (result.error) throw result.error;
+          window.location.reload();
+        }).catch(function (error) {
+          showFeedback(error.message || 'No se pudo iniciar sesión.', 'danger');
+        }).finally(function () {
+          button.disabled = false;
+        });
+      });
+    }
+
+    var registerForm = views.register && views.register.querySelector('form');
+    if (registerForm) {
+      registerForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        if (!supabaseClient) return showFeedback('El registro todavía no está configurado. Falta conectar el proyecto Supabase.', 'warning');
+        var button = registerForm.querySelector('[type="submit"]');
+        button.disabled = true;
+        supabaseClient.auth.signUp({
+          email: document.getElementById('register-email').value.trim(),
+          password: document.getElementById('register-password').value,
+          options: {
+            emailRedirectTo: new URL('index.html', window.location.href).href,
+            data: { full_name: document.getElementById('register-name').value.trim() }
+          }
+        }).then(function (result) {
+          if (result.error) throw result.error;
+          if (result.data.session) {
+            window.location.reload();
+            return;
+          }
+          showFeedback('Te enviamos un correo para verificar la cuenta. Iniciá sesión después de confirmarlo.', 'success');
+          showView('login');
+        }).catch(function (error) {
+          showFeedback(error.message || 'No se pudo crear la cuenta.', 'danger');
+        }).finally(function () {
+          button.disabled = false;
+        });
+      });
+    }
+
+    var recoveryForm = views.recovery && views.recovery.querySelector('form');
+    if (recoveryForm) {
+      recoveryForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        if (!supabaseClient) return showFeedback('El acceso todavía no está configurado. Falta conectar el proyecto Supabase.', 'warning');
+        var button = recoveryForm.querySelector('[type="submit"]');
+        button.disabled = true;
+        supabaseClient.auth.resetPasswordForEmail(document.getElementById('recovery-email').value.trim(), {
+          redirectTo: new URL('index.html?account=password-update', window.location.href).href
+        }).then(function (result) {
+          if (result.error) throw result.error;
+          showView('login');
+          showFeedback('Si el email está registrado, recibirás un enlace para restablecer la contraseña.', 'success');
+        }).catch(function (error) {
+          showFeedback(error.message || 'No se pudo enviar el enlace.', 'danger');
+        }).finally(function () {
+          button.disabled = false;
+        });
+      });
+    }
+
+    var passwordUpdateForm = views['password-update'] && views['password-update'].querySelector('form');
+    if (passwordUpdateForm) {
+      passwordUpdateForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        if (!supabaseClient) return showFeedback('El acceso todavía no está configurado. Falta conectar el proyecto Supabase.', 'warning');
+        var button = passwordUpdateForm.querySelector('[type="submit"]');
+        button.disabled = true;
+        supabaseClient.auth.updateUser({ password: document.getElementById('new-password').value }).then(function (result) {
+          if (result.error) throw result.error;
+          window.location.replace('index.html');
+        }).catch(function (error) {
+          showFeedback(error.message || 'No se pudo actualizar la contraseña.', 'danger');
+        }).finally(function () {
+          button.disabled = false;
+        });
+      });
+    }
+
+    document.querySelectorAll('[data-account-signout]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        if (!supabaseClient) return;
+        button.disabled = true;
+        supabaseClient.auth.signOut().then(function (result) {
+          if (result.error) throw result.error;
+          saveCart([]);
+          window.location.reload();
+        }).catch(function (error) {
+          showFeedback(error.message || 'No se pudo cerrar sesión.', 'danger');
+          button.disabled = false;
+        });
       });
     });
+
+    var requestedView = new URLSearchParams(window.location.search).get('account');
+    if (!requestedView && new URLSearchParams(window.location.hash.slice(1)).get('type') === 'recovery') requestedView = 'password-update';
+    if (requestedView && views[requestedView] && (!hasPriceAccess() || requestedView === 'password-update')) {
+      showView(requestedView);
+      if (global.bootstrap && global.bootstrap.Modal) global.bootstrap.Modal.getOrCreateInstance(modal).show();
+    }
+    authReady.then(updateAccountControls);
   }
 
+  initializeSupabase();
   badge();
   initCatalog().catch(function (err) { console.error(err); });
   initProduct().catch(function (err) { console.error(err); });
   initCart();
+  initOrderCheckout();
   initAccountMenu();
 });
 })(typeof window !== 'undefined' ? window : globalThis);

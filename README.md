@@ -33,6 +33,39 @@ npm start
 
 El catálogo se genera a partir de `src/data` y las plantillas están en `src/pug`.
 
+## Acceso y precios privados
+
+El catálogo público no publica precios. Las cifras actuales se conservaron en `private-data/product-prices.json`, ignorado por Git, y las hojas de `src/data/excel` también están excluidas. El historial público de GitHub puede seguir conteniendo precios antiguos; se acordó no reescribir ese historial.
+
+1. Crea un proyecto Supabase y deja activada la confirmación de email en **Authentication > Providers > Email**.
+2. En **Authentication > URL Configuration**, configura como URL del sitio `https://will1-m.github.io/Relive_page/` y permite la redirección `https://will1-m.github.io/Relive_page/**`.
+3. Ejecuta el SQL de `supabase/schema.sql` en el SQL Editor. La tabla `product_prices` permite lectura solo al rol autenticado; las escrituras quedan reservadas al importador administrativo.
+4. Completa `url` y `anonKey` en `src/js/supabase-config.js` con el Project URL y la publishable/anon key. Esa clave es pública. Nunca pongas la `service_role` key allí.
+5. Para importar precios, define `SUPABASE_URL` y `SUPABASE_SERVICE_ROLE_KEY` solo en tu terminal local y ejecuta `npm run import:prices`. La clave de servicio evita RLS y no debe guardarse en Git ni compartirse. En PowerShell:
+
+    ```powershell
+    $env:SUPABASE_URL = "https://<project-ref>.supabase.co"
+    $env:SUPABASE_SERVICE_ROLE_KEY = "<pegar solo localmente>"
+    npm run import:prices
+    Remove-Item Env:SUPABASE_SERVICE_ROLE_KEY
+    ```
+
+El registro, inicio de sesión y recuperación de contraseña funcionan después de completar la configuración. Solo los usuarios con email confirmado consultan precios; sin proyecto configurado, el catálogo conserva los productos pero bloquea precios y compras.
+
+Para ocultar un producto sin borrarlo, marca `"publicado": false` en su registro de `src/data/productos_relive.json`, ejecuta `npm run import:prices` para sincronizar el bloqueo RLS y luego vuelve a construir/publicar el catálogo. El producto se excluye de todos los JSON públicos. Para actualizar precios desde Excel, ejecuta `npm run update:prices` y luego vuelve a importarlos a Supabase. Los valores nunca vuelven a los JSON públicos.
+
+## Pedidos por WhatsApp y email
+
+El checkout abre WhatsApp con el pedido preparado y envía un aviso a Relive mediante EmailJS. El cliente debe confirmar el mensaje en WhatsApp; el email avisa que la solicitud está pendiente y no confirma stock, precio ni entrega.
+
+1. En EmailJS, conecta el servicio de email de Relive y crea una plantilla cuyo destinatario fijo sea `relive284@gmail.com`. No uses una variable que permita al visitante elegir el destinatario.
+2. Configura el asunto, por ejemplo `Pedido web pendiente: {{order_number}}`, y en el cuerpo incluye `{{customer_name}}`, `{{customer_phone}}`, `{{customer_email}}`, `{{delivery_method}}`, `{{customer_notes}}`, `{{order_items}}`, `{{order_total}}` y `{{order_status}}`.
+3. En `src/js/order-config.js`, completa `emailjsServiceId`, `emailjsTemplateId` y `emailjsPublicKey` con los identificadores públicos que proporciona EmailJS. El teléfono de WhatsApp ya está configurado.
+4. En la configuración de EmailJS, limita los orígenes permitidos al dominio publicado y configura límites de envío, si tu plan lo permite. La cuenta actual rechazó guardar el dominio por una limitación de suscripción; mientras siga así, el endpoint público puede consumirse hasta agotar la cuota mensual. Para protegerlo, mejora el plan o mueve el envío a una función de servidor con secretos guardados fuera del repositorio. La clave pública se usa en el navegador; nunca agregues una clave privada o contraseña al repositorio.
+5. Ejecuta `npm run build` y publica la carpeta `dist`.
+
+El total se calcula en el navegador y no es una cotización garantizada. Verifica precio, stock y entrega antes de confirmar cada pedido.
+
 ## Licencia
 
 Este proyecto conserva la licencia MIT incluida en [LICENSE](LICENSE).

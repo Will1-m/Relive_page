@@ -41,6 +41,7 @@ html(lang='es')
                 li: h6.dropdown-header Acceso de usuarios
                 li: button.dropdown-item(type='button' data-bs-toggle='modal' data-bs-target='#account-modal' data-account-view='login') Iniciar sesión
                 li: button.dropdown-item(type='button' data-bs-toggle='modal' data-bs-target='#account-modal' data-account-view='register') Registrarme
+                li: button.dropdown-item(type='button' data-account-signout) Cerrar sesión
       .header-category-bar
         .container
           a(href='#home-categorias') Categorías
@@ -48,6 +49,7 @@ html(lang='es')
           a(href='#destacados') Destacados
           a(href='#novedades') Novedades
           a(href='#reparaciones') Reparaciones
+          a(href='#resenas') Reseñas
     main#inicio
       section.relive-hero
         .container
@@ -104,6 +106,20 @@ html(lang='es')
             p Diagnóstico, mantenimiento y reparación de consolas y electrónica con atención cercana.
             a.btn.btn-light(href='mailto:contacto@relive.com.uy') Consultar reparación
           .repairs-icon(aria-hidden='true') +
+      section#resenas.home-section.reviews-section(aria-labelledby='resenas-titulo')
+        .container
+          .reviews-layout
+            .reviews-copy
+              span.eyebrow.text-fire Estamos en Pinamar
+              h2#resenas-titulo Tu experiencia también cuenta.
+              p Las opiniones de Relive se publican en Google. Consultalas o compartí la tuya desde nuestra ficha.
+              .reviews-actions
+                a.btn.btn-dark(href='https://maps.app.goo.gl/kTgSwGDXsE5u5jeg9' target='_blank' rel='noopener noreferrer') Ver opiniones en Google
+                a.reviews-write-link(href='https://maps.app.goo.gl/kTgSwGDXsE5u5jeg9' target='_blank' rel='noopener noreferrer') Dejar una reseña →
+              p.reviews-note Las reseñas de Google no se sincronizan automáticamente con esta web.
+            .reviews-map
+              iframe(title='Ubicación de Relive en Google Maps' src='https://www.google.com/maps?q=Relive%20Servicio%20t%C3%A9cnico%20de%20celulares%2C%20Pinamar%2C%20Canelones&output=embed' loading='lazy' referrerpolicy='no-referrer-when-downgrade')
+              a.reviews-map-link(href='https://maps.app.goo.gl/kTgSwGDXsE5u5jeg9' target='_blank' rel='noopener noreferrer') Abrir ubicación en Google Maps ↗
     footer.bg-dark.text-white.relive-footer
       .container
         .footer-grid
@@ -119,6 +135,7 @@ html(lang='es')
             h3 Ayuda
             a(href='#home-categorias') Categorías
             a(href='#reparaciones') Reparaciones
+            a(href='#resenas') Ubicación y reseñas
             a(href='cart.html') Carrito
         p.footer-legal © 2026 Relive · Pinamar, Canelones, Uruguay
     #account-modal.modal.fade(tabindex='-1' aria-labelledby='account-modal-title' aria-hidden='true')
@@ -139,6 +156,7 @@ html(lang='es')
                 label.form-label.mt-3(for='login-password') Contraseña
                 input#login-password.form-control(type='password' autocomplete='current-password' required)
                 button.btn.btn-dark.w-100.mt-4(type='submit') Iniciar sesión
+              button.account-switch(type='button' data-account-switch='recovery') Olvidé mi contraseña
               button.account-switch(type='button' data-account-switch='register') ¿Todavía no tenés cuenta? Registrate
             .account-view#account-register(hidden)
               span.eyebrow.text-fire Crear cuenta
@@ -150,8 +168,26 @@ html(lang='es')
                 label.form-label.mt-3(for='register-email') Email
                 input#register-email.form-control(type='email' autocomplete='email' required)
                 label.form-label.mt-3(for='register-password') Contraseña
-                input#register-password.form-control(type='password' autocomplete='new-password' required)
+                input#register-password.form-control(type='password' autocomplete='new-password' minlength='8' required)
                 button.btn.btn-dark.w-100.mt-4(type='submit') Crear cuenta
               button.account-switch(type='button' data-account-switch='login') Ya tengo una cuenta
+            .account-view#account-recovery(hidden)
+              span.eyebrow.text-fire Recuperar acceso
+              h3 Restablecer contraseña
+              p.text-muted Te enviaremos un enlace para crear una nueva contraseña.
+              form
+                label.form-label(for='recovery-email') Email
+                input#recovery-email.form-control(type='email' autocomplete='email' required)
+                button.btn.btn-dark.w-100.mt-4(type='submit') Enviar enlace
+              button.account-switch(type='button' data-account-switch='login') Volver a iniciar sesión
+            .account-view#account-password-update(hidden)
+              span.eyebrow.text-fire Actualizar acceso
+              h3 Elegí una nueva contraseña
+              form
+                label.form-label(for='new-password') Nueva contraseña
+                input#new-password.form-control(type='password' autocomplete='new-password' minlength='8' required)
+                button.btn.btn-dark.w-100.mt-4(type='submit') Guardar contraseña
     script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+    script(src='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2')
+    script(src='js/supabase-config.js')
     script(src='js/scripts.js')

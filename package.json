@@ -4,9 +4,13 @@
     "version": "5.0.6",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:catalog && npm run build:assets",
+        "test:catalog-security": "node tests/catalog-security.test.js",
         "build:catalog": "node scripts/build-catalog.js",
+        "migrate:prices": "node scripts/migrate-prices-private.js --apply",
+        "import:prices": "node scripts/import-private-prices-to-supabase.js",
         "build:assets": "node scripts/build-assets.js",
         "download:images": "node scripts/download-product-images.js",
+        "update:prices": "node scripts/update-prices-from-excel.js",
         "build:pug": "node scripts/build-pug.js",
         "build:scripts": "node scripts/build-scripts.js",
         "build:scss": "node scripts/build-scss.js",
@@ -30,6 +34,7 @@
         "sass": "1.60.0",
         "shelljs": "0.8.5",
         "terser": "^5.40.0",
-        "upath": "2.0.1"
+        "upath": "2.0.1",
+        "xlsx": "^0.18.5"
     }
 }

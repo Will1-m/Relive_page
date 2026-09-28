@@ -15,8 +15,37 @@ html(lang='es')
           span.visually-hidden RELIVE
         .d-flex.align-items-center.gap-3
           a.nav-link.text-white(href='index.html') Catálogo
+          a.nav-link.text-white(href='index.html?account=login') Ingresar
           span.navbar-text.text-white Artículos: <span class='relive-cart-count'>0</span>
     main.container.py-5
       h1.mb-4 Tu carrito
       #carrito
+      section#order-checkout.order-checkout.mt-4(hidden aria-labelledby='order-checkout-title')
+        h2#order-checkout-title.h4.mb-3 Datos para el pedido
+        p.text-muted El pedido queda pendiente de confirmar stock, precio y entrega por WhatsApp.
+        #checkout-feedback.alert(role='status' aria-live='polite' hidden)
+        form#checkout-form
+          .checkout-fields
+            div
+              label.form-label(for='checkout-name') Nombre y apellido
+              input#checkout-name.form-control(type='text' name='customer_name' autocomplete='name' maxlength='100' required)
+            div
+              label.form-label(for='checkout-phone') Teléfono de contacto
+              input#checkout-phone.form-control(type='tel' name='customer_phone' autocomplete='tel' maxlength='30' required)
+            div
+              label.form-label(for='checkout-email') Email (opcional)
+              input#checkout-email.form-control(type='email' name='customer_email' autocomplete='email' maxlength='150')
+            div
+              label.form-label(for='checkout-delivery') Entrega
+              select#checkout-delivery.form-select(name='delivery_method')
+                option(value='Coordinar entrega por WhatsApp') Coordinar entrega por WhatsApp
+                option(value='Retiro en el local') Retiro en el local
+          div.mt-3
+            label.form-label(for='checkout-notes') Zona o indicaciones (opcional)
+            textarea#checkout-notes.form-control(name='customer_notes' rows='2' maxlength='500')
+          button#checkout-submit.btn.btn-dark.mt-4(type='submit') Enviar pedido a WhatsApp y email
+          button#checkout-cancel.btn.btn-link.mt-4(type='button') Volver al carrito
+    script(src='js/order-config.js')
+    script(src='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2')
+    script(src='js/supabase-config.js')
     script(src='js/scripts.js')

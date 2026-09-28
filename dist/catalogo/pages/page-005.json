@@ -1,6 +1,6 @@
 {
   "pagina": 5,
-  "total_paginas": 8,
+  "total_paginas": 0,
   "productos": [
     {
       "id": "relive-0201",
@@ -8,7 +8,6 @@
       "nombre": "Smartwatch Mibro GS Active 1.3\" 400mAh Dorado by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Active 1.3\" 400mAh Dorado by Xiaomi",
       "marca": "Mibro",
-      "precio": 2.275,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": "Accesorios/smartwacht/imgi_20_productos31_69423.png",
@@ -17,8 +16,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC016440.png",
-      "oferta": true,
-      "precio_anterior": 2.62
+      "oferta": true
     },
     {
       "id": "relive-0202",
@@ -26,7 +24,6 @@
       "nombre": "Smartwatch Mibro T2 1.75\" 300mAh Azul by Xiaomi",
       "descripcion": "Smartwatch Mibro T2 1.75\" 300mAh Azul by Xiaomi",
       "marca": "Mibro",
-      "precio": 2.35,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": "Accesorios/smartwacht/imgi_43_productos32_64277.jpg",
@@ -35,8 +32,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC014580.jpg",
-      "oferta": true,
-      "precio_anterior": 2.7
+      "oferta": true
     },
     {
       "id": "relive-0203",
@@ -44,7 +40,6 @@
       "nombre": "AS - Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi Con Detalle",
       "descripcion": "AS - Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi Con Detalle",
       "marca": "Mibro",
-      "precio": 2.5,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -53,8 +48,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/SACC021048.jpg",
-      "oferta": true,
-      "precio_anterior": 2.88
+      "oferta": true
     },
     {
       "id": "relive-0204",
@@ -62,7 +56,6 @@
       "nombre": "Smartwatch Mibro Fit 350mAh c/2 Mallas Negro XPAW027 by Xiaomi",
       "descripcion": "Smartwatch Mibro Fit 350mAh c/2 Mallas Negro XPAW027 by Xiaomi",
       "marca": "Mibro",
-      "precio": 2.62,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -71,8 +64,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC020722.jpg",
-      "oferta": true,
-      "precio_anterior": 3.01
+      "oferta": true
     },
     {
       "id": "relive-0205",
@@ -80,7 +72,6 @@
       "nombre": "Smartwatch Mibro Fit 350mAh c/2 Mallas Plateado XPAW027 by Xiaomi",
       "descripcion": "Smartwatch Mibro Fit 350mAh c/2 Mallas Plateado XPAW027 by Xiaomi",
       "marca": "Mibro",
-      "precio": 2.62,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -89,8 +80,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC020723.jpg",
-      "oferta": true,
-      "precio_anterior": 3.01
+      "oferta": true
     },
     {
       "id": "relive-0206",
@@ -98,7 +88,6 @@
       "nombre": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Dorado by Xiaomi",
       "descripcion": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Dorado by Xiaomi",
       "marca": "Mibro",
-      "precio": 2.85,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -107,8 +96,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC016824.jpg",
-      "oferta": true,
-      "precio_anterior": 3.28
+      "oferta": true
     },
     {
       "id": "relive-0207",
@@ -116,7 +104,6 @@
       "nombre": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi",
       "descripcion": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Gris by Xiaomi",
       "marca": "Mibro",
-      "precio": 2.85,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -125,8 +112,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC016825.jpg",
-      "oferta": true,
-      "precio_anterior": 3.28
+      "oferta": true
     },
     {
       "id": "relive-0208",
@@ -134,7 +120,6 @@
       "nombre": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Verde by Xiaomi",
       "descripcion": "Smartwatch Mibro Lite 3 Pro 1.3\" 350mAh c/2 Mallas Verde by Xiaomi",
       "marca": "Mibro",
-      "precio": 2.85,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -143,8 +128,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC016826.jpg",
-      "oferta": true,
-      "precio_anterior": 3.28
+      "oferta": true
     },
     {
       "id": "relive-0209",
@@ -152,7 +136,6 @@
       "nombre": "Smartwatch Mibro GS Pro 1.43\" 460mAh Negro by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Pro 1.43\" 460mAh Negro by Xiaomi",
       "marca": "Mibro",
-      "precio": 2.94,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -161,8 +144,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC014582.png",
-      "oferta": true,
-      "precio_anterior": 3.38
+      "oferta": true
     },
     {
       "id": "relive-0210",
@@ -170,7 +152,6 @@
       "nombre": "Smartwatch Mibro GT 350mAh c/2 Mallas Negro XPAW026 by Xiaomi",
       "descripcion": "Smartwatch Mibro GT 350mAh c/2 Mallas Negro XPAW026 by Xiaomi",
       "marca": "Mibro",
-      "precio": 3.09,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -179,8 +160,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC020720.jpg",
-      "oferta": true,
-      "precio_anterior": 3.55
+      "oferta": true
     },
     {
       "id": "relive-0211",
@@ -188,7 +168,6 @@
       "nombre": "Smartwatch Mibro GT 350mAh c/2 Mallas Plateado XPAW026 by Xiaomi",
       "descripcion": "Smartwatch Mibro GT 350mAh c/2 Mallas Plateado XPAW026 by Xiaomi",
       "marca": "Mibro",
-      "precio": 3.09,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -197,8 +176,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC020721.jpg",
-      "oferta": true,
-      "precio_anterior": 3.55
+      "oferta": true
     },
     {
       "id": "relive-0212",
@@ -206,7 +184,6 @@
       "nombre": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Lila (XPAW024) by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Lila (XPAW024) by Xiaomi",
       "marca": "Mibro",
-      "precio": 3.14,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -215,8 +192,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC019135.jpg",
-      "oferta": true,
-      "precio_anterior": 3.61
+      "oferta": true
     },
     {
       "id": "relive-0213",
@@ -224,7 +200,6 @@
       "nombre": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Gris Oscuro (XPAW024) by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Active 2 1.32\" 400mAh Gris Oscuro (XPAW024) by Xiaomi",
       "marca": "Mibro",
-      "precio": 3.14,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -233,8 +208,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC019136.jpg",
-      "oferta": true,
-      "precio_anterior": 3.61
+      "oferta": true
     },
     {
       "id": "relive-0214",
@@ -242,7 +216,6 @@
       "nombre": "AS - Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi Caja Dañada",
       "descripcion": "AS - Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi Caja Dañada",
       "marca": "Mibro",
-      "precio": 3.32,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -251,8 +224,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/SACC018394.jpg",
-      "oferta": true,
-      "precio_anterior": 3.82
+      "oferta": true
     },
     {
       "id": "relive-0215",
@@ -260,7 +232,6 @@
       "nombre": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Gris Oscuro (XPAW025) by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Gris Oscuro (XPAW025) by Xiaomi",
       "marca": "Mibro",
-      "precio": 3.75,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -269,8 +240,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC019137.jpg",
-      "oferta": true,
-      "precio_anterior": 4.31
+      "oferta": true
     },
     {
       "id": "relive-0216",
@@ -278,7 +248,6 @@
       "nombre": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Beige (XPAW025) by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Pro 2 1.43\" 460mAh Beige (XPAW025) by Xiaomi",
       "marca": "Mibro",
-      "precio": 3.75,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -287,8 +256,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC019138.jpg",
-      "oferta": true,
-      "precio_anterior": 4.31
+      "oferta": true
     },
     {
       "id": "relive-0217",
@@ -296,7 +264,6 @@
       "nombre": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Negro by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Negro by Xiaomi",
       "marca": "Mibro",
-      "precio": 3.85,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -305,8 +272,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC017445.jpg",
-      "oferta": true,
-      "precio_anterior": 4.43
+      "oferta": true
     },
     {
       "id": "relive-0218",
@@ -314,7 +280,6 @@
       "nombre": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Explorer 1.32\" 460mAh Blanco by Xiaomi",
       "marca": "Mibro",
-      "precio": 3.85,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -323,8 +288,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC017446.jpg",
-      "oferta": true,
-      "precio_anterior": 4.43
+      "oferta": true
     },
     {
       "id": "relive-0219",
@@ -332,7 +296,6 @@
       "nombre": "Smartwatch Mibro GS Explorer S Titanium/Silicona 1.32\" 460mAh Gris by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Explorer S Titanium/Silicona 1.32\" 460mAh Gris by Xiaomi",
       "marca": "Mibro",
-      "precio": 7.76,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -341,8 +304,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC019954.jpg",
-      "oferta": true,
-      "precio_anterior": 8.92
+      "oferta": true
     },
     {
       "id": "relive-0220",
@@ -350,7 +312,6 @@
       "nombre": "Smartwatch Mibro GS Explorer S Titanium 1.32\" 460mAh Gris by Xiaomi",
       "descripcion": "Smartwatch Mibro GS Explorer S Titanium 1.32\" 460mAh Gris by Xiaomi",
       "marca": "Mibro",
-      "precio": 11.65,
       "categoria": "Accesorios",
       "subcategoria": "smartwatch",
       "imagen": null,
@@ -359,8 +320,7 @@
         "Accesorios/smartwatch.xlsx"
       ],
       "imagen_local": "assets/productos/Accesorios/smartwatch/ACC019955.jpg",
-      "oferta": true,
-      "precio_anterior": 13.4
+      "oferta": true
     },
     {
       "id": "relive-0221",
@@ -368,7 +328,6 @@
       "nombre": "Cable HDMI 4K / 1.5M / Negro AACBG Vention",
       "descripcion": "Cable HDMI 4K / 1.5M / Negro AACBG Vention",
       "marca": "Vention",
-      "precio": 125,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/50941.png",
@@ -384,7 +343,6 @@
       "nombre": "Cable HDMI 4K / 0.75M / Negro AACBE Vention",
       "descripcion": "Cable HDMI 4K / 0.75M / Negro AACBE Vention",
       "marca": "Vention",
-      "precio": 125,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": null,
@@ -400,7 +358,6 @@
       "nombre": "Cable HDMI 4K / 2M / Negro AACBH Vention",
       "descripcion": "Cable HDMI 4K / 2M / Negro AACBH Vention",
       "marca": "Vention",
-      "precio": 165,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": null,
@@ -416,7 +373,6 @@
       "nombre": "Cable HDMI 4K / 3M / Negro AACBI Vention",
       "descripcion": "Cable HDMI 4K / 3M / Negro AACBI Vention",
       "marca": "Vention",
-      "precio": 165,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/50953.png",
@@ -432,7 +388,6 @@
       "nombre": "Cable HDMI Angulo Recto 270° / 1.5M / Negro AAQBG Vention",
       "descripcion": "Cable HDMI Angulo Recto 270° / 1.5M / Negro AAQBG Vention",
       "marca": "Vention",
-      "precio": 165,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/68484.png",
@@ -448,7 +403,6 @@
       "nombre": "Cable HDMI Flat 4K 60Hz / 1.5M / Negro VAA-B02-L150 Vention",
       "descripcion": "Cable HDMI Flat 4K 60Hz / 1.5M / Negro VAA-B02-L150 Vention",
       "marca": "Vention",
-      "precio": 175,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/72824.jpg",
@@ -464,7 +418,6 @@
       "nombre": "Cable HDMI 2.1 8K / 1M / Negro AANBF Vention",
       "descripcion": "Cable HDMI 2.1 8K / 1M / Negro AANBF Vention",
       "marca": "Vention",
-      "precio": 220,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/73730.jpg",
@@ -480,7 +433,6 @@
       "nombre": "Cable HDMI Flat 4K 60Hz / 3M / Negro VAA-B02-L300 Vention",
       "descripcion": "Cable HDMI Flat 4K 60Hz / 3M / Negro VAA-B02-L300 Vention",
       "marca": "Vention",
-      "precio": 235,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": null,
@@ -496,7 +448,6 @@
       "nombre": "Cable HDMI 2.1 8K / 1.5M / Negro AANBG Vention",
       "descripcion": "Cable HDMI 2.1 8K / 1.5M / Negro AANBG Vention",
       "marca": "Vention",
-      "precio": 270,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/80364.jpg",
@@ -512,7 +463,6 @@
       "nombre": "Cable HDMI a HDMI Macho/Macho / 5M / Negro ALLBJ Vention",
       "descripcion": "Cable HDMI a HDMI Macho/Macho / 5M / Negro ALLBJ Vention",
       "marca": "Vention",
-      "precio": 285,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/79465.jpg",
@@ -528,7 +478,6 @@
       "nombre": "Cable HDMI 2.1 8K / 2M / Negro AANBH Vention",
       "descripcion": "Cable HDMI 2.1 8K / 2M / Negro AANBH Vention",
       "marca": "Vention",
-      "precio": 290,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/73746.jpg",
@@ -544,7 +493,6 @@
       "nombre": "Cable HDMI Flat 4K 60Hz / 5M / Negro VAA-B02-L500 Vention",
       "descripcion": "Cable HDMI Flat 4K 60Hz / 5M / Negro VAA-B02-L500 Vention",
       "marca": "Vention",
-      "precio": 300,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/77356.jpg",
@@ -560,7 +508,6 @@
       "nombre": "Cable HDMI Cordón / 8K / 1.5M / Negro AAUBG Vention",
       "descripcion": "Cable HDMI Cordón / 8K / 1.5M / Negro AAUBG Vention",
       "marca": "Vention",
-      "precio": 320,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/73778.jpg",
@@ -576,7 +523,6 @@
       "nombre": "Cable HDMI Cordón / 8K / 2M / Negro AAUBH Vention",
       "descripcion": "Cable HDMI Cordón / 8K / 2M / Negro AAUBH Vention",
       "marca": "Vention",
-      "precio": 370,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/73793.jpg",
@@ -592,7 +538,6 @@
       "nombre": "Cable MIni DP a HDMI Macho/Macho / 1.5M / Negro HABBG Vention",
       "descripcion": "Cable MIni DP a HDMI Macho/Macho / 1.5M / Negro HABBG Vention",
       "marca": "Vention",
-      "precio": 380,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/76367.jpg",
@@ -608,7 +553,6 @@
       "nombre": "Cable HDMI Cordón Macho/Macho / 8K / 1M /Aluminio Azul ALGLF Vention",
       "descripcion": "Cable HDMI Cordón Macho/Macho / 8K / 1M /Aluminio Azul ALGLF Vention",
       "marca": "Vention",
-      "precio": 405,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/56976.jpg",
@@ -624,7 +568,6 @@
       "nombre": "Cable HDMI 2.1 8K / 3M / Negro AANBI Vention",
       "descripcion": "Cable HDMI 2.1 8K / 3M / Negro AANBI Vention",
       "marca": "Vention",
-      "precio": 420,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/73762.jpg",
@@ -640,7 +583,6 @@
       "nombre": "Cable HDMI Cordón / 8K / 3M / Negro AAUBI Vention",
       "descripcion": "Cable HDMI Cordón / 8K / 3M / Negro AAUBI Vention",
       "marca": "Vention",
-      "precio": 465,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/73808.jpg",
@@ -656,7 +598,6 @@
       "nombre": "Cable HDMI Macho/Macho HD Cordón / 8K / 2M / Aluminio Azul ALGLH Vention",
       "descripcion": "Cable HDMI Macho/Macho HD Cordón / 8K / 2M / Aluminio Azul ALGLH Vention",
       "marca": "Vention",
-      "precio": 500,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/56983.jpg",
@@ -672,7 +613,6 @@
       "nombre": "Cable HDMI a USB C 2M / Negro CGUBH Vention",
       "descripcion": "Cable HDMI a USB C 2M / Negro CGUBH Vention",
       "marca": "Vention",
-      "precio": 585,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/82936.jpg",
@@ -688,7 +628,6 @@
       "nombre": "Cable HDMI a USB C 1.5M / Negro CGUBG Vention",
       "descripcion": "Cable HDMI a USB C 1.5M / Negro CGUBG Vention",
       "marca": "Vention",
-      "precio": 606,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/50899.jpg",
@@ -704,7 +643,6 @@
       "nombre": "Switch 2 Puertos HDMI Bi-Direccional / Negro AKOB0 Vention",
       "descripcion": "Switch 2 Puertos HDMI Bi-Direccional / Negro AKOB0 Vention",
       "marca": "Vention",
-      "precio": 610,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/64787.jpg",
@@ -720,7 +658,6 @@
       "nombre": "Cable HDMI Macho/Macho HD Cordón / 8K / 3M / Aluminio Azul ALGLI Vention",
       "descripcion": "Cable HDMI Macho/Macho HD Cordón / 8K / 3M / Aluminio Azul ALGLI Vention",
       "marca": "Vention",
-      "precio": 635,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/76305.jpg",
@@ -736,7 +673,6 @@
       "nombre": "Cable HDMI 4K / 15M / Negro AACBN Vention",
       "descripcion": "Cable HDMI 4K / 15M / Negro AACBN Vention",
       "marca": "Vention",
-      "precio": 680,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/75165.png",
@@ -752,7 +688,6 @@
       "nombre": "Cable HDMI 2.1 8K / 5M / Negro AANBJ Vention",
       "descripcion": "Cable HDMI 2.1 8K / 5M / Negro AANBJ Vention",
       "marca": "Vention",
-      "precio": 750,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/73844.jpg",
@@ -768,7 +703,6 @@
       "nombre": "Cable DP 2.1 Macho/Macho / 16K / 1.5M / Negro HGABG Vention",
       "descripcion": "Cable DP 2.1 Macho/Macho / 16K / 1.5M / Negro HGABG Vention",
       "marca": "Vention",
-      "precio": 760,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/78933.jpg",
@@ -784,7 +718,6 @@
       "nombre": "Cable HDMI Cordón / 8K / 5M / Negro AAUBJ Vention",
       "descripcion": "Cable HDMI Cordón / 8K / 5M / Negro AAUBJ Vention",
       "marca": "Vention",
-      "precio": 965,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/73827.jpg",
@@ -800,7 +733,6 @@
       "nombre": "Cable HDMI a DP Macho/ Macho 1.5M / Negro ABJBG Vention",
       "descripcion": "Cable HDMI a DP Macho/ Macho 1.5M / Negro ABJBG Vention",
       "marca": "Vention",
-      "precio": 1185,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/68491.png",
@@ -816,7 +748,6 @@
       "nombre": "Cable HDMI 2.1 8K / 10M / Negro AANBL Vention",
       "descripcion": "Cable HDMI 2.1 8K / 10M / Negro AANBL Vention",
       "marca": "Vention",
-      "precio": 1250,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/73861.jpg",
@@ -832,7 +763,6 @@
       "nombre": "Cable DP a HDMI Macho/Hembra / 8K / 0.25M / Negro HFNBC Vention",
       "descripcion": "Cable DP a HDMI Macho/Hembra / 8K / 0.25M / Negro HFNBC Vention",
       "marca": "Vention",
-      "precio": 1365,
       "categoria": "Accesorios",
       "subcategoria": "Cables hdmi",
       "imagen": "Accesorios/Cables Hdmi/76345.jpg",

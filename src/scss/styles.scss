@@ -259,6 +259,15 @@ footer.bg-dark {
   margin-top: auto;
 }
 
+.price-login-required {
+  color: var(--relive-cedar-dark);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.price-login-required:hover { color: var(--relive-fire); }
+
 .card:hover {
   transform: translateY(-3px);
   box-shadow: 0 14px 28px rgba(17, 17, 17, 0.08);
@@ -678,6 +687,24 @@ footer.bg-dark {
 .repairs-content p { max-width: 500px; color: rgba(255, 255, 255, 0.78); font-size: 1.1rem; }
 .repairs-icon { position: absolute; right: 8%; top: 50%; color: rgba(255, 200, 90, 0.18); font-size: 15rem; font-weight: 900; line-height: 0.5; transform: translateY(-50%); }
 
+.reviews-section { background: #fff; }
+.reviews-layout { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: center; gap: 3rem; }
+.reviews-copy h2 { max-width: 500px; margin: 0.5rem 0 1rem; color: var(--relive-charcoal); font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 800; }
+.reviews-copy > p { max-width: 520px; color: #66564f; font-size: 1.05rem; }
+.reviews-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin: 1.5rem 0 1rem; }
+.reviews-write-link { color: var(--relive-cedar-dark); font-weight: 700; text-decoration: none; }
+.reviews-write-link:hover { color: var(--relive-fire); }
+.reviews-copy .reviews-note { margin: 0; color: #746a65; font-size: 0.85rem; }
+.reviews-map { overflow: hidden; border: 1px solid var(--relive-border); background: #f3eee9; }
+.reviews-map iframe { display: block; width: 100%; height: 340px; border: 0; }
+.reviews-map-link { display: block; padding: 0.8rem 1rem; color: var(--relive-cedar-dark); font-weight: 700; text-decoration: none; }
+.reviews-map-link:hover { color: var(--relive-fire); }
+
+.order-checkout { padding: 1.5rem; border: 1px solid var(--relive-border); background: #fff; }
+.order-checkout h2 { color: var(--relive-charcoal); font-weight: 800; }
+.checkout-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.order-checkout[hidden] { display: none; }
+
 .relive-footer { padding: 3.5rem 0 1.25rem; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2rem; }
 .footer-grid h3 { margin: 0 0 0.8rem; color: var(--relive-gold); font-size: 0.9rem; text-transform: uppercase; }
@@ -700,6 +727,9 @@ footer.bg-dark {
   .home-section { padding-top: 3.5rem; padding-bottom: 3.5rem; }
   .category-grid { grid-template-columns: repeat(2, 1fr); }
   .section-heading, .catalog-heading { align-items: flex-start; flex-direction: column; }
+  .reviews-layout { grid-template-columns: 1fr; gap: 2rem; }
+  .reviews-map iframe { height: 280px; }
+  .checkout-fields { grid-template-columns: 1fr; }
   .offer-products { display: flex; flex-wrap: nowrap; overflow-x: auto; padding-bottom: 0.5rem; }
   .offer-products > div { flex: 0 0 78%; }
   .footer-grid { grid-template-columns: 1fr 1fr; }

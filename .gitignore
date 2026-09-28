@@ -1,5 +1,7 @@
 /node_modules/
 /img/originals/
+/private-data/
+/src/data/excel/*.xlsx
 *.log
 .DS_Store
 *.map

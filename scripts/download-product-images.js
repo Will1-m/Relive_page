@@ -88,10 +88,8 @@ async function main() {
   for (let index = 0; index < selected.length; index += 1) {
     const product = selected[index];
     const url = product && product.imagen_url;
+    const existingLocalImage = product && product.imagen_local;
     if (!url || shouldSkipImageUrl(url)) {
-      if (product) {
-        product.imagen_local = null;
-      }
       skipped += 1;
       continue;
     }
@@ -110,7 +108,7 @@ async function main() {
     } catch (error) {
       console.warn('WARN', naming.code, 'No se pudo descargar:', url);
       if (product) {
-        product.imagen_local = null;
+        product.imagen_local = existingLocalImage || null;
       }
       skipped += 1;
     }
