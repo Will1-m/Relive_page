@@ -54,17 +54,9 @@ El registro, inicio de sesión y recuperación de contraseña funcionan después
 
 Para ocultar un producto sin borrarlo, marca `"publicado": false` en su registro de `src/data/productos_relive.json`, ejecuta `npm run import:prices` para sincronizar el bloqueo RLS y luego vuelve a construir/publicar el catálogo. El producto se excluye de todos los JSON públicos. Para actualizar precios desde Excel, ejecuta `npm run update:prices` y luego vuelve a importarlos a Supabase. Los valores nunca vuelven a los JSON públicos.
 
-## Pedidos por WhatsApp y email
+## Pedidos por WhatsApp
 
-El checkout abre WhatsApp con el pedido preparado y envía un aviso a Relive mediante EmailJS. El cliente debe confirmar el mensaje en WhatsApp; el email avisa que la solicitud está pendiente y no confirma stock, precio ni entrega.
-
-1. En EmailJS, conecta el servicio de email de Relive y crea una plantilla cuyo destinatario fijo sea `relive284@gmail.com`. No uses una variable que permita al visitante elegir el destinatario.
-2. Configura el asunto, por ejemplo `Pedido web pendiente: {{order_number}}`, y en el cuerpo incluye `{{customer_name}}`, `{{customer_phone}}`, `{{customer_email}}`, `{{delivery_method}}`, `{{customer_notes}}`, `{{order_items}}`, `{{order_total}}` y `{{order_status}}`.
-3. En `src/js/order-config.js`, completa `emailjsServiceId`, `emailjsTemplateId` y `emailjsPublicKey` con los identificadores públicos que proporciona EmailJS. El teléfono de WhatsApp ya está configurado.
-4. En la configuración de EmailJS, limita los orígenes permitidos al dominio publicado y configura límites de envío, si tu plan lo permite. La cuenta actual rechazó guardar el dominio por una limitación de suscripción; mientras siga así, el endpoint público puede consumirse hasta agotar la cuota mensual. Para protegerlo, mejora el plan o mueve el envío a una función de servidor con secretos guardados fuera del repositorio. La clave pública se usa en el navegador; nunca agregues una clave privada o contraseña al repositorio.
-5. Ejecuta `npm run build` y publica la carpeta `dist`.
-
-El total se calcula en el navegador y no es una cotización garantizada. Verifica precio, stock y entrega antes de confirmar cada pedido.
+El checkout prepara el pedido y abre WhatsApp al `+598 98 549 234`. El cliente debe revisar y pulsar **Enviar**; hasta entonces el pedido no llega a Relive. No se envían correos automáticos ni se consume la cuota de EmailJS. Confirma manualmente stock, precio y entrega por el chat. El total mostrado es estimado.
 
 ## Licencia
 

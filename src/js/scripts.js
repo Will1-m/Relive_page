@@ -121,11 +121,33 @@
     });
 
     supabaseClient.auth.onAuthStateChange(function (event, session) {
-      if (event === 'INITIAL_SESSION' || event === 'TOKEN_REFRESHED') return;
+      if (event === 'INITIAL_SESSION' || event === 'TOKEN_REFRESHED' || event === 'SIGNED_IN' || event === 'SIGNED_OUT') return;
       currentUser = session ? session.user : null;
       if (!hasPriceAccess()) privatePrices.clear();
       window.location.reload();
     });
+  }
+
+  function initializeMapEmbed() {
+    var map = document.querySelector('.reviews-map iframe[data-map-src]');
+    if (!map) return;
+
+    function loadMap() {
+      if (map.src) return;
+      map.src = map.dataset.mapSrc;
+    }
+
+    if (!global.IntersectionObserver) {
+      loadMap();
+      return;
+    }
+
+    var observer = new global.IntersectionObserver(function (entries) {
+      if (!entries.some(function (entry) { return entry.isIntersecting; })) return;
+      loadMap();
+      observer.disconnect();
+    }, { rootMargin: '250px 0px' });
+    observer.observe(map);
   }
 
   function priceMarkup(product) {
@@ -842,7 +864,6 @@
 
     var checkout = document.getElementById('order-checkout');
     var feedback = document.getElementById('checkout-feedback');
-    var submit = document.getElementById('checkout-submit');
     var config = global.RELIVE_ORDER_CONFIG || {};
 
     if (cancel) {
@@ -910,55 +931,10 @@
       whatsappLink.target = '_blank';
       whatsappLink.rel = 'noopener noreferrer';
       whatsappLink.textContent = 'Abrir WhatsApp';
-
-      var serviceId = safeText(config.emailjsServiceId).trim();
-      var templateId = safeText(config.emailjsTemplateId).trim();
-      var publicKey = safeText(config.emailjsPublicKey).trim();
-      if (!serviceId || !templateId || !publicKey) {
-        feedback.className = 'alert alert-warning';
-        feedback.textContent = 'WhatsApp quedó preparado. Falta configurar EmailJS para que llegue el aviso por correo. ';
-        feedback.appendChild(whatsappLink);
-        feedback.hidden = false;
-        return;
-      }
-
-      submit.disabled = true;
-      feedback.className = 'alert alert-info';
-      feedback.textContent = 'Enviando el aviso de pedido al email de Relive…';
+      feedback.className = 'alert alert-success';
+      feedback.textContent = 'El pedido está listo en WhatsApp. Revísalo y pulsa Enviar para que llegue a Relive. El stock, precio y entrega se confirmarán por ese chat. ';
+      feedback.appendChild(whatsappLink);
       feedback.hidden = false;
-
-      fetch('https://api.emailjs.com/api/v1.0/email/send', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          service_id: serviceId,
-          template_id: templateId,
-          user_id: publicKey,
-          template_params: {
-            order_number: orderNumber,
-            customer_name: customerName,
-            customer_phone: customerPhone,
-            customer_email: customerEmail || 'No informado',
-            delivery_method: deliveryMethod,
-            customer_notes: customerNotes || 'Sin indicaciones',
-            order_items: orderItems,
-            order_total: money(total),
-            order_status: 'Pendiente de confirmación por WhatsApp; verificar stock, precio y entrega.'
-          }
-        })
-      }).then(function (response) {
-        if (!response.ok) throw new Error('EmailJS HTTP ' + response.status);
-        feedback.className = 'alert alert-success';
-        feedback.textContent = 'Aviso enviado a Relive. Revisa WhatsApp y pulsa Enviar para confirmar el pedido. ';
-        feedback.appendChild(whatsappLink);
-      }).catch(function (error) {
-        console.error('No se pudo enviar el aviso del pedido:', error);
-        feedback.className = 'alert alert-warning';
-        feedback.textContent = 'No se pudo enviar el aviso por email. El pedido sigue preparado en WhatsApp; confirma el mensaje allí. ';
-        feedback.appendChild(whatsappLink);
-      }).finally(function () {
-        submit.disabled = false;
-      });
     });
   }
 
@@ -1124,6 +1100,7 @@
   }
 
   initializeSupabase();
+  initializeMapEmbed();
   badge();
   initCatalog().catch(function (err) { console.error(err); });
   initProduct().catch(function (err) { console.error(err); });
